@@ -1,0 +1,4065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Ummah</string>
+		<key>Home</key>
+		<string>Home</string>
+		<key>Dashboard</key>
+		<string>Dashboard</string>
+		<key>Notifications</key>
+		<string>Notifications</string>
+		<key>Please_wait</key>
+		<string>Please_wait</string>
+		<key>Close</key>
+		<string>Close</string>
+		<key>Clear</key>
+		<string>Clear</string>
+		<key>No_Internet_Connection</key>
+		<string>No Internet Connection</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>You don&apos;t have internet connection</string>
+		<key>Retry</key>
+		<string>Retry</string>
+		<key>Exit</key>
+		<string>Exit</string>
+		<key>Yes</key>
+		<string>Yes</string>
+		<key>No</key>
+		<string>No</string>
+		<key>First _name_not_entered</key>
+		<string>First name not entered</string>
+		<key>Last_name_not_entered</key>
+		<string>Last name not entered</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>Please enter a valid email ID</string>
+		<key>Forgot_your_password</key>
+		<string>Forgot your password</string>
+		<key>Please_reset_password_token !</key>
+		<string>Please check your email send reset password token !</string>
+		<key>Reset_Password</key>
+		<string>Reset Password</string>
+		<key>Forget_Password</key>
+		<string>Forget Password</string>
+		<key>Please_register_email.</key>
+		<string>Please Enter your register email.</string>
+		<key>Location_Open_GPS</key>
+		<string>Location not available, Open GPS?</string>
+		<key>Activate_location_services</key>
+		<string>Activate GPS to use location services?</string>
+		<key>Log_in</key>
+		<string>Log in</string>
+		<key>Register</key>
+		<string>Register</string>
+		<key>Password</key>
+		<string>Password</string>
+		<key>Enter Email</key>
+		<string>Enter Email</string>
+		<key>Go_settings</key>
+		<string>Go to settings</string>
+		<key>app_settings</key>
+		<string>app_settings</string>
+		<key>Grant_Permissions</key>
+		<string>Grant Permissions</string>
+		<key>Loading</key>
+		<string>Loading</string>
+		<key>Auto Code:</key>
+		<string>Auto Code:</string>
+		<key>ID_Token:</key>
+		<string>ID Token:</string>
+		<key>Sign_Out</key>
+		<string>Sign Out</string>
+		<key>Disconnect</key>
+		<string>Disconnect</string>
+		<key>Google_Logo</key>
+		<string>Google Logo</string>
+		<key>Name</key>
+		<string>Name</string>
+		<key>Log_Account</key>
+		<string>Log In to your Account</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Enter your email address &amp; password to log in to your account.</string>
+		<key>Or_with</key>
+		<string>Or log in with</string>
+		<key>I_am_a</key>
+		<string>I am a</string>
+		<key>User</key>
+		<string>User</string>
+		<key>Business_Owner</key>
+		<string>Business Owner</string>
+		<key>Mosque_Manager</key>
+		<string>Mosque Manager</string>
+		<key>Continue</key>
+		<string>Continue</string>
+		<key>Signup</key>
+		<string>Signup</string>
+		<key>Sign_up</key>
+		<string>Sign up</string>
+		<key>Enter_Phone</key>
+		<string>Enter Phone</string>
+		<key>By_agree_term_conditions</key>
+		<string>By Clicking continue you are agree with our terms and conditions.</string>
+		<key>Or_Sign_up_with</key>
+		<string>Or Sign up with</string>
+		<key>Create_New_Password</key>
+		<string>Create New Password</string>
+		<key>Enter_New_Password</key>
+		<string>Enter New Password</string>
+		<key>Enter_Verification_Code</key>
+		<string>Enter Verification Code</string>
+		<key>verification_email_address</key>
+		<string>Enter verification code sent on your email address</string>
+		<key>Create_New_Account</key>
+		<string>Create New Account</string>
+		<key>Mosque_Name</key>
+		<string>Mosque Name</string>
+		<key>Name_Contact_Person</key>
+		<string>Name Contact Person</string>
+		<key>Zip_code</key>
+		<string>Zip code</string>
+		<key>or</key>
+		<string>or</string>
+		<key>Choose_location_automatically</key>
+		<string>Choose location automatically</string>
+		<key>Type_mosque_name</key>
+		<string>Type mosque name</string>
+		<key>Zuhur</key>
+		<string>Zuhur</string>
+		<key>Open_navigation_drawer</key>
+		<string>Open navigation drawer</string>
+		<key>Find_a_mosque</key>
+		<string>Find a mosque</string>
+		<key>Today_Feed</key>
+		<string>Today&apos;s Feed</string>
+		<key>Bookmark</key>
+		<string>Bookmark</string>
+		<key>Search</key>
+		<string>Search</string>
+		<key>Prefs</key>
+		<string>Prefs</string>
+		<key>Quran</key>
+		<string>Quran</string>
+		<key>Community</key>
+		<string>Community</string>
+		<key>Settings</key>
+		<string>Settings</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Quiz</string>
+		<key>Personage</key>
+		<string>Personage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Zakkat Calculator</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj and Umrah</string>
+		<key>Supplication</key>
+		<string>Supplication</string>
+		<key>Business</key>
+		<string>Business</string>
+		<key>Organization</key>
+		<string>Organization</string>
+		<key>Donation</key>
+		<string>Donation</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Select Home Mosque</string>
+		<key>Open</key>
+		<string>Open</string>
+		<key>Prayer_Time</key>
+		<string>Prayer Time</string>
+		<key>Surah</key>
+		<string>Surah</string>
+		<key>General_Knowledge</key>
+		<string>General Knowledge</string>
+		<key>Hajj_knowledge</key>
+		<string>Hajj knowledge</string>
+		<key>Religion_knowledge</key>
+		<string>Religion knowledge</string>
+		<key>Quran_knowledge</key>
+		<string>Quran knowledge</string>
+		<key>Notification</key>
+		<string>Notification</string>
+		<key>Language_App</key>
+		<string>Language of the App</string>
+		<key>Quran_Translation</key>
+		<string>Quran Translation</string>
+		<key>Prayer_Names</key>
+		<string>Prayer Names</string>
+		<key>Term_Condition</key>
+		<string>Term and Condition</string>
+		<key>Language</key>
+		<string>Language</string>
+		<key>Log_Out</key>
+		<string>Log Out</string>
+		<key>What_Looking_For?</key>
+		<string>What You Are Looking For?</string>
+		<key>All</key>
+		<string>All</string>
+		<key>Morning_Evening</key>
+		<string>Morning &amp; Evening</string>
+		<key>Travel</key>
+		<string>Travel</string>
+		<key>Home_Family</key>
+		<string>Home &amp; Family</string>
+		<key>Joy_Distress</key>
+		<string>Joy &amp; Distress</string>
+		<key>Prayer</key>
+		<string>Prayer</string>
+		<key>Praising_Allah</key>
+		<string>Praising Allah</string>
+		<key>Nature</key>
+		<string>Nature</string>
+		<key>Good_Etiquette</key>
+		<string>Good Etiquette</string>
+		<key>Food_Drink</key>
+		<string>Food &amp; Drink</string>
+		<key>Religion_clothing</key>
+		<string>Religion clothing</string>
+		<key>Incense_Business</key>
+		<string>Incense Business</string>
+		<key>My_favorite_Mosque</key>
+		<string>My favorite Mosque</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Enter Mosque Name</string>
+		<key>Khutba</key>
+		<string>Khutba</string>
+		<key>Education</key>
+		<string>Education</string>
+		<key>Activities</key>
+		<string>Activities</string>
+		<key>Rules_Game</key>
+		<string>Rules of the Game</string>
+		<key>Let_Play</key>
+		<string>Let&apos;s Play</string>
+		<key>Correct_Answer</key>
+		<string>Correct Answer</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>Wrong Answer</string>
+		<key>Done</key>
+		<string>Done</string>
+		<key>Profile</key>
+		<string>Profile</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>My Donation</string>
+		<key>Following</key>
+		<string>Following</string>
+		<key>Following_Mosque</key>
+		<string>Following Mosque</string>
+		<key>Home_Mosque</key>
+		<string>Home Mosque</string>
+		<key>Add_Home_Mosque</key>
+		<string>Add New Home Mosque</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>A request of pilgrims</string>
+		<key>Departure_house</key>
+		<string>Departure from your house</string>
+		<key>The_method_ihram</key>
+		<string>The method of ihram</string>
+		<key>The_ihram_men</key>
+		<string>The ihram of men</string>
+		<key>The_ihram_women</key>
+		<string>The ihram of women</string>
+		<key>The_ihram_children</key>
+		<string>The ihram of children</string>
+		<key>The_three_type_hajj</key>
+		<string>The three type of hajj</string>
+		<key>Mine</key>
+		<string>Mine</string>
+		<key>Street_Address</key>
+		<string>Street Address</string>
+		<key>Confirm_Password</key>
+		<string>Confirm Password</string>
+		<key>Login_Facebook</key>
+		<string>Login via Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Login via Gmail</string>
+		<key>Type_business_name</key>
+		<string>Type business name here</string>
+		<key>Map</key>
+		<string>Map</string>
+		<key>Signup_Facebook</key>
+		<string>Signup via Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Signup via Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Enter Phone Number</string>
+		<key>Business_name</key>
+		<string>Business name</string>
+		<key>New_Request</key>
+		<string>New Request</string>
+		<key>Enter_your_request</key>
+		<string>Enter your request</string>
+		<key>Post</key>
+		<string>Post</string>
+		<key>Board</key>
+		<string>Board</string>
+		<key>Prayer_Schedule</key>
+		<string>Prayer Schedule</string>
+		<key>Current_Mosque</key>
+		<string>Current Mosque</string>
+		<key>Mosque_near_you</key>
+		<string>Mosque near you</string>
+		<key>Mosque_List</key>
+		<string>Mosque List</string>
+		<key>View_More</key>
+		<string>View More</string>
+		<key>Education_Detail</key>
+		<string>Education Detail</string>
+		<key>Suggestions</key>
+		<string>Suggestions</string>
+		<key>Write_Message</key>
+		<string>Write Message</string>
+		<key>Associates</key>
+		<string>Associates</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Select payment method</string>
+		<key>Donation_Now</key>
+		<string>Donation Now</string>
+		<key>News</key>
+		<string>News</string>
+		<key>Course_Objective</key>
+		<string>Course Objective</string>
+		<key>Methodology</key>
+		<string>Methodology</string>
+		<key>Duration</key>
+		<string>Duration</string>
+		<key>Registration_Fee</key>
+		<string>Registration Fee</string>
+		<key>Pre_requisites</key>
+		<string>Pre requisites</string>
+		<key>About_Instructor</key>
+		<string>About the Instructor</string>
+		<key>Calendar</key>
+		<string>Calendar</string>
+		<key>Total_Donation_Amount</key>
+		<string>Total Donation Amount</string>
+		<key>Donate_Now</key>
+		<string>Donate Now</string>
+		<key>Friday_time</key>
+		<string>Friday pray time</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>All Supplication</string>
+		<key>News_Detail</key>
+		<string>News Detail</string>
+		<key>Activity_Detail</key>
+		<string>Activity Detail</string>
+		<key>Previous</key>
+		<string>Previous</string>
+		<key>Forward</key>
+		<string>Forward</string>
+		<key>Type_organization_name</key>
+		<string>Type organization name here</string>
+		<key>Activities_Detail</key>
+		<string>Activities Detail</string>
+		<key>My_Quran</key>
+		<string>My Quran</string>
+		<key>Delete</key>
+		<string>Delete</string>
+		<key>Username</key>
+		<string>Username</string>
+		<key>Enter_family_member</key>
+		<string>Enter family member</string>
+		<key>profile</key>
+		<string>profile</string>
+		<key>title</key>
+		<string>title</string>
+		<key>posts</key>
+		<string>posts</string>
+		<key>follow</key>
+		<string>follow</string>
+		<key>following</key>
+		<string>following</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>Unable to set profile image. Please try again!</string>
+		<key>Select_image</key>
+		<string>Select image</string>
+		<key>Take_picture</key>
+		<string>Take a picture</string>
+		<key>Choose_gallery</key>
+		<string>Choose from gallery</string>
+		<key>Image_picker_option_missing</key>
+		<string>Image picker option is missing!</string>
+		<key>Add_note</key>
+		<string>Add note</string>
+		<key>Track</key>
+		<string>Track</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>Zip code</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Donation Amount</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Prayer names</string>
+		<key>Terms_con</key>
+		<string>Terms and condition</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>Mosque</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+		<key>Audio_test</key>
+		<string>Avdio is not Avilable</string>
+	</dict>
+	<key>Portuguese</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Ummah</string>
+		<key>Audio_test</key>
+		<string>O áudio não está disponível</string>
+		<key>Home</key>
+		<string>Casa</string>
+		<key>Dashboard</key>
+		<string>painel de controle</string>
+		<key>Notifications</key>
+		<string>Notificações</string>
+		<key>Please_wait</key>
+		<string>Por favor, espere</string>
+		<key>Close</key>
+		<string>Fechar</string>
+		<key>Clear</key>
+		<string>Claro</string>
+		<key>No_Internet_Connection</key>
+		<string>Sem conexão com a Internet</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>Você não tem conexão com a internet</string>
+		<key>Retry</key>
+		<string>Repetir</string>
+		<key>Exit</key>
+		<string>Saída</string>
+		<key>Yes</key>
+		<string>sim</string>
+		<key>No</key>
+		<string>Não</string>
+		<key>First _name_not_entered</key>
+		<string>Nome não digitado</string>
+		<key>Last_name_not_entered</key>
+		<string>Sobrenome não digitado</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>Digite um ID de email válido</string>
+		<key>Forgot_your_password</key>
+		<string>Esqueceu sua senha</string>
+		<key>Please_reset_password_token !</key>
+		<string>Verifique seu e-mail e envie o token de senha de redefinição</string>
+		<key>Reset_Password</key>
+		<string>Redefinir senha</string>
+		<key>Forget_Password</key>
+		<string>Esqueceu a senha</string>
+		<key>Please_register_email.</key>
+		<string>Digite seu e-mail de registro.</string>
+		<key>Location_Open_GPS</key>
+		<string>Localização não disponível, GPS aberto?</string>
+		<key>Activate_location_services</key>
+		<string>Ativar GPS para usar os serviços de localização?</string>
+		<key>Log_in</key>
+		<string>Conecte-se</string>
+		<key>Register</key>
+		<string>Registro</string>
+		<key>Password</key>
+		<string>Senha</string>
+		<key>Enter Email</key>
+		<string>Digite o email</string>
+		<key>Go_settings</key>
+		<string>VÁ PARA AS CONFIGURAÇÕES</string>
+		<key>app_settings</key>
+		<string>Este aplicativo precisa de permissão para usar esse recurso. Você pode concedê-los nas configurações do aplicativo.</string>
+		<key>Grant_Permissions</key>
+		<string>Conceder permissões</string>
+		<key>Loading</key>
+		<string>Carregando</string>
+		<key>Auto Code:</key>
+		<string>Código de autenticação:</string>
+		<key>ID_Token:</key>
+		<string>Token de ID:</string>
+		<key>Sign_Out</key>
+		<string>Sair</string>
+		<key>Disconnect</key>
+		<string>desconectar</string>
+		<key>Google_Logo</key>
+		<string>Logotipo do Google</string>
+		<key>Name</key>
+		<string>Nome</string>
+		<key>Log_Account</key>
+		<string>Faça login na sua conta</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Digite seu endereço de e-mail e senha para fazer login na sua conta.</string>
+		<key>Or_with</key>
+		<string>Ou faça login com</string>
+		<key>I_am_a</key>
+		<string>eu sou um</string>
+		<key>User</key>
+		<string>Do utilizador</string>
+		<key>Business_Owner</key>
+		<string>Dono do negócio</string>
+		<key>Mosque_Manager</key>
+		<string>Gerente de Mesquita</string>
+		<key>Continue</key>
+		<string>Continuar</string>
+		<key>Signup</key>
+		<string>Inscrever-se</string>
+		<key>Sign_up</key>
+		<string>Inscrever-se</string>
+		<key>Enter_Phone</key>
+		<string>Digite o telefone</string>
+		<key>By_agree_term_conditions</key>
+		<string>Ao clicar em continuar, você concorda com nossos termos e condições.</string>
+		<key>Or_Sign_up_with</key>
+		<string>Ou Inscreva-se com</string>
+		<key>Create_New_Password</key>
+		<string>Criar nova senha</string>
+		<key>Enter_New_Password</key>
+		<string>Insira a nova senha</string>
+		<key>Enter_Verification_Code</key>
+		<string>Digite o código de verificação</string>
+		<key>verification_email_address</key>
+		<string>Digite o código de verificação enviado no seu endereço de e-mail</string>
+		<key>Create_New_Account</key>
+		<string>Criar nova conta</string>
+		<key>Mosque_Name</key>
+		<string>Nome da Mesquita</string>
+		<key>Name_Contact_Person</key>
+		<string>Nome Pessoa de Contato</string>
+		<key>Zip_code</key>
+		<string>Código postal</string>
+		<key>or</key>
+		<string>ou</string>
+		<key>Choose_location_automatically</key>
+		<string>Escolha o local automaticamente</string>
+		<key>Type_mosque_name</key>
+		<string>Digite o nome da mesquita</string>
+		<key>Zuhur</key>
+		<string>Zuhru</string>
+		<key>Open_navigation_drawer</key>
+		<string>Gaveta de navegação aberta</string>
+		<key>Find_a_mosque</key>
+		<string>Encontre uma mesquita</string>
+		<key>Today_Feed</key>
+		<string>Feed de hoje</string>
+		<key>Bookmark</key>
+		<string>marca páginas</string>
+		<key>Search</key>
+		<string>Procurar</string>
+		<key>Prefs</key>
+		<string>Prefs</string>
+		<key>Quran</key>
+		<string>Alcorão</string>
+		<key>Community</key>
+		<string>Comunidade</string>
+		<key>Settings</key>
+		<string>Configurações</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Questionário</string>
+		<key>Personage</key>
+		<string>Personnage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Zakkat Calculator</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj e Umrah</string>
+		<key>Supplication</key>
+		<string>Súplica</string>
+		<key>Business</key>
+		<string>O negócio</string>
+		<key>Organization</key>
+		<string>Organização</string>
+		<key>Donation</key>
+		<string>Doação</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Selecione Mesquita em Casa</string>
+		<key>Open</key>
+		<string>Aberto</string>
+		<key>Prayer_Time</key>
+		<string>Tempo de oração</string>
+		<key>Surah</key>
+		<string>Sura</string>
+		<key>General_Knowledge</key>
+		<string>Conhecimento geral</string>
+		<key>Hajj_knowledge</key>
+		<string>Conhecimento Hujj</string>
+		<key>Religion_knowledge</key>
+		<string>Conhecimento de religião</string>
+		<key>Quran_knowledge</key>
+		<string>Conhecimento Alcorão</string>
+		<key>Notification</key>
+		<string>Notificação</string>
+		<key>Language_App</key>
+		<string>Idioma do aplicativo</string>
+		<key>Quran_Translation</key>
+		<string>Quran Translation</string>
+		<key>Prayer_Names</key>
+		<string>Nomes de Oração</string>
+		<key>Term_Condition</key>
+		<string>Termo e condição</string>
+		<key>Language</key>
+		<string>Língua</string>
+		<key>Log_Out</key>
+		<string>Sair</string>
+		<key>What_Looking_For?</key>
+		<string>O que você está procurando?</string>
+		<key>All</key>
+		<string>Todos</string>
+		<key>Morning_Evening</key>
+		<string>Manhã tarde</string>
+		<key>Travel</key>
+		<string>Viagem</string>
+		<key>Home_Family</key>
+		<string>Casa e família</string>
+		<key>Joy_Distress</key>
+		<string>Alegria e angústia</string>
+		<key>Prayer</key>
+		<string>Oração</string>
+		<key>Praising_Allah</key>
+		<string>Louvando a Deus</string>
+		<key>Nature</key>
+		<string>Natureza</string>
+		<key>Good_Etiquette</key>
+		<string>Boa etiqueta</string>
+		<key>Food_Drink</key>
+		<string>Alimentação e bebida</string>
+		<key>Religion_clothing</key>
+		<string>Vestuário de religião</string>
+		<key>Incense_Business</key>
+		<string>Negócio de incenso</string>
+		<key>My_favorite_Mosque</key>
+		<string>Minha mesquita favorita</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Digite o nome da mesquita</string>
+		<key>Khutba</key>
+		<string>khutba</string>
+		<key>Education</key>
+		<string>Educação</string>
+		<key>Activities</key>
+		<string>Atividades</string>
+		<key>Rules_Game</key>
+		<string>Regras do jogo</string>
+		<key>Let_Play</key>
+		<string>Vamos jogar</string>
+		<key>Correct_Answer</key>
+		<string>Resposta correta</string>
+		<key>Replay</key>
+		<string>Repetir</string>
+		<key>Wrong_Answer</key>
+		<string>Resposta errada</string>
+		<key>Done</key>
+		<string>Feito</string>
+		<key>Profile</key>
+		<string>Perfil</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>Minha Doação</string>
+		<key>Following</key>
+		<string>Segue</string>
+		<key>Following_Mosque</key>
+		<string>Mesquita seguinte</string>
+		<key>Home_Mosque</key>
+		<string>Mesquita Home</string>
+		<key>Add_Home_Mosque</key>
+		<string>Adicionar nova mesquita doméstica</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>Um pedido de peregrinos</string>
+		<key>Departure_house</key>
+		<string>Partida de sua casa</string>
+		<key>The_method_ihram</key>
+		<string>O método do ehram</string>
+		<key>The_ihram_men</key>
+		<string>O ehram dos homens</string>
+		<key>The_ihram_women</key>
+		<string>O ehram das mulheres</string>
+		<key>The_ihram_children</key>
+		<string>O ehram das crianças</string>
+		<key>The_three_type_hajj</key>
+		<string>Os três tipos de hujj</string>
+		<key>Mine</key>
+		<string>Meu</string>
+		<key>Street_Address</key>
+		<string>Endereço</string>
+		<key>Confirm_Password</key>
+		<string>Confirme a Senha</string>
+		<key>Login_Facebook</key>
+		<string>Entrar via Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Entrar via Gmail</string>
+		<key>Type_business_name</key>
+		<string>Digite o nome da empresa aqui</string>
+		<key>Map</key>
+		<string>Mapa</string>
+		<key>Signup_Facebook</key>
+		<string>Inscrição via Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Inscrição via Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Digite o número de telefone</string>
+		<key>Business_name</key>
+		<string>Nome da empresa</string>
+		<key>New_Request</key>
+		<string>Novo pedido</string>
+		<key>Enter_your_request</key>
+		<string>Digite sua solicitação</string>
+		<key>Post</key>
+		<string>Postar</string>
+		<key>Board</key>
+		<string>Borda</string>
+		<key>Prayer_Schedule</key>
+		<string>Agenda de Oração</string>
+		<key>Current_Mosque</key>
+		<string>Mesquita atual</string>
+		<key>Mosque_near_you</key>
+		<string>Mesquita perto de você</string>
+		<key>Mosque_List</key>
+		<string>Lista de Mesquitas</string>
+		<key>View_More</key>
+		<string>Veja mais</string>
+		<key>Education_Detail</key>
+		<string>Detalhe da educação</string>
+		<key>Suggestions</key>
+		<string>Sugestões</string>
+		<key>Write_Message</key>
+		<string>Escrever mensagem</string>
+		<key>Associates</key>
+		<string>Associados</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Selecione o método de pagamento</string>
+		<key>Donation_Now</key>
+		<string>Doação Agora</string>
+		<key>News</key>
+		<string>Notícia</string>
+		<key>Course_Objective</key>
+		<string>Curso Objetivo</string>
+		<key>Methodology</key>
+		<string>Metodologia</string>
+		<key>Duration</key>
+		<string>Duração</string>
+		<key>Registration_Fee</key>
+		<string>Taxa de registro</string>
+		<key>Pre_requisites</key>
+		<string>Pré-requisitos</string>
+		<key>About_Instructor</key>
+		<string>Sobre o instrutor</string>
+		<key>Calendar</key>
+		<string>Calendário</string>
+		<key>Total_Donation_Amount</key>
+		<string>Montante total da doação</string>
+		<key>Donate_Now</key>
+		<string>DOE agora</string>
+		<key>Friday_time</key>
+		<string>Hora de sexta-feira Salat</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>Toda suppilação</string>
+		<key>News_Detail</key>
+		<string>Detalhe da notícia</string>
+		<key>Activity_Detail</key>
+		<string>Detalhe da atividade</string>
+		<key>Previous</key>
+		<string>Anterior</string>
+		<key>Forward</key>
+		<string>frente</string>
+		<key>Type_organization_name</key>
+		<string>Digite o nome da organização aqui</string>
+		<key>Activities_Detail</key>
+		<string>Detalhe das atividades</string>
+		<key>My_Quran</key>
+		<string>My Quran</string>
+		<key>Delete</key>
+		<string>Excluir</string>
+		<key>Username</key>
+		<string>Nome do usuário</string>
+		<key>Enter_family_member</key>
+		<string>Inserir membro da família</string>
+		<key>profile</key>
+		<string>perfil</string>
+		<key>title</key>
+		<string>título</string>
+		<key>posts</key>
+		<string>Postagens</string>
+		<key>follow</key>
+		<string>Segue</string>
+		<key>following</key>
+		<string>Segue</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>Não foi possível definir a imagem do perfil. Por favor, tente novamente!</string>
+		<key>Select_image</key>
+		<string>Selecione a imagem</string>
+		<key>Take_picture</key>
+		<string>Tirar uma foto</string>
+		<key>Choose_gallery</key>
+		<string>Escolha da galeria</string>
+		<key>Image_picker_option_missing</key>
+		<string>Falta a opção do seletor de imagens!</string>
+		<key>Add_note</key>
+		<string>Adicionar nota</string>
+		<key>Track</key>
+		<string>Track</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>Zip code</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Donation Amount</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Prayer names</string>
+		<key>Terms_con</key>
+		<string>Terms and condition</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>Mosque</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+	</dict>
+	<key>French</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Ummah</string>
+		<key>Audio_test</key>
+		<string>L&apos;audio n&apos;est pas disponible</string>
+		<key>Home</key>
+		<string>Accueil</string>
+		<key>Dashboard</key>
+		<string>Tableau de bord</string>
+		<key>Notifications</key>
+		<string>notifications</string>
+		<key>Please_wait</key>
+		<string>S&apos;il vous plaît, attendez</string>
+		<key>Close</key>
+		<string>Fermer</string>
+		<key>Clear</key>
+		<string>Effacer</string>
+		<key>No_Internet_Connection</key>
+		<string>pas de connection internet</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>vous n&apos;avez pas de connexion internet</string>
+		<key>Retry</key>
+		<string>retenter</string>
+		<key>Exit</key>
+		<string>sortie</string>
+		<key>Yes</key>
+		<string>Oui</string>
+		<key>No</key>
+		<string>Non</string>
+		<key>First _name_not_entered</key>
+		<string>prénom</string>
+		<key>Last_name_not_entered</key>
+		<string>Nom</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>veuillez saisir un email valide</string>
+		<key>Forgot_your_password</key>
+		<string>Votre mot de passe oublié</string>
+		<key>Please_reset_password_token !</key>
+		<string>Veuillez vérifier votre e-mail envoyer réinitialiser le jeton de mot de passe!</string>
+		<key>Reset_Password</key>
+		<string>réinitialiser le mot de passe</string>
+		<key>Forget_Password</key>
+		<string>mot de passe oublié</string>
+		<key>Please_register_email.</key>
+		<string>veuillez entrer votre e-mail d&apos;enregistrement</string>
+		<key>Location_Open_GPS</key>
+		<string>emplacement non disponible ouvrez votre GPS</string>
+		<key>Activate_location_services</key>
+		<string>activer le GPS pour utiliser les services de localisation</string>
+		<key>Log_in</key>
+		<string>s&apos;identifier</string>
+		<key>Register</key>
+		<string>S&apos;inscrire</string>
+		<key>Password</key>
+		<string>Mot de passe</string>
+		<key>Enter Email</key>
+		<string>entrez votre email</string>
+		<key>Go_settings</key>
+		<string>aller au réglageAller aux paramètres</string>
+		<key>app_settings</key>
+		<string>Cette application doit être autorisée à utiliser cette fonctionnalité. Vous pouvez les accorder dans les paramètres de l&apos;application.</string>
+		<key>Grant_Permissions</key>
+		<string>donner la permission</string>
+		<key>Loading</key>
+		<string>Chargement en cours</string>
+		<key>Auto Code:</key>
+		<string>Code d&apos;autorisation:</string>
+		<key>ID_Token:</key>
+		<string>Jeton d&apos;identification:</string>
+		<key>Sign_Out</key>
+		<string>Se déconnecter</string>
+		<key>Disconnect</key>
+		<string>Déconnecter</string>
+		<key>Google_Logo</key>
+		<string>Logo Google</string>
+		<key>Name</key>
+		<string>Nom</string>
+		<key>Log_Account</key>
+		<string>Connectez-vous à votre compte</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Saisissez votre adresse e-mail et votre mot de passe pour vous connecter à votre compte.</string>
+		<key>Or_with</key>
+		<string>Ou connectez-vous avec</string>
+		<key>I_am_a</key>
+		<string>je suis un</string>
+		<key>User</key>
+		<string>Utilisateur</string>
+		<key>Business_Owner</key>
+		<string>Propriétaire d&apos;entreprise</string>
+		<key>Mosque_Manager</key>
+		<string>Gestionnaire de la mosquée</string>
+		<key>Continue</key>
+		<string>continuer</string>
+		<key>Signup</key>
+		<string>S&apos;inscrire</string>
+		<key>Sign_up</key>
+		<string>S&apos;inscrire</string>
+		<key>Enter_Phone</key>
+		<string>Entrez le téléphone</string>
+		<key>By_agree_term_conditions</key>
+		<string>En cliquant sur continuer, vous acceptez nos termes et conditions.</string>
+		<key>Or_Sign_up_with</key>
+		<string>Ou inscrivez-vous avec</string>
+		<key>Create_New_Password</key>
+		<string>Créer un nouveau mot de passe</string>
+		<key>Enter_New_Password</key>
+		<string>Entrez un nouveau mot de passe</string>
+		<key>Enter_Verification_Code</key>
+		<string>Entrez le code de vérification</string>
+		<key>verification_email_address</key>
+		<string>Entrez le code de vérification envoyé sur votre adresse e-mail</string>
+		<key>Create_New_Account</key>
+		<string>Créer un nouveau compte</string>
+		<key>Mosque_Name</key>
+		<string>Nom de la mosquée</string>
+		<key>Name_Contact_Person</key>
+		<string>Nom de la personne de contact</string>
+		<key>Zip_code</key>
+		<string>Code postal</string>
+		<key>or</key>
+		<string>ou</string>
+		<key>Choose_location_automatically</key>
+		<string>Choisissez l&apos;emplacement automatiquement</string>
+		<key>Type_mosque_name</key>
+		<string>Tapez le nom de la mosquée</string>
+		<key>Zuhur</key>
+		<string>Zuhru</string>
+		<key>Open_navigation_drawer</key>
+		<string>Open navigation drawer</string>
+		<key>Find_a_mosque</key>
+		<string>Find a mosque</string>
+		<key>Today_Feed</key>
+		<string>Today&apos;s Feed</string>
+		<key>Bookmark</key>
+		<string>Bookmark</string>
+		<key>Search</key>
+		<string>Search</string>
+		<key>Prefs</key>
+		<string>Prefs</string>
+		<key>Quran</key>
+		<string>Quran</string>
+		<key>Community</key>
+		<string>Community</string>
+		<key>Settings</key>
+		<string>Settings</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Quiz</string>
+		<key>Personage</key>
+		<string>Personage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Zakkat Calculator</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj and Umrah</string>
+		<key>Supplication</key>
+		<string>Supplication</string>
+		<key>Business</key>
+		<string>Business</string>
+		<key>Organization</key>
+		<string>Organization</string>
+		<key>Donation</key>
+		<string>Donation</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Select Home Mosque</string>
+		<key>Open</key>
+		<string>Open</string>
+		<key>Prayer_Time</key>
+		<string>Prayer Time</string>
+		<key>Surah</key>
+		<string>Surah</string>
+		<key>General_Knowledge</key>
+		<string>General Knowledge</string>
+		<key>Hajj_knowledge</key>
+		<string>Hajj knowledge</string>
+		<key>Religion_knowledge</key>
+		<string>Religion knowledge</string>
+		<key>Quran_knowledge</key>
+		<string>Quran knowledge</string>
+		<key>Notification</key>
+		<string>Notification</string>
+		<key>Language_App</key>
+		<string>Language of the App</string>
+		<key>Quran_Translation</key>
+		<string>Quran Translation</string>
+		<key>Prayer_Names</key>
+		<string>Prayer Names</string>
+		<key>Term_Condition</key>
+		<string>Term and Condition</string>
+		<key>Language</key>
+		<string>Language</string>
+		<key>Log_Out</key>
+		<string>Log Out</string>
+		<key>What_Looking_For?</key>
+		<string>What You Are Looking For?</string>
+		<key>All</key>
+		<string>All</string>
+		<key>Morning_Evening</key>
+		<string>Morning &amp; Evening</string>
+		<key>Travel</key>
+		<string>Travel</string>
+		<key>Home_Family</key>
+		<string>Home &amp; Family</string>
+		<key>Joy_Distress</key>
+		<string>Joy &amp; Distress</string>
+		<key>Prayer</key>
+		<string>Prayer</string>
+		<key>Praising_Allah</key>
+		<string>Praising Allah</string>
+		<key>Nature</key>
+		<string>Nature</string>
+		<key>Good_Etiquette</key>
+		<string>Good Etiquette</string>
+		<key>Food_Drink</key>
+		<string>Food &amp; Drink</string>
+		<key>Religion_clothing</key>
+		<string>Religion clothing</string>
+		<key>Incense_Business</key>
+		<string>Incense Business</string>
+		<key>My_favorite_Mosque</key>
+		<string>My favorite Mosque</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Enter Mosque Name</string>
+		<key>Khutba</key>
+		<string>Khutba</string>
+		<key>Education</key>
+		<string>Education</string>
+		<key>Activities</key>
+		<string>Activities</string>
+		<key>Rules_Game</key>
+		<string>Rules of the Game</string>
+		<key>Let_Play</key>
+		<string>Let&apos;s Play</string>
+		<key>Correct_Answer</key>
+		<string>Correct Answer</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>Wrong Answer</string>
+		<key>Done</key>
+		<string>Done</string>
+		<key>Profile</key>
+		<string>Profile</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>My Donation</string>
+		<key>Following</key>
+		<string>Following</string>
+		<key>Following_Mosque</key>
+		<string>Following Mosque</string>
+		<key>Home_Mosque</key>
+		<string>Home Mosque</string>
+		<key>Add_Home_Mosque</key>
+		<string>Add New Home Mosque</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>A request of pilgrims</string>
+		<key>Departure_house</key>
+		<string>Departure from your house</string>
+		<key>The_method_ihram</key>
+		<string>The method of ihram</string>
+		<key>The_ihram_men</key>
+		<string>The ihram of men</string>
+		<key>The_ihram_women</key>
+		<string>The ihram of women</string>
+		<key>The_ihram_children</key>
+		<string>The ihram of children</string>
+		<key>The_three_type_hajj</key>
+		<string>The three type of hajj</string>
+		<key>Mine</key>
+		<string>Mine</string>
+		<key>Street_Address</key>
+		<string>Street Address</string>
+		<key>Confirm_Password</key>
+		<string>Confirm Password</string>
+		<key>Login_Facebook</key>
+		<string>Login via Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Login via Gmail</string>
+		<key>Type_business_name</key>
+		<string>Type business name here</string>
+		<key>Map</key>
+		<string>Map</string>
+		<key>Signup_Facebook</key>
+		<string>Signup via Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Signup via Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Enter Phone Number</string>
+		<key>Business_name</key>
+		<string>Business name</string>
+		<key>New_Request</key>
+		<string>New Request</string>
+		<key>Enter_your_request</key>
+		<string>Enter your request</string>
+		<key>Post</key>
+		<string>Post</string>
+		<key>Board</key>
+		<string>Board</string>
+		<key>Prayer_Schedule</key>
+		<string>Prayer Schedule</string>
+		<key>Current_Mosque</key>
+		<string>Current Mosque</string>
+		<key>Mosque_near_you</key>
+		<string>Mosque near you</string>
+		<key>Mosque_List</key>
+		<string>Mosque List</string>
+		<key>View_More</key>
+		<string>View More</string>
+		<key>Education_Detail</key>
+		<string>Education Detail</string>
+		<key>Suggestions</key>
+		<string>Suggestions</string>
+		<key>Write_Message</key>
+		<string>Write Message</string>
+		<key>Associates</key>
+		<string>Associates</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Select payment method</string>
+		<key>Donation_Now</key>
+		<string>Donation Now</string>
+		<key>News</key>
+		<string>News</string>
+		<key>Course_Objective</key>
+		<string>Course Objective</string>
+		<key>Methodology</key>
+		<string>Methodology</string>
+		<key>Duration</key>
+		<string>Duration</string>
+		<key>Registration_Fee</key>
+		<string>Registration Fee</string>
+		<key>Pre_requisites</key>
+		<string>Pre requisites</string>
+		<key>About_Instructor</key>
+		<string>About the Instructor</string>
+		<key>Calendar</key>
+		<string>Calendar</string>
+		<key>Total_Donation_Amount</key>
+		<string>Total Donation Amount</string>
+		<key>Donate_Now</key>
+		<string>Donate Now</string>
+		<key>Friday_time</key>
+		<string>Friday pray time</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>All Supplication</string>
+		<key>News_Detail</key>
+		<string>News Detail</string>
+		<key>Activity_Detail</key>
+		<string>Activity Detail</string>
+		<key>Previous</key>
+		<string>Previous</string>
+		<key>Forward</key>
+		<string>Forward</string>
+		<key>Type_organization_name</key>
+		<string>Type organization name here</string>
+		<key>Activities_Detail</key>
+		<string>Activities Detail</string>
+		<key>My_Quran</key>
+		<string>My Quran</string>
+		<key>Delete</key>
+		<string>Delete</string>
+		<key>Username</key>
+		<string>Username</string>
+		<key>Enter_family_member</key>
+		<string>Enter family member</string>
+		<key>profile</key>
+		<string>profile</string>
+		<key>title</key>
+		<string>title</string>
+		<key>posts</key>
+		<string>posts</string>
+		<key>follow</key>
+		<string>follow</string>
+		<key>following</key>
+		<string>following</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>Unable to set profile image. Please try again!</string>
+		<key>Select_image</key>
+		<string>Select image</string>
+		<key>Take_picture</key>
+		<string>Take a picture</string>
+		<key>Choose_gallery</key>
+		<string>Choose from gallery</string>
+		<key>Image_picker_option_missing</key>
+		<string>Image picker option is missing!</string>
+		<key>Add_note</key>
+		<string>Add note</string>
+		<key>Track</key>
+		<string>Track</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>Zip code</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Donation Amount</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Prayer names</string>
+		<key>Terms_con</key>
+		<string>Terms and condition</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>Mosque</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+	</dict>
+	<key>Malay</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Ummah</string>
+		<key>Audio_test</key>
+		<string>Audio tidak tersedia</string>
+		<key>Home</key>
+		<string>Halaman utama</string>
+		<key>Dashboard</key>
+		<string>Dashboard</string>
+		<key>Notifications</key>
+		<string>Notifikasi </string>
+		<key>Please_wait</key>
+		<string>Sila tunggu </string>
+		<key>Close</key>
+		<string>Tutup</string>
+		<key>Clear</key>
+		<string>Jelas</string>
+		<key>No_Internet_Connection</key>
+		<string>Tiada sambungan internet</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>Anda tiada sambungan internet</string>
+		<key>Retry</key>
+		<string>Cuba lagi</string>
+		<key>Exit</key>
+		<string>Keluar</string>
+		<key>Yes</key>
+		<string>Ya</string>
+		<key>No</key>
+		<string>Tidak</string>
+		<key>First _name_not_entered</key>
+		<string>Nama pertama tidak dimasukkan</string>
+		<key>Last_name_not_entered</key>
+		<string>Nama terakhir tidak dimasukkan</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>Sila masukkan e-mel ID yang sah</string>
+		<key>Forgot_your_password</key>
+		<string>Lupa kata kekunci</string>
+		<key>Please_reset_password_token !</key>
+		<string>Sila periksa e-mel anda</string>
+		<key>Reset_Password</key>
+		<string>Menetapkan semula kata laluan</string>
+		<key>Forget_Password</key>
+		<string>Lupa kata laluan</string>
+		<key>Please_register_email.</key>
+		<string>Sila masukkan e-mel pendaftaran anda</string>
+		<key>Location_Open_GPS</key>
+		<string>Lokasi tidak tersedia, buka GPS?</string>
+		<key>Activate_location_services</key>
+		<string>aktifkan GPS untuk menggunakan perkhidmatan lokasi?</string>
+		<key>Log_in</key>
+		<string>Log masuk</string>
+		<key>Register</key>
+		<string>Daftar</string>
+		<key>Password</key>
+		<string>Kata laluan </string>
+		<key>Enter Email</key>
+		<string>Masukkan e-mel</string>
+		<key>Go_settings</key>
+		<string>pergi ke tetapan</string>
+		<key>app_settings</key>
+		<string>app_settings</string>
+		<key>Grant_Permissions</key>
+		<string>Aplikasi ini memerlukan kebenaran untuk menggunakan ciri ini. Anda boleh memberikannya dalam tetapan aplikasi.</string>
+		<key>Loading</key>
+		<string>Memuatkan</string>
+		<key>Auto Code:</key>
+		<string>Memberi kod</string>
+		<key>ID_Token:</key>
+		<string>Token ID</string>
+		<key>Sign_Out</key>
+		<string>daftar keluar</string>
+		<key>Disconnect</key>
+		<string>putuskan sambungan</string>
+		<key>Google_Logo</key>
+		<string>Logo Google</string>
+		<key>Name</key>
+		<string>Name</string>
+		<key>Log_Account</key>
+		<string>Log In to your Account</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Enter your email address &amp; password to log in to your account.</string>
+		<key>Or_with</key>
+		<string>Or log in with</string>
+		<key>I_am_a</key>
+		<string>I am a</string>
+		<key>User</key>
+		<string>User</string>
+		<key>Business_Owner</key>
+		<string>Business Owner</string>
+		<key>Mosque_Manager</key>
+		<string>Mosque Manager</string>
+		<key>Continue</key>
+		<string>Continue</string>
+		<key>Signup</key>
+		<string>Signup</string>
+		<key>Sign_up</key>
+		<string>Sign up</string>
+		<key>Enter_Phone</key>
+		<string>Enter Phone</string>
+		<key>By_agree_term_conditions</key>
+		<string>By Clicking continue you are agree with our terms and conditions.</string>
+		<key>Or_Sign_up_with</key>
+		<string>Or Sign up with</string>
+		<key>Create_New_Password</key>
+		<string>Create New Password</string>
+		<key>Enter_New_Password</key>
+		<string>Enter New Password</string>
+		<key>Enter_Verification_Code</key>
+		<string>Enter Verification Code</string>
+		<key>verification_email_address</key>
+		<string>Enter verification code sent on your email address</string>
+		<key>Create_New_Account</key>
+		<string>Create New Account</string>
+		<key>Mosque_Name</key>
+		<string>Mosque Name</string>
+		<key>Name_Contact_Person</key>
+		<string>Name Contact Person</string>
+		<key>Zip_code</key>
+		<string>Zip code</string>
+		<key>or</key>
+		<string>or</string>
+		<key>Choose_location_automatically</key>
+		<string>Choose location automatically</string>
+		<key>Type_mosque_name</key>
+		<string>Type mosque name</string>
+		<key>Zuhur</key>
+		<string>Zuhur</string>
+		<key>Open_navigation_drawer</key>
+		<string>Open navigation drawer</string>
+		<key>Find_a_mosque</key>
+		<string>Find a mosque</string>
+		<key>Today_Feed</key>
+		<string>Today&apos;s Feed</string>
+		<key>Bookmark</key>
+		<string>Diria que es Marcador</string>
+		<key>Search</key>
+		<string>Search</string>
+		<key>Prefs</key>
+		<string>Prefs</string>
+		<key>Quran</key>
+		<string>Quran</string>
+		<key>Community</key>
+		<string>Community</string>
+		<key>Settings</key>
+		<string>Settings</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Quiz</string>
+		<key>Personage</key>
+		<string>Personage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Zakkat Calculator</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj and Umrah</string>
+		<key>Supplication</key>
+		<string>Supplication</string>
+		<key>Business</key>
+		<string>Business</string>
+		<key>Organization</key>
+		<string>Organization</string>
+		<key>Donation</key>
+		<string>Donation</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Select Home Mosque</string>
+		<key>Open</key>
+		<string>Open</string>
+		<key>Prayer_Time</key>
+		<string>Prayer Time</string>
+		<key>Surah</key>
+		<string>Surah</string>
+		<key>General_Knowledge</key>
+		<string>General Knowledge</string>
+		<key>Hajj_knowledge</key>
+		<string>Hajj knowledge</string>
+		<key>Religion_knowledge</key>
+		<string>Religion knowledge</string>
+		<key>Quran_knowledge</key>
+		<string>Quran knowledge</string>
+		<key>Notification</key>
+		<string>Notification</string>
+		<key>Language_App</key>
+		<string>Language of the App</string>
+		<key>Quran_Translation</key>
+		<string>Quran Translation</string>
+		<key>Prayer_Names</key>
+		<string>de les oraciones o dels oradores?</string>
+		<key>Term_Condition</key>
+		<string>Term and Condition</string>
+		<key>Language</key>
+		<string>Language</string>
+		<key>Log_Out</key>
+		<string>Log Out</string>
+		<key>What_Looking_For?</key>
+		<string>What You Are Looking For?</string>
+		<key>All</key>
+		<string>All</string>
+		<key>Morning_Evening</key>
+		<string>Morning &amp; Evening</string>
+		<key>Travel</key>
+		<string>Travel</string>
+		<key>Home_Family</key>
+		<string>Home &amp; Family</string>
+		<key>Joy_Distress</key>
+		<string>Joy &amp; Distress</string>
+		<key>Prayer</key>
+		<string>Prayer</string>
+		<key>Praising_Allah</key>
+		<string>Praising Allah</string>
+		<key>Nature</key>
+		<string>Nature</string>
+		<key>Good_Etiquette</key>
+		<string>Good Etiquette</string>
+		<key>Food_Drink</key>
+		<string>Food &amp; Drink</string>
+		<key>Religion_clothing</key>
+		<string>Religion clothing</string>
+		<key>Incense_Business</key>
+		<string>Incense Business</string>
+		<key>My_favorite_Mosque</key>
+		<string>My favorite Mosque</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Enter Mosque Name</string>
+		<key>Khutba</key>
+		<string>Khutba</string>
+		<key>Education</key>
+		<string>Education</string>
+		<key>Activities</key>
+		<string>Activities</string>
+		<key>Rules_Game</key>
+		<string>Rules of the Game</string>
+		<key>Let_Play</key>
+		<string>Let&apos;s Play</string>
+		<key>Correct_Answer</key>
+		<string>Correct Answer</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>Wrong Answer</string>
+		<key>Done</key>
+		<string>Done</string>
+		<key>Profile</key>
+		<string>Profile</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>My Donation</string>
+		<key>Following</key>
+		<string>Following</string>
+		<key>Following_Mosque</key>
+		<string>Following Mosque</string>
+		<key>Home_Mosque</key>
+		<string>Home Mosque</string>
+		<key>Add_Home_Mosque</key>
+		<string>Add New Home Mosque</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>A request of pilgrims</string>
+		<key>Departure_house</key>
+		<string>Departure from your house</string>
+		<key>The_method_ihram</key>
+		<string>The method of ihram</string>
+		<key>The_ihram_men</key>
+		<string>The ihram of men</string>
+		<key>The_ihram_women</key>
+		<string>The ihram of women</string>
+		<key>The_ihram_children</key>
+		<string>The ihram of children</string>
+		<key>The_three_type_hajj</key>
+		<string>The three type of hajj</string>
+		<key>Mine</key>
+		<string>Mine</string>
+		<key>Street_Address</key>
+		<string>Street Address</string>
+		<key>Confirm_Password</key>
+		<string>Confirm Password</string>
+		<key>Login_Facebook</key>
+		<string>Login via Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Login via Gmail</string>
+		<key>Type_business_name</key>
+		<string>Type business name here</string>
+		<key>Map</key>
+		<string>Map</string>
+		<key>Signup_Facebook</key>
+		<string>Signup via Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Signup via Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Enter Phone Number</string>
+		<key>Business_name</key>
+		<string>Business name</string>
+		<key>New_Request</key>
+		<string>New Request</string>
+		<key>Enter_your_request</key>
+		<string>Enter your request</string>
+		<key>Post</key>
+		<string>Post</string>
+		<key>Board</key>
+		<string>Board</string>
+		<key>Prayer_Schedule</key>
+		<string>Prayer Schedule</string>
+		<key>Current_Mosque</key>
+		<string>Current Mosque</string>
+		<key>Mosque_near_you</key>
+		<string>Mosque near you</string>
+		<key>Mosque_List</key>
+		<string>Mosque List</string>
+		<key>View_More</key>
+		<string>View More</string>
+		<key>Education_Detail</key>
+		<string>Education Detail</string>
+		<key>Suggestions</key>
+		<string>Suggestions</string>
+		<key>Write_Message</key>
+		<string>Write Message</string>
+		<key>Associates</key>
+		<string>Associates</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Select payment method</string>
+		<key>Donation_Now</key>
+		<string>Donation Now</string>
+		<key>News</key>
+		<string>News</string>
+		<key>Course_Objective</key>
+		<string>Course Objective</string>
+		<key>Methodology</key>
+		<string>Methodology</string>
+		<key>Duration</key>
+		<string>Duration</string>
+		<key>Registration_Fee</key>
+		<string>Registration Fee</string>
+		<key>Pre_requisites</key>
+		<string>Pre requisites</string>
+		<key>About_Instructor</key>
+		<string>About the Instructor</string>
+		<key>Calendar</key>
+		<string>Calendar</string>
+		<key>Total_Donation_Amount</key>
+		<string>Total Donation Amount</string>
+		<key>Donate_Now</key>
+		<string>Donate Now</string>
+		<key>Friday_time</key>
+		<string>Friday pray time</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>All Supplication</string>
+		<key>News_Detail</key>
+		<string>News Detail</string>
+		<key>Activity_Detail</key>
+		<string>Activity Detail</string>
+		<key>Previous</key>
+		<string>Previous</string>
+		<key>Forward</key>
+		<string>Forward</string>
+		<key>Type_organization_name</key>
+		<string>Type organization name here</string>
+		<key>Activities_Detail</key>
+		<string>Activities Detail</string>
+		<key>My_Quran</key>
+		<string>My Quran</string>
+		<key>Delete</key>
+		<string>Delete</string>
+		<key>Username</key>
+		<string>Username</string>
+		<key>Enter_family_member</key>
+		<string>Enter family member</string>
+		<key>profile</key>
+		<string>profile</string>
+		<key>title</key>
+		<string>title</string>
+		<key>posts</key>
+		<string>posts</string>
+		<key>follow</key>
+		<string>follow</string>
+		<key>following</key>
+		<string>following</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>Unable to set profile image. Please try again!</string>
+		<key>Select_image</key>
+		<string>Select image</string>
+		<key>Take_picture</key>
+		<string>Take a picture</string>
+		<key>Choose_gallery</key>
+		<string>Choose from gallery</string>
+		<key>Image_picker_option_missing</key>
+		<string>Image picker option is missing!</string>
+		<key>Add_note</key>
+		<string>Add note</string>
+		<key>Track</key>
+		<string>Track</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>Zip code</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Donation Amount</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Prayer names</string>
+		<key>Terms_con</key>
+		<string>Terms and condition</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>Mosque</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+	</dict>
+	<key>Catalan</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Comunitat /ummah</string>
+		<key>Audio_test</key>
+		<string>Àudio no disponible</string>
+		<key>Home</key>
+		<string>Pàgina inicial</string>
+		<key>Dashboard</key>
+		<string>Tauler</string>
+		<key>Notifications</key>
+		<string>Notificacions</string>
+		<key>Please_wait</key>
+		<string>Espera, si us plau</string>
+		<key>Close</key>
+		<string>Tancar</string>
+		<key>Clear</key>
+		<string>Esborrar</string>
+		<key>No_Internet_Connection</key>
+		<string>Sense connexió a Internet</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>No tens connexió a Internet</string>
+		<key>Retry</key>
+		<string>Reintentar</string>
+		<key>Exit</key>
+		<string>Sortir</string>
+		<key>Yes</key>
+		<string>Sí</string>
+		<key>No</key>
+		<string>No</string>
+		<key>First _name_not_entered</key>
+		<string>Falta el nom</string>
+		<key>Last_name_not_entered</key>
+		<string>Falta el cognom</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>Introdueix un correu electrònic vàlid, si us plau</string>
+		<key>Forgot_your_password</key>
+		<string>Has oblidat la contrasenya</string>
+		<key>Please_reset_password_token !</key>
+		<string>Si us plau, revisa el teu correu. T&apos;hem enviat un enllaç per reiniciar la contrasenya</string>
+		<key>Reset_Password</key>
+		<string>Reiniciar contrasenya</string>
+		<key>Forget_Password</key>
+		<string>Contrasenya oblidada</string>
+		<key>Please_register_email.</key>
+		<string>Introdueix el teu correu de registre, si us plau</string>
+		<key>Location_Open_GPS</key>
+		<string>Ubicació no disponible, obrir el GPS?</string>
+		<key>Activate_location_services</key>
+		<string>Vols activar el GPS per utilitzar els serveis d&apos;ubicació?</string>
+		<key>Log_in</key>
+		<string>Inicia sessió</string>
+		<key>Register</key>
+		<string>Registra&apos;t</string>
+		<key>Password</key>
+		<string>Contrasenya</string>
+		<key>Enter Email</key>
+		<string>Introdueix el correu electrònic</string>
+		<key>Go_settings</key>
+		<string>ANAR A CONFIGURACIÓ</string>
+		<key>app_settings</key>
+		<string>Aquesta aplicació necessita permisos per utilitzar aquesta funció. Pots concedir-los des de l&apos;opció Configuració</string>
+		<key>Grant_Permissions</key>
+		<string>Autoritzar permisos</string>
+		<key>Loading</key>
+		<string>Carregant</string>
+		<key>Auto Code:</key>
+		<string>Auth Code:</string>
+		<key>ID_Token:</key>
+		<string>ID Token:</string>
+		<key>Sign_Out</key>
+		<string>Tancar sessió</string>
+		<key>Disconnect</key>
+		<string>Desconnectar</string>
+		<key>Google_Logo</key>
+		<string>Logo de Google</string>
+		<key>Name</key>
+		<string>Nom</string>
+		<key>Log_Account</key>
+		<string>Inicia la sessió al teu compte</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Introdueix el teu correu i contrasenya per iniciar sessió al teu compte</string>
+		<key>Or_with</key>
+		<string>O identifica&apos;t amb</string>
+		<key>I_am_a</key>
+		<string>Soc un</string>
+		<key>User</key>
+		<string>Usuari</string>
+		<key>Business_Owner</key>
+		<string>Propietari del negoci</string>
+		<key>Mosque_Manager</key>
+		<string>Mosque Manager</string>
+		<key>Continue</key>
+		<string>Continua</string>
+		<key>Signup</key>
+		<string>Registra&apos;t</string>
+		<key>Sign_up</key>
+		<string>Registra&apos;t</string>
+		<key>Enter_Phone</key>
+		<string>Introdueix el teu telèfon</string>
+		<key>By_agree_term_conditions</key>
+		<string>En fer clic sobre continuar acceptes els nostres termes i condicions</string>
+		<key>Or_Sign_up_with</key>
+		<string>O registra&apos;t amb</string>
+		<key>Create_New_Password</key>
+		<string>Crea una nova contrasenya</string>
+		<key>Enter_New_Password</key>
+		<string>Introdueix la nova contrasenya</string>
+		<key>Enter_Verification_Code</key>
+		<string>Introdueix el codi de verificació</string>
+		<key>verification_email_address</key>
+		<string>Introdueix el codi de verificació que hem enviat al teu correu</string>
+		<key>Create_New_Account</key>
+		<string>Crea un nou compte</string>
+		<key>Mosque_Name</key>
+		<string>Mosque Name</string>
+		<key>Name_Contact_Person</key>
+		<string>Name Contact Person</string>
+		<key>Zip_code</key>
+		<string>Zip code</string>
+		<key>or</key>
+		<string>o</string>
+		<key>Choose_location_automatically</key>
+		<string>Tria ubicació</string>
+		<key>Type_mosque_name</key>
+		<string>Type mosque name</string>
+		<key>Zuhur</key>
+		<string>Zuhur</string>
+		<key>Open_navigation_drawer</key>
+		<string>Open navigation drawer</string>
+		<key>Find_a_mosque</key>
+		<string>Trobar una mesquita / busca una mesquita</string>
+		<key>Today_Feed</key>
+		<string>Notícies d&apos;avui </string>
+		<key>Bookmark</key>
+		<string>Bookmark</string>
+		<key>Search</key>
+		<string>Cerca</string>
+		<key>Prefs</key>
+		<string>Preferències</string>
+		<key>Quran</key>
+		<string>Quran</string>
+		<key>Community</key>
+		<string>Comunitat</string>
+		<key>Settings</key>
+		<string>Configuració</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Prova</string>
+		<key>Personage</key>
+		<string>Personage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Zakkat Calculator</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj and Umrah</string>
+		<key>Supplication</key>
+		<string>Supplication</string>
+		<key>Business</key>
+		<string>Negoci</string>
+		<key>Organization</key>
+		<string>Organització</string>
+		<key>Donation</key>
+		<string>Donació</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Select Home Mosque</string>
+		<key>Open</key>
+		<string>Obrir</string>
+		<key>Prayer_Time</key>
+		<string>Prayer Time</string>
+		<key>Surah</key>
+		<string>Surah</string>
+		<key>General_Knowledge</key>
+		<string>Coneixement general</string>
+		<key>Hajj_knowledge</key>
+		<string>Hajj knowledge</string>
+		<key>Religion_knowledge</key>
+		<string>Religion knowledge</string>
+		<key>Quran_knowledge</key>
+		<string>Quran knowledge</string>
+		<key>Notification</key>
+		<string>Notification</string>
+		<key>Language_App</key>
+		<string>Llengua de l&apos;aplicació</string>
+		<key>Quran_Translation</key>
+		<string>Quran Translation</string>
+		<key>Prayer_Names</key>
+		<string>Prayer Names</string>
+		<key>Term_Condition</key>
+		<string>Termes i condicions</string>
+		<key>Language</key>
+		<string>Llengua</string>
+		<key>Log_Out</key>
+		<string>Tancar sessió</string>
+		<key>What_Looking_For?</key>
+		<string>Què estas cercant?</string>
+		<key>All</key>
+		<string>Tot</string>
+		<key>Morning_Evening</key>
+		<string>Morning &amp; Evening</string>
+		<key>Travel</key>
+		<string>Travel</string>
+		<key>Home_Family</key>
+		<string>Home &amp; Family</string>
+		<key>Joy_Distress</key>
+		<string>Joy &amp; Distress</string>
+		<key>Prayer</key>
+		<string>Prayer</string>
+		<key>Praising_Allah</key>
+		<string>Praising Allah</string>
+		<key>Nature</key>
+		<string>Nature</string>
+		<key>Good_Etiquette</key>
+		<string>Good Etiquette</string>
+		<key>Food_Drink</key>
+		<string>Food &amp; Drink</string>
+		<key>Religion_clothing</key>
+		<string>Religion clothing</string>
+		<key>Incense_Business</key>
+		<string>Incense Business</string>
+		<key>My_favorite_Mosque</key>
+		<string>Mesquita preferida</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Introdueix el nom de la mesquita </string>
+		<key>Khutba</key>
+		<string>Khutba</string>
+		<key>Education</key>
+		<string>Educació</string>
+		<key>Activities</key>
+		<string>Activitats </string>
+		<key>Rules_Game</key>
+		<string>Regles del joc </string>
+		<key>Let_Play</key>
+		<string>Juguem! </string>
+		<key>Correct_Answer</key>
+		<string>Correct Answer</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>Resposta errònia </string>
+		<key>Done</key>
+		<string>Fet</string>
+		<key>Profile</key>
+		<string>Perfil</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>La meva donació</string>
+		<key>Following</key>
+		<string>Following</string>
+		<key>Following_Mosque</key>
+		<string>Following Mosque</string>
+		<key>Home_Mosque</key>
+		<string>Home Mosque</string>
+		<key>Add_Home_Mosque</key>
+		<string>Add New Home Mosque</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>A request of pilgrims</string>
+		<key>Departure_house</key>
+		<string>Departure from your house</string>
+		<key>The_method_ihram</key>
+		<string>The method of ihram</string>
+		<key>The_ihram_men</key>
+		<string>The ihram of men</string>
+		<key>The_ihram_women</key>
+		<string>The ihram of women</string>
+		<key>The_ihram_children</key>
+		<string>The ihram of children</string>
+		<key>The_three_type_hajj</key>
+		<string>The three type of hajj</string>
+		<key>Mine</key>
+		<string>Mine</string>
+		<key>Street_Address</key>
+		<string>Street Address</string>
+		<key>Confirm_Password</key>
+		<string>Confirma la contrasenya</string>
+		<key>Login_Facebook</key>
+		<string>Inicia la sessió amb Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Inicia la sessió amb Gmail</string>
+		<key>Type_business_name</key>
+		<string>Escriu aqui el nom del negoci</string>
+		<key>Map</key>
+		<string>Mapa</string>
+		<key>Signup_Facebook</key>
+		<string>Registra&apos;t amb Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Registra&apos;t amb Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Introdueix el número de telèfon</string>
+		<key>Business_name</key>
+		<string>Nom del negoci</string>
+		<key>New_Request</key>
+		<string>Nova petició</string>
+		<key>Enter_your_request</key>
+		<string>Introdueix la teva petició</string>
+		<key>Post</key>
+		<string>Publica</string>
+		<key>Board</key>
+		<string>Board</string>
+		<key>Prayer_Schedule</key>
+		<string>Horari d&apos;oracions</string>
+		<key>Current_Mosque</key>
+		<string>Mesquita actual</string>
+		<key>Mosque_near_you</key>
+		<string>Mesquita aprop </string>
+		<key>Mosque_List</key>
+		<string>Llistat de mesquites</string>
+		<key>View_More</key>
+		<string>Veure més</string>
+		<key>Education_Detail</key>
+		<string>Education Detail</string>
+		<key>Suggestions</key>
+		<string>Suggerències </string>
+		<key>Write_Message</key>
+		<string>Escriu el missatge</string>
+		<key>Associates</key>
+		<string>Associats</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Selecciona el mètode de pagament</string>
+		<key>Donation_Now</key>
+		<string>Dona ara</string>
+		<key>News</key>
+		<string>Notícies </string>
+		<key>Course_Objective</key>
+		<string>Objectiu del curs</string>
+		<key>Methodology</key>
+		<string>Metodologia</string>
+		<key>Duration</key>
+		<string>Durada</string>
+		<key>Registration_Fee</key>
+		<string>Quota d&apos;inscripció</string>
+		<key>Pre_requisites</key>
+		<string>Prerequisits</string>
+		<key>About_Instructor</key>
+		<string>About the Instructor</string>
+		<key>Calendar</key>
+		<string>Calendari</string>
+		<key>Total_Donation_Amount</key>
+		<string>Import total de la donació</string>
+		<key>Donate_Now</key>
+		<string>Dona ara</string>
+		<key>Friday_time</key>
+		<string>Friday pray time</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>All Supplication</string>
+		<key>News_Detail</key>
+		<string>News Detail</string>
+		<key>Activity_Detail</key>
+		<string>Activity Detail</string>
+		<key>Previous</key>
+		<string>Anterior</string>
+		<key>Forward</key>
+		<string>Següent</string>
+		<key>Type_organization_name</key>
+		<string>Type organization name here</string>
+		<key>Activities_Detail</key>
+		<string>Activities Detail</string>
+		<key>My_Quran</key>
+		<string>My Quran</string>
+		<key>Delete</key>
+		<string>Esborrar</string>
+		<key>Username</key>
+		<string>Usuari</string>
+		<key>Enter_family_member</key>
+		<string>Enter family member</string>
+		<key>profile</key>
+		<string>perfil</string>
+		<key>title</key>
+		<string>title</string>
+		<key>posts</key>
+		<string>publicacions</string>
+		<key>follow</key>
+		<string>follow</string>
+		<key>following</key>
+		<string>following</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>No s&apos;ha pogut establir la imatge de perfil. Si us plau, torna a intentar-ho!</string>
+		<key>Select_image</key>
+		<string>Selecciona imatge</string>
+		<key>Take_picture</key>
+		<string>Fes una foto</string>
+		<key>Choose_gallery</key>
+		<string>Tria&apos;n de la galeria</string>
+		<key>Image_picker_option_missing</key>
+		<string>Image picker option is missing!</string>
+		<key>Add_note</key>
+		<string>Afegeix una nota</string>
+		<key>Track</key>
+		<string>Track</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>Zip code</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Donation Amount</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Prayer names</string>
+		<key>Terms_con</key>
+		<string>Terms and condition</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>Mosque</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+	</dict>
+	<key>Español</key>
+	<dict>
+		<key>Ummah</key>
+		<string>Comunidad/ummah</string>
+		<key>Audio_test</key>
+		<string>Heli pole saadaval</string>
+		<key>Home</key>
+		<string>Página inicial</string>
+		<key>Dashboard</key>
+		<string>Tablero</string>
+		<key>Notifications</key>
+		<string>Notificaciones</string>
+		<key>Please_wait</key>
+		<string>Espera, por favor</string>
+		<key>Close</key>
+		<string>Cerrar</string>
+		<key>Clear</key>
+		<string>Borrar</string>
+		<key>No_Internet_Connection</key>
+		<string>Sin conexión a Internet</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>No tienes conexión a Internet</string>
+		<key>Retry</key>
+		<string>Reintentar</string>
+		<key>Exit</key>
+		<string>Salir</string>
+		<key>Yes</key>
+		<string>Sí</string>
+		<key>No</key>
+		<string>No</string>
+		<key>First _name_not_entered</key>
+		<string>Falta el nombre</string>
+		<key>Last_name_not_entered</key>
+		<string>Falta el apellido</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>Introduce un correo electrónico válido, por favor</string>
+		<key>Forgot_your_password</key>
+		<string>Has olvidado la contraseña</string>
+		<key>Please_reset_password_token !</key>
+		<string>Por favor, revisa tu correo. Te hemos enviado un enlace para reiniciar la contraseña</string>
+		<key>Reset_Password</key>
+		<string>Reiniciar contraseña</string>
+		<key>Forget_Password</key>
+		<string>Contraseña olvidada</string>
+		<key>Please_register_email.</key>
+		<string>Introduce tu correo de registro, por favor</string>
+		<key>Location_Open_GPS</key>
+		<string>Ubicación no disponible, ¿abrir GPS?</string>
+		<key>Activate_location_services</key>
+		<string>¿Quieres activar el GPS para utilizar los servicios de ubicación?</string>
+		<key>Log_in</key>
+		<string>Inicia sesión</string>
+		<key>Register</key>
+		<string>Regístrate</string>
+		<key>Password</key>
+		<string>Contraseña</string>
+		<key>Enter Email</key>
+		<string>Introduce el correo electrónico</string>
+		<key>Go_settings</key>
+		<string>IR A CONFIGURACIÓN</string>
+		<key>app_settings</key>
+		<string>Esta aplicación necesita permisos para utilizar esta función. Puedes concedérselos desde la opción Configuración</string>
+		<key>Grant_Permissions</key>
+		<string>Autorizar permisos</string>
+		<key>Loading</key>
+		<string>Cargando</string>
+		<key>Auto Code:</key>
+		<string>Auth Code:</string>
+		<key>ID_Token:</key>
+		<string>ID Token:</string>
+		<key>Sign_Out</key>
+		<string>Cerrar sesión</string>
+		<key>Disconnect</key>
+		<string>Desconectar</string>
+		<key>Google_Logo</key>
+		<string>Logo de Google</string>
+		<key>Name</key>
+		<string>Nombre</string>
+		<key>Log_Account</key>
+		<string>Log In to your Account</string>
+		<key>Enter_email_address_password_account</key>
+		<string>Introduce tu correo y contraseña para iniciar sesión en tu cuenta</string>
+		<key>Or_with</key>
+		<string>O identifícate con </string>
+		<key>I_am_a</key>
+		<string>Soy un</string>
+		<key>User</key>
+		<string>Usuario</string>
+		<key>Business_Owner</key>
+		<string>Business Owner</string>
+		<key>Mosque_Manager</key>
+		<string>Gestor de mezquitas</string>
+		<key>Continue</key>
+		<string>Seguir</string>
+		<key>Signup</key>
+		<string>Regístrate</string>
+		<key>Sign_up</key>
+		<string>Regístrate</string>
+		<key>Enter_Phone</key>
+		<string>Introduce tu teléfono</string>
+		<key>By_agree_term_conditions</key>
+		<string>Al hacer clic sobre continuar aceptas nuestros términos y condiciones</string>
+		<key>Or_Sign_up_with</key>
+		<string>O regístrate con</string>
+		<key>Create_New_Password</key>
+		<string>Crea una nueva contraseña</string>
+		<key>Enter_New_Password</key>
+		<string>Introduce la nueva contraseña</string>
+		<key>Enter_Verification_Code</key>
+		<string>Introduce el código de verificación</string>
+		<key>verification_email_address</key>
+		<string>Enter verification code sent on your email address</string>
+		<key>Create_New_Account</key>
+		<string>Crea una nueva cuenta</string>
+		<key>Mosque_Name</key>
+		<string>Nombre de la mezquita</string>
+		<key>Name_Contact_Person</key>
+		<string>Nombre Persona de contacto</string>
+		<key>Zip_code</key>
+		<string>código postal</string>
+		<key>or</key>
+		<string>o</string>
+		<key>Choose_location_automatically</key>
+		<string>Elije ubicación</string>
+		<key>Type_mosque_name</key>
+		<string>Escriba el nombre de la mezquita</string>
+		<key>Zuhur</key>
+		<string>Zuhru</string>
+		<key>Open_navigation_drawer</key>
+		<string>Abrir el cajón de navegación</string>
+		<key>Find_a_mosque</key>
+		<string>Encuentra una mezquita / buscar una mezquita</string>
+		<key>Today_Feed</key>
+		<string>Noticias de hoy</string>
+		<key>Bookmark</key>
+		<string>Marcador</string>
+		<key>Search</key>
+		<string>Busca</string>
+		<key>Prefs</key>
+		<string>Preferencias</string>
+		<key>Quran</key>
+		<string>Corán</string>
+		<key>Community</key>
+		<string>Comunidad</string>
+		<key>Settings</key>
+		<string>Configuración</string>
+		<key>Qiblah</key>
+		<string>Qiblah</string>
+		<key>Quiz</key>
+		<string>Prueba </string>
+		<key>Personage</key>
+		<string>Personnage</string>
+		<key>Zakkat_Calculator</key>
+		<string>Calculadora de zakat</string>
+		<key>Hajj_Umrah</key>
+		<string>Hajj y Umrah</string>
+		<key>Supplication</key>
+		<string>las ruega</string>
+		<key>Business</key>
+		<string>Negocio</string>
+		<key>Organization</key>
+		<string>Organización</string>
+		<key>Donation</key>
+		<string>Donación</string>
+		<key>Pray </key>
+		<string>Pray </string>
+		<key>Select_Home_Mosque</key>
+		<string>Seleccionar su mezquita</string>
+		<key>Open</key>
+		<string>Abrir</string>
+		<key>Prayer_Time</key>
+		<string>Hora de rezar</string>
+		<key>Surah</key>
+		<string>Sura</string>
+		<key>General_Knowledge</key>
+		<string>Conocimiento General</string>
+		<key>Hajj_knowledge</key>
+		<string>Conocimiento de Hujj</string>
+		<key>Religion_knowledge</key>
+		<string>Conocimiento de la religión</string>
+		<key>Quran_knowledge</key>
+		<string>Conocimiento del Corán</string>
+		<key>Notification</key>
+		<string>Notificación</string>
+		<key>Language_App</key>
+		<string>Idioma de la aplicación</string>
+		<key>Quran_Translation</key>
+		<string>Traducción del Corán</string>
+		<key>Prayer_Names</key>
+		<string>Nombre de lad oraciones </string>
+		<key>Term_Condition</key>
+		<string>Términos y condiciones</string>
+		<key>Language</key>
+		<string>Idioma</string>
+		<key>Log_Out</key>
+		<string>Cerrar sesión</string>
+		<key>What_Looking_For?</key>
+		<string>¿Qué estás buscando?</string>
+		<key>All</key>
+		<string>Todo</string>
+		<key>Morning_Evening</key>
+		<string>Morning &amp; Evening</string>
+		<key>Travel</key>
+		<string>Travel</string>
+		<key>Home_Family</key>
+		<string>Home &amp; Family</string>
+		<key>Joy_Distress</key>
+		<string>Joy &amp; Distress</string>
+		<key>Prayer</key>
+		<string>Prayer</string>
+		<key>Praising_Allah</key>
+		<string>Praising Allah</string>
+		<key>Nature</key>
+		<string>Nature</string>
+		<key>Good_Etiquette</key>
+		<string>Good Etiquette</string>
+		<key>Food_Drink</key>
+		<string>Food &amp; Drink</string>
+		<key>Religion_clothing</key>
+		<string>Religion clothing</string>
+		<key>Incense_Business</key>
+		<string>Incense Business</string>
+		<key>My_favorite_Mosque</key>
+		<string>Mi mezquita preferida</string>
+		<key>Enter_Mosque_Name</key>
+		<string>Introduce el nombre de la mezquita</string>
+		<key>Khutba</key>
+		<string>Khutba</string>
+		<key>Education</key>
+		<string>Educación </string>
+		<key>Activities</key>
+		<string>Actividades</string>
+		<key>Rules_Game</key>
+		<string>Reglad del juego </string>
+		<key>Let_Play</key>
+		<string>A jugar! </string>
+		<key>Correct_Answer</key>
+		<string>Respuesta correcta</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>Respuesta equivocada</string>
+		<key>Done</key>
+		<string>Hecho </string>
+		<key>Profile</key>
+		<string>Perfil</string>
+		<key>My_Home_Mosque</key>
+		<string>My Home Mosque</string>
+		<key>My_Donation</key>
+		<string>Mi donación</string>
+		<key>Following</key>
+		<string>Following</string>
+		<key>Following_Mosque</key>
+		<string>Following Mosque</string>
+		<key>Home_Mosque</key>
+		<string>Home Mosque</string>
+		<key>Add_Home_Mosque</key>
+		<string>Add New Home Mosque</string>
+		<key>Umrah</key>
+		<string>Umrah</string>
+		<key>Hajj</key>
+		<string>Hajj</string>
+		<key>A_request_pilgrims</key>
+		<string>A request of pilgrims</string>
+		<key>Departure_house</key>
+		<string>Departure from your house</string>
+		<key>The_method_ihram</key>
+		<string>The method of ihram</string>
+		<key>The_ihram_men</key>
+		<string>The ihram of men</string>
+		<key>The_ihram_women</key>
+		<string>The ihram of women</string>
+		<key>The_ihram_children</key>
+		<string>The ihram of children</string>
+		<key>The_three_type_hajj</key>
+		<string>The three type of hajj</string>
+		<key>Mine</key>
+		<string>Mine</string>
+		<key>Street_Address</key>
+		<string>Street Address</string>
+		<key>Confirm_Password</key>
+		<string>Confirma la contraseña</string>
+		<key>Login_Facebook</key>
+		<string>Inicia la sesión con Facebook</string>
+		<key>Login_Gmail</key>
+		<string>Inicia la sesión con Gmail</string>
+		<key>Type_business_name</key>
+		<string>Escribe aqui el nombre del negocio</string>
+		<key>Map</key>
+		<string>Mapa</string>
+		<key>Signup_Facebook</key>
+		<string>Regístrate con Facebook</string>
+		<key>Signup_Gmail</key>
+		<string>Regístrate con Gmail</string>
+		<key>Enter_Phone_Number</key>
+		<string>Enter Phone Number</string>
+		<key>Business_name</key>
+		<string>Nombre del negocio</string>
+		<key>New_Request</key>
+		<string>Nueva petición</string>
+		<key>Enter_your_request</key>
+		<string>Introduce tu petición</string>
+		<key>Post</key>
+		<string>Publica</string>
+		<key>Board</key>
+		<string>Post</string>
+		<key>Prayer_Schedule</key>
+		<string>Prayer Schedule</string>
+		<key>Current_Mosque</key>
+		<string>Horario de oración </string>
+		<key>Mosque_near_you</key>
+		<string>Mezquita cercana </string>
+		<key>Mosque_List</key>
+		<string>Listado de mezquitas</string>
+		<key>View_More</key>
+		<string>Ver más</string>
+		<key>Education_Detail</key>
+		<string>Detalle educativo</string>
+		<key>Suggestions</key>
+		<string>Sugerencias </string>
+		<key>Write_Message</key>
+		<string>Escribe el mensaje</string>
+		<key>Associates</key>
+		<string>Asociados</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>Zakat Al Fitr</string>
+		<key>Select_payment_method</key>
+		<string>Selecciona el método de pago</string>
+		<key>Donation_Now</key>
+		<string>Dona ahora</string>
+		<key>News</key>
+		<string>Noticias</string>
+		<key>Course_Objective</key>
+		<string>Objetivo del curso</string>
+		<key>Methodology</key>
+		<string>Metodología</string>
+		<key>Duration</key>
+		<string>Duración </string>
+		<key>Registration_Fee</key>
+		<string>Cuota de inscripción</string>
+		<key>Pre_requisites</key>
+		<string>Prerequisitos</string>
+		<key>About_Instructor</key>
+		<string>Sobre el instructo</string>
+		<key>Calendar</key>
+		<string>Calendario </string>
+		<key>Total_Donation_Amount</key>
+		<string>Importe total de la donación</string>
+		<key>Donate_Now</key>
+		<string>Dona ahora</string>
+		<key>Friday_time</key>
+		<string>Viernes hora de Salat</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>Toda suppilication</string>
+		<key>News_Detail</key>
+		<string>Detalle de noticias</string>
+		<key>Activity_Detail</key>
+		<string>Detalle de actividad</string>
+		<key>Previous</key>
+		<string>Anterior</string>
+		<key>Forward</key>
+		<string>Siguiente</string>
+		<key>Type_organization_name</key>
+		<string>Escriba el nombre de la organización aquí</string>
+		<key>Activities_Detail</key>
+		<string>Detalle de actividades</string>
+		<key>My_Quran</key>
+		<string>Mi Corán</string>
+		<key>Delete</key>
+		<string>Borrar</string>
+		<key>Username</key>
+		<string>Usuario</string>
+		<key>Enter_family_member</key>
+		<string>Ingrese miembro de la familia</string>
+		<key>profile</key>
+		<string>perfil</string>
+		<key>title</key>
+		<string>título</string>
+		<key>posts</key>
+		<string>publicaciones</string>
+		<key>follow</key>
+		<string>seguir</string>
+		<key>following</key>
+		<string>siguiendo</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>No se ha podido establecer la imagen de perfil. ¡Por favor, inténtalo de nuevo!</string>
+		<key>Select_image</key>
+		<string>Selecciona imagen</string>
+		<key>Take_picture</key>
+		<string>Haz un foto</string>
+		<key>Choose_gallery</key>
+		<string>Elije de la galería</string>
+		<key>Image_picker_option_missing</key>
+		<string>¡Falta la opción del selector de imágenes!</string>
+		<key>Add_note</key>
+		<string>Añade una nota</string>
+		<key>Track</key>
+		<string>Pista</string>
+		<key>skip</key>
+		<string>skip</string>
+		<key>select_category</key>
+		<string>Select category</string>
+		<key>select_country</key>
+		<string>Select country</string>
+		<key>Select state</key>
+		<string>Select state</string>
+		<key>street_Address</key>
+		<string>street Address</string>
+		<key>zip_code</key>
+		<string>código postal</string>
+		<key>select_city</key>
+		<string>Select City</string>
+		<key>submit</key>
+		<string>Submit</string>
+		<key>zakat_calc</key>
+		<string>Zakat Calculator</string>
+		<key>haji_umrah</key>
+		<string>Haji and Umrah</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>donation_amount</key>
+		<string>Importe de la donación</string>
+		<key>no_people</key>
+		<string>Number of people</string>
+		<key>prayer_name</key>
+		<string>Nombre de lad oraciones </string>
+		<key>Terms_con</key>
+		<string>Nombre de lad oraciones </string>
+		<key>login</key>
+		<string>Login</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>reply</key>
+		<string>Reply</string>
+		<key>prayer</key>
+		<string>Prayer</string>
+		<key>Book_business</key>
+		<string>Book Business</string>
+		<key>Follw_mosque</key>
+		<string>My Following Mosque</string>
+		<key>unfollow</key>
+		<string>Unfollow</string>
+		<key>Please_option</key>
+		<string>Please Select an option</string>
+		<key>mosque</key>
+		<string>oraciones</string>
+		<key>Business_organization</key>
+		<string>Business/organization</string>
+	</dict>
+	<key>bang</key>
+	<dict>
+		<key>Ummah</key>
+		<string>জাতি</string>
+		<key>Audio_test</key>
+		<string>অডিও উপলভ্য নয়</string>
+		<key>Business_organization</key>
+		<string>ব্যবসায়িক প্রতিষ্ঠান</string>
+		<key>Please_option</key>
+		<string>একটি বিকল্প নির্বাচন করুন</string>
+		<key>Home</key>
+		<string>বাড়ি</string>
+		<key>Dashboard</key>
+		<string>ড্যাশবোর্ড</string>
+		<key>Notifications</key>
+		<string>বিজ্ঞপ্তিগুলি</string>
+		<key>Please_wait</key>
+		<string>অনুগ্রহপূর্বক অপেক্ষা করুন</string>
+		<key>Close</key>
+		<string>ঘনিষ্ঠ</string>
+		<key>Clear</key>
+		<string>পরিষ্কার</string>
+		<key>No_Internet_Connection</key>
+		<string>কোনও ইন্টারনেট সংযোগ নেই</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>আপনার কাছে ইন্টারনেট সংযোগ নেই</string>
+		<key>Retry</key>
+		<string>পুনরায় চেষ্টা করা</string>
+		<key>Exit</key>
+		<string>বাহির</string>
+		<key>Yes</key>
+		<string>হ্যাঁ</string>
+		<key>No</key>
+		<string>না</string>
+		<key>First _name_not_entered</key>
+		<string>প্রথম নাম প্রবেশ করা হয়নি</string>
+		<key>Last_name_not_entered</key>
+		<string>পদবি প্রবেশ করানো হয়নি</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>দয়া করে একটি বৈধ ইমেল আইডি লিখুন</string>
+		<key>Forgot_your_password</key>
+		<string>আপনি কি পাসওয়ার্ড ভুলে গেছেন</string>
+		<key>Please_reset_password_token !</key>
+		<string>আপনার ইমেল প্রেরণ পাসওয়ার্ড টোকেন চেক করুন!</string>
+		<key>Reset_Password</key>
+		<string>পাসওয়ার্ড রিসেট করুন</string>
+		<key>Forget_Password</key>
+		<string>পাসওয়ার্ড ভুলে গেছেন</string>
+		<key>Please_register_email.</key>
+		<string>আপনার নিবন্ধের ইমেল প্রবেশ করুন।</string>
+		<key>Location_Open_GPS</key>
+		<string>অবস্থান উপলব্ধ নেই, জিপিএস খুলুন?</string>
+		<key>Activate_location_services</key>
+		<string>অবস্থান পরিষেবাগুলি ব্যবহার করতে জিপিএস সক্রিয় করবেন?</string>
+		<key>Log_in</key>
+		<string>প্রবেশ করুন</string>
+		<key>Register</key>
+		<string>নিবন্ধন</string>
+		<key>Password</key>
+		<string>পাসওয়ার্ড</string>
+		<key>Enter Email</key>
+		<string>ইমেইল প্রদান করুন</string>
+		<key>Go_settings</key>
+		<string>সেটিংস এ যান</string>
+		<key>app_settings</key>
+		<string>app_settings</string>
+		<key>Grant_Permissions</key>
+		<string>অনুদান অনুমতি</string>
+		<key>Loading</key>
+		<string>বোঝাই</string>
+		<key>Auto Code:</key>
+		<string>অটো কোড:</string>
+		<key>ID_Token:</key>
+		<string>আইডি টোকন:</string>
+		<key>Sign_Out</key>
+		<string>সাইন আউট</string>
+		<key>Disconnect</key>
+		<string>বিযুক্ত করা</string>
+		<key>Google_Logo</key>
+		<string>গুগল লোগো</string>
+		<key>Name</key>
+		<string>নাম</string>
+		<key>Log_Account</key>
+		<string>আপনার অ্যাকাউন্টে লগ ইন করুন</string>
+		<key>Enter_email_address_password_account</key>
+		<string>আপনার অ্যাকাউন্টে লগ ইন করতে আপনার ইমেল ঠিকানা এবং পাসওয়ার্ড লিখুন।</string>
+		<key>Or_with</key>
+		<string>অথবা সাথে লগ ইন করুন</string>
+		<key>I_am_a</key>
+		<string>আমি একজন</string>
+		<key>User</key>
+		<string>ব্যবহারকারী</string>
+		<key>Business_Owner</key>
+		<string>ব্যবসার মালিক</string>
+		<key>Mosque_Manager</key>
+		<string>মসজিদ পরিচালক</string>
+		<key>Continue</key>
+		<string>চালিয়ে</string>
+		<key>Signup</key>
+		<string>নিবন্ধন করুন</string>
+		<key>Sign_up</key>
+		<string>নিবন্ধন করুন</string>
+		<key>Enter_Phone</key>
+		<string>ফোন প্রবেশ করান</string>
+		<key>By_agree_term_conditions</key>
+		<string>অবিরত ক্লিক করে আপনি আমাদের শর্তাবলী সাথে একমত হন।</string>
+		<key>Or_Sign_up_with</key>
+		<string>বা সাইন আপ করুন</string>
+		<key>Create_New_Password</key>
+		<string>নতুন পাসওয়ার্ড তৈরি করুন</string>
+		<key>Enter_New_Password</key>
+		<string>নতুন পাসওয়ার্ড লিখুন</string>
+		<key>Enter_Verification_Code</key>
+		<string>আপনার যাচাইকরণ সংকেতটি প্রবেশ করুন</string>
+		<key>verification_email_address</key>
+		<string>আপনার ইমেল ঠিকানায় প্রেরিত যাচাইকরণ কোড লিখুন</string>
+		<key>Create_New_Account</key>
+		<string>নতুন অ্যাকাউন্ট তৈরি</string>
+		<key>Mosque_Name</key>
+		<string>মসজিদের নাম</string>
+		<key>Name_Contact_Person</key>
+		<string>নাম পরিচিতি ব্যক্তি</string>
+		<key>Zip_code</key>
+		<string>জিপ কোড</string>
+		<key>or</key>
+		<string>অথবা</string>
+		<key>Choose_location_automatically</key>
+		<string>স্বয়ংক্রিয়ভাবে অবস্থান চয়ন করুন</string>
+		<key>Type_mosque_name</key>
+		<string>মসজিদের নামটি টাইপ করুন</string>
+		<key>Zuhur</key>
+		<string>যোহরের নামাজ</string>
+		<key>Open_navigation_drawer</key>
+		<string>নেভিগেশন ড্রয়ার খুলুন</string>
+		<key>Find_a_mosque</key>
+		<string>একটি মসজিদ সন্ধান করুন</string>
+		<key>Today_Feed</key>
+		<string>আজকের ফিড</string>
+		<key>Bookmark</key>
+		<string>বুকমার্ক করুন</string>
+		<key>Search</key>
+		<string>অনুসন্ধান করুন</string>
+		<key>Prefs</key>
+		<string>অগ্রাধিকারগুলি</string>
+		<key>Quran</key>
+		<string>কুরআন</string>
+		<key>Community</key>
+		<string>সম্প্রদায়</string>
+		<key>Settings</key>
+		<string>সেটিংস</string>
+		<key>Qiblah</key>
+		<string>কিবলাহ</string>
+		<key>Quiz</key>
+		<string>ব্যঙ্গ</string>
+		<key>Personage</key>
+		<string>ব্যক্তি</string>
+		<key>Zakkat_Calculator</key>
+		<string>যাকাত ক্যালকুলেটর</string>
+		<key>Hajj_Umrah</key>
+		<string>হজ ও ওমরাহ</string>
+		<key>Supplication</key>
+		<string>মিনতি</string>
+		<key>Business</key>
+		<string>ব্যবসায়</string>
+		<key>Organization</key>
+		<string>সংগঠন</string>
+		<key>Donation</key>
+		<string>দান</string>
+		<key>Pray </key>
+		<string>প্রার্থনা করা</string>
+		<key>Select_Home_Mosque</key>
+		<string>হোম মসজিদ নির্বাচন করুন</string>
+		<key>Open</key>
+		<string>খোলা</string>
+		<key>Prayer_Time</key>
+		<string>নামাজের সময়</string>
+		<key>Surah</key>
+		<string>সূরা</string>
+		<key>General_Knowledge</key>
+		<string>সাধারণ জ্ঞান</string>
+		<key>Hajj_knowledge</key>
+		<string>হজ জ্ঞান</string>
+		<key>Religion_knowledge</key>
+		<string>ধর্ম জ্ঞান</string>
+		<key>Quran_knowledge</key>
+		<string>কুরআন জ্ঞান</string>
+		<key>Notification</key>
+		<string>প্রজ্ঞাপন</string>
+		<key>Language_App</key>
+		<string>অ্যাপ্লিকেশন এর ভাষা</string>
+		<key>Quran_Translation</key>
+		<string>কুরআন অনুবাদ</string>
+		<key>Prayer_Names</key>
+		<string>নামাজের নাম</string>
+		<key>Term_Condition</key>
+		<string>শব্দ এবং শর্ত</string>
+		<key>Language</key>
+		<string>ভাষা</string>
+		<key>Log_Out</key>
+		<string>প্রস্থান</string>
+		<key>What_Looking_For?</key>
+		<string>আপনি কি খুঁজছেন?</string>
+		<key>All</key>
+		<string>সব</string>
+		<key>Morning_Evening</key>
+		<string>সকাল সন্ধ্যা</string>
+		<key>Travel</key>
+		<string>ভ্রমণ</string>
+		<key>Home_Family</key>
+		<string>বাড়ি ও পরিবার</string>
+		<key>Joy_Distress</key>
+		<string>আনন্দ ও দু: খ</string>
+		<key>Prayer</key>
+		<string>প্রার্থনা</string>
+		<key>Praising_Allah</key>
+		<string>আল্লাহর প্রশংসা করছি</string>
+		<key>Nature</key>
+		<string>প্রকৃতি</string>
+		<key>Good_Etiquette</key>
+		<string>ভাল শিষ্টাচার</string>
+		<key>Food_Drink</key>
+		<string>খাদ্য পানীয়</string>
+		<key>Religion_clothing</key>
+		<string>ধর্মের পোশাক</string>
+		<key>Incense_Business</key>
+		<string>ধূপ ব্যবসা</string>
+		<key>My_favorite_Mosque</key>
+		<string>আমার প্রিয় মসজিদ</string>
+		<key>Enter_Mosque_Name</key>
+		<string>মসজিদের নাম প্রবেশ করান</string>
+		<key>Khutba</key>
+		<string>খুৎবা</string>
+		<key>Education</key>
+		<string>শিক্ষা</string>
+		<key>Activities</key>
+		<string>ক্রিয়াকলাপ</string>
+		<key>Rules_Game</key>
+		<string>খেলার নিয়ম</string>
+		<key>Let_Play</key>
+		<string>চল খেলি</string>
+		<key>Correct_Answer</key>
+		<string>সঠিক উত্তর</string>
+		<key>Replay</key>
+		<string>Replay</string>
+		<key>Wrong_Answer</key>
+		<string>আবার দেখাও</string>
+		<key>Done</key>
+		<string>সম্পন্ন</string>
+		<key>Profile</key>
+		<string>প্রোফাইল</string>
+		<key>My_Home_Mosque</key>
+		<string>আমার হোম মসজিদ</string>
+		<key>My_Donation</key>
+		<string>আমার দান</string>
+		<key>Following</key>
+		<string>অনুসরণ</string>
+		<key>Following_Mosque</key>
+		<string>অনুসরণ করা মসজিদ</string>
+		<key>Home_Mosque</key>
+		<string>হোম মসজিদ</string>
+		<key>Add_Home_Mosque</key>
+		<string>নতুন হোম মসজিদ যুক্ত করুন</string>
+		<key>Umrah</key>
+		<string>ওমরাহ</string>
+		<key>Hajj</key>
+		<string>হজ</string>
+		<key>A_request_pilgrims</key>
+		<string>তীর্থযাত্রীদের অনুরোধ</string>
+		<key>Departure_house</key>
+		<string>আপনার বাড়ি থেকে প্রস্থান</string>
+		<key>The_method_ihram</key>
+		<string>ইহরামের পদ্ধতি</string>
+		<key>The_ihram_men</key>
+		<string>পুরুষদের ইহরাম</string>
+		<key>The_ihram_women</key>
+		<string>মহিলাদের ইহরাম</string>
+		<key>The_ihram_children</key>
+		<string>বাচ্চাদের ইহরাম</string>
+		<key>The_three_type_hajj</key>
+		<string>তিন প্রকারের হজ্জ</string>
+		<key>Mine</key>
+		<string>খনি</string>
+		<key>Street_Address</key>
+		<string>রাস্তার ঠিকানা</string>
+		<key>Confirm_Password</key>
+		<string>পাসওয়ার্ড নিশ্চিত করুন</string>
+		<key>Login_Facebook</key>
+		<string>ফেসবুকের মাধ্যমে লগইন করুন</string>
+		<key>Login_Gmail</key>
+		<string>ইমেইলের মাধ্যমে লগইন করুন</string>
+		<key>Type_business_name</key>
+		<string>ব্যবসায়ের নাম এখানে টাইপ করুন</string>
+		<key>Map</key>
+		<string>মানচিত্র</string>
+		<key>Signup_Facebook</key>
+		<string>ফেসবুকের মাধ্যমে সাইনআপ করুন</string>
+		<key>Signup_Gmail</key>
+		<string>ইমেইল এর মাধ্যমে সাইন আপ করুন</string>
+		<key>Enter_Phone_Number</key>
+		<string>ফোন নম্বর প্রবেশ করান</string>
+		<key>Business_name</key>
+		<string>প্রাতিষ্ঠানিক নাম</string>
+		<key>New_Request</key>
+		<string>নতুন অনুরোধ</string>
+		<key>Enter_your_request</key>
+		<string>আপনার অনুরোধ লিখুন</string>
+		<key>Post</key>
+		<string>পোস্ট</string>
+		<key>Board</key>
+		<string>তক্তা</string>
+		<key>Prayer_Schedule</key>
+		<string>প্রার্থনার সময়সূচী</string>
+		<key>Current_Mosque</key>
+		<string>বর্তমান মসজিদ</string>
+		<key>Mosque_near_you</key>
+		<string>আপনার কাছে মসজিদ</string>
+		<key>Mosque_List</key>
+		<string>মসজিদ তালিকা</string>
+		<key>View_More</key>
+		<string>আরো দেখুন</string>
+		<key>Education_Detail</key>
+		<string>শিক্ষা বিশদ</string>
+		<key>Suggestions</key>
+		<string>পরামর্শ</string>
+		<key>Write_Message</key>
+		<string>বার্তা লিখুন</string>
+		<key>Associates</key>
+		<string>অ্যাসোসিয়েটস</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>যাকাত আল ফিতর</string>
+		<key>Select_payment_method</key>
+		<string>অর্থ প্রদানের পদ্ধতি নির্বাচন করুন</string>
+		<key>Donation_Now</key>
+		<string>অনুদান এখন</string>
+		<key>News</key>
+		<string>খবর</string>
+		<key>Course_Objective</key>
+		<string>কোর্সের উদ্দেশ্য</string>
+		<key>Methodology</key>
+		<string>প্রণালী বিজ্ঞান</string>
+		<key>Duration</key>
+		<string>স্থিতিকাল</string>
+		<key>Registration_Fee</key>
+		<string>নিবন্ধন ফি</string>
+		<key>Pre_requisites</key>
+		<string>প্রাক প্রয়োজনীয়তা</string>
+		<key>About_Instructor</key>
+		<string>প্রশিক্ষক সম্পর্কে</string>
+		<key>Calendar</key>
+		<string>পাঁজি</string>
+		<key>Total_Donation_Amount</key>
+		<string>মোট অনুদানের পরিমাণ</string>
+		<key>Donate_Now</key>
+		<string>এখনি দান করো</string>
+		<key>Friday_time</key>
+		<string>শুক্রবার নামাজের সময়</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>সমস্ত প্রার্থনা</string>
+		<key>News_Detail</key>
+		<string>সংবাদ বিশদ</string>
+		<key>Activity_Detail</key>
+		<string>ক্রিয়াকলাপ বিশদ</string>
+		<key>Previous</key>
+		<string>আগে</string>
+		<key>Forward</key>
+		<string>অগ্রবর্তী</string>
+		<key>Type_organization_name</key>
+		<string>প্রতিষ্ঠানের নামটি এখানে টাইপ করুন</string>
+		<key>Activities_Detail</key>
+		<string>ক্রিয়াকলাপ বিশদ</string>
+		<key>My_Quran</key>
+		<string>আমার কুরআন</string>
+		<key>Delete</key>
+		<string>মুছে ফেলা</string>
+		<key>Username</key>
+		<string>ব্যবহারকারীর নাম</string>
+		<key>Enter_family_member</key>
+		<string>পরিবারের সদস্য প্রবেশ করুন</string>
+		<key>profile</key>
+		<string>প্রোফাইল</string>
+		<key>title</key>
+		<string>শিরোনাম</string>
+		<key>posts</key>
+		<string>পোস্ট</string>
+		<key>follow</key>
+		<string>অনুসরণ করা</string>
+		<key>following</key>
+		<string>অনুসরণ</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>প্রোফাইল চিত্র সেট করতে অক্ষম। আবার চেষ্টা করুন!</string>
+		<key>Select_image</key>
+		<string>চিত্র নির্বাচন করুন</string>
+		<key>Take_picture</key>
+		<string>একটি ছবি তোল</string>
+		<key>Choose_gallery</key>
+		<string>গ্যালারী থেকে চয়ন করুন</string>
+		<key>Image_picker_option_missing</key>
+		<string>চিত্র চয়নকারী বিকল্প অনুপস্থিত!</string>
+		<key>Add_note</key>
+		<string>নোট যোগ করুন</string>
+		<key>Track</key>
+		<string>পথ</string>
+		<key>skip</key>
+		<string>লাফালাফি করা</string>
+		<key>select_category</key>
+		<string>বিভাগ নির্বাচন করুন</string>
+		<key>select_country</key>
+		<string>দেশ নির্বাচন করুন</string>
+		<key>Select state</key>
+		<string>রাজ্য নির্বাচন কর</string>
+		<key>street_Address</key>
+		<string>রাস্তার ঠিকানা</string>
+		<key>zip_code</key>
+		<string>জিপ কোড</string>
+		<key>select_city</key>
+		<string>শহর নির্বাচন করুন</string>
+		<key>submit</key>
+		<string>জমা দিন</string>
+		<key>zakat_calc</key>
+		<string>যাকাত ক্যালকুলেটর</string>
+		<key>haji_umrah</key>
+		<string>হাজী ও ওমরাহ রা</string>
+		<key>next</key>
+		<string>পরবর্তী</string>
+		<key>donation_amount</key>
+		<string>দানের পরিমাণ</string>
+		<key>no_people</key>
+		<string>জনগণের সংখ্যা</string>
+		<key>prayer_name</key>
+		<string>নামাজের নাম</string>
+		<key>Terms_con</key>
+		<string>শর্তাবলী</string>
+		<key>login</key>
+		<string>প্রবেশ করুন</string>
+		<key>logout</key>
+		<string>প্রস্থান</string>
+		<key>reply</key>
+		<string>উত্তর</string>
+		<key>prayer</key>
+		<string>প্রার্থনা</string>
+		<key>Book_business</key>
+		<string>বইয়ের ব্যবসা</string>
+		<key>Follw_mosque</key>
+		<string>আমার অনুসরণকারী মসজিদ</string>
+		<key>unfollow</key>
+		<string>অনুসরণ</string>
+		<key>mosque</key>
+		<string>মসজিদ</string>
+	</dict>
+	<key>urdu</key>
+	<dict>
+		<key>mosque</key>
+		<string>مسجد</string>
+		<key>Audio_test</key>
+		<string>آڈیو دستیاب نہیں ہے</string>
+		<key>Business_organization</key>
+		<string>کاروبار / تنظیم</string>
+		<key>Ummah</key>
+		<string>قوم</string>
+		<key>Please_option</key>
+		<string>براہ کرم کوئی آپشن منتخب کریں</string>
+		<key>Home</key>
+		<string>گھر</string>
+		<key>Dashboard</key>
+		<string>ڈیش بورڈ</string>
+		<key>Notifications</key>
+		<string>اطلاعات</string>
+		<key>Please_wait</key>
+		<string>برائے مہربانی انتظار کریں</string>
+		<key>Close</key>
+		<string>بند کریں</string>
+		<key>Clear</key>
+		<string>صاف</string>
+		<key>No_Internet_Connection</key>
+		<string>انٹرنیٹ کنکشن نہیں ہے</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>آپ کے پاس انٹرنیٹ کنیکشن نہیں ہے</string>
+		<key>Retry</key>
+		<string>دوبارہ کوشش کریں</string>
+		<key>Exit</key>
+		<string>باہر نکلیں</string>
+		<key>Yes</key>
+		<string>جی ہاں</string>
+		<key>No</key>
+		<string>نہیں</string>
+		<key>First _name_not_entered</key>
+		<string>پہلا نام داخل نہیں ہوا</string>
+		<key>Last_name_not_entered</key>
+		<string>آخری نام داخل نہیں ہوا</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>براہ کرم ایک درست ای میل ID درج کریں</string>
+		<key>Forgot_your_password</key>
+		<string>اپنا پاس ورڈ بھول گئے</string>
+		<key>Please_reset_password_token !</key>
+		<string>براہ کرم اپنا ای میل بھیجنے کے پاس ورڈ کا پاس ورڈ ٹوکن پڑھیں</string>
+		<key>Reset_Password</key>
+		<string>پاس ورڈ ری سیٹ</string>
+		<key>Forget_Password</key>
+		<string>پاس ورڈ بھول جانا</string>
+		<key>Please_register_email.</key>
+		<string>براہ کرم اپنا رجسٹر ای میل درج کریں۔</string>
+		<key>Location_Open_GPS</key>
+		<string>مقام دستیاب نہیں ہے ، جی پی ایس کھولیں؟</string>
+		<key>Activate_location_services</key>
+		<string>مقام کی خدمات کو استعمال کرنے کے لئے GPS کو چالو کریں؟</string>
+		<key>Log_in</key>
+		<string>لاگ ان کریں</string>
+		<key>Register</key>
+		<string>رجسٹر کریں</string>
+		<key>Password</key>
+		<string>پاس ورڈ</string>
+		<key>Enter Email</key>
+		<string>ای میل درج کریں</string>
+		<key>Go_settings</key>
+		<string>ترتیبات پر جائیں</string>
+		<key>app_settings</key>
+		<string>app_settings</string>
+		<key>Grant_Permissions</key>
+		<string>اجازت دیں</string>
+		<key>Loading</key>
+		<string>لوڈ ہو رہا ہے</string>
+		<key>Auto Code:</key>
+		<string>آٹو کوڈ:</string>
+		<key>ID_Token:</key>
+		<string>ID ٹوکن:</string>
+		<key>Sign_Out</key>
+		<string>باہر جائیں</string>
+		<key>Disconnect</key>
+		<string>منقطع ہونا</string>
+		<key>Google_Logo</key>
+		<string>گوگل لوگو</string>
+		<key>Name</key>
+		<string>نام</string>
+		<key>Log_Account</key>
+		<string>پ کے اکاؤنٹ میں لاگ ان کریں</string>
+		<key>Enter_email_address_password_account</key>
+		<string>اپنے اکاؤنٹ میں لاگ ان کرنے کے لئے اپنا ای میل ایڈریس اور پاس ورڈ درج کریں۔</string>
+		<key>Or_with</key>
+		<string>یا کے ساتھ لاگ ان کریں</string>
+		<key>I_am_a</key>
+		<string>میں ایک</string>
+		<key>User</key>
+		<string>صارف</string>
+		<key>Business_Owner</key>
+		<string>کاروباری مالک</string>
+		<key>Mosque_Manager</key>
+		<string>مسجد منیجر</string>
+		<key>Continue</key>
+		<string>جاری رہے</string>
+		<key>Signup</key>
+		<string>سائن اپ</string>
+		<key>Sign_up</key>
+		<string>سائن اپ</string>
+		<key>Enter_Phone</key>
+		<string>فون درج کریں</string>
+		<key>By_agree_term_conditions</key>
+		<string>جاری رکھنے پر کلک کرنے سے آپ ہمارے شرائط و ضوابط سے اتفاق کرتے ہیں۔</string>
+		<key>Or_Sign_up_with</key>
+		<string>یا اس کے ساتھ سائن اپ کریں</string>
+		<key>Create_New_Password</key>
+		<string>نیا پاس ورڈ بنائیں</string>
+		<key>Enter_New_Password</key>
+		<string>نیا پاس ورڈ درج کریں</string>
+		<key>Enter_Verification_Code</key>
+		<string>تصدیقی کوڈ درج کریں</string>
+		<key>verification_email_address</key>
+		<string>اپنے ای میل پتے پر بھیجا گیا توثیقی کوڈ درج کریں</string>
+		<key>Create_New_Account</key>
+		<string>نیا اکاؤنٹ بنانے</string>
+		<key>Mosque_Name</key>
+		<string>مسجد کا نام</string>
+		<key>Name_Contact_Person</key>
+		<string>شخص سے رابطہ کریں</string>
+		<key>Zip_code</key>
+		<string>زپ کوڈ</string>
+		<key>or</key>
+		<string>يا</string>
+		<key>Choose_location_automatically</key>
+		<string>خود بخود محل وقوع کا انتخاب کریں</string>
+		<key>Type_mosque_name</key>
+		<string>مسجد کا نام ٹائپ کریں</string>
+		<key>Zuhur</key>
+		<string>ظہور</string>
+		<key>Open_navigation_drawer</key>
+		<string>نیویگیشن دراز کھولیں</string>
+		<key>Find_a_mosque</key>
+		<string>ایک مسجد ڈھونڈو</string>
+		<key>Today_Feed</key>
+		<string>آج کی فیڈ</string>
+		<key>Bookmark</key>
+		<string>بُک مارک</string>
+		<key>Search</key>
+		<string>تلاش کریں</string>
+		<key>Prefs</key>
+		<string>پریفس</string>
+		<key>Quran</key>
+		<string>قرآن</string>
+		<key>Community</key>
+		<string>برادری</string>
+		<key>Settings</key>
+		<string>ترتیبات</string>
+		<key>Qiblah</key>
+		<string>قبلہ</string>
+		<key>Quiz</key>
+		<string>کوئز</string>
+		<key>Personage</key>
+		<string>شخصی</string>
+		<key>Zakkat_Calculator</key>
+		<string>زکات کیلکولیٹر</string>
+		<key>Hajj_Umrah</key>
+		<string>حج اور عمرہ</string>
+		<key>Supplication</key>
+		<string>دعا</string>
+		<key>Business</key>
+		<string>کاروبار</string>
+		<key>Organization</key>
+		<string>تنظیم</string>
+		<key>Donation</key>
+		<string>چندہ</string>
+		<key>Pray </key>
+		<string>دعا کرو</string>
+		<key>Select_Home_Mosque</key>
+		<string>ہوم مسجد منتخب کریں</string>
+		<key>Open</key>
+		<string>کھولو</string>
+		<key>Prayer_Time</key>
+		<string>نماز کا وقت</string>
+		<key>Surah</key>
+		<string>سور.</string>
+		<key>General_Knowledge</key>
+		<string>معلومات عامہ</string>
+		<key>Hajj_knowledge</key>
+		<string>حج علم</string>
+		<key>Religion_knowledge</key>
+		<string>مذہب کا علم</string>
+		<key>Quran_knowledge</key>
+		<string>قرآن مجید کا علم</string>
+		<key>Notification</key>
+		<string>اطلاع</string>
+		<key>Language_App</key>
+		<string>ایپ کی زبان</string>
+		<key>Quran_Translation</key>
+		<string>قرآن ترجمہ</string>
+		<key>Prayer_Names</key>
+		<string>نماز کے نام</string>
+		<key>Term_Condition</key>
+		<string>اصطلاح اور حالت</string>
+		<key>Language</key>
+		<string>زبان</string>
+		<key>Log_Out</key>
+		<string>لاگ آوٹ</string>
+		<key>What_Looking_For?</key>
+		<string>آپ کیا ڈھونڈ رہے ہیں؟</string>
+		<key>All</key>
+		<string>سب</string>
+		<key>Morning_Evening</key>
+		<string>صبح اور شام</string>
+		<key>Travel</key>
+		<string>سفر</string>
+		<key>Home_Family</key>
+		<string>گھر اور کنبہ</string>
+		<key>Joy_Distress</key>
+		<string>خوشی اور پریشانی</string>
+		<key>Prayer</key>
+		<string>دعا</string>
+		<key>Praising_Allah</key>
+		<string>اللہ کی حمد کرنا</string>
+		<key>Nature</key>
+		<string>فطرت</string>
+		<key>Good_Etiquette</key>
+		<string>اچھے آداب</string>
+		<key>Food_Drink</key>
+		<string>فوڈ اینڈ ڈرنک</string>
+		<key>Religion_clothing</key>
+		<string>مذہب کا لباس</string>
+		<key>Incense_Business</key>
+		<string>بخور کاروبار</string>
+		<key>My_favorite_Mosque</key>
+		<string>میری پسندیدہ مسجد</string>
+		<key>Enter_Mosque_Name</key>
+		<string>مسجد کا نام درج کریں</string>
+		<key>Khutba</key>
+		<string>خطبہ</string>
+		<key>Education</key>
+		<string>تعلیم</string>
+		<key>Activities</key>
+		<string>سرگرمیاں</string>
+		<key>Rules_Game</key>
+		<string>کھیل کے اصول</string>
+		<key>Let_Play</key>
+		<string>چلو کھیلتے ہیں</string>
+		<key>Correct_Answer</key>
+		<string>درست جواب</string>
+		<key>Replay</key>
+		<string>دوبارہ چلائیں</string>
+		<key>Wrong_Answer</key>
+		<string>غلط جواب</string>
+		<key>Done</key>
+		<string>ہو گیا</string>
+		<key>Profile</key>
+		<string>پروفائل</string>
+		<key>My_Home_Mosque</key>
+		<string>میری ہوم مسجد</string>
+		<key>My_Donation</key>
+		<string>میرا عطیہ</string>
+		<key>Following</key>
+		<string>درج ذیل</string>
+		<key>Following_Mosque</key>
+		<string>مندرجہ ذیل مسجد</string>
+		<key>Home_Mosque</key>
+		<string>ہوم مسجد</string>
+		<key>Add_Home_Mosque</key>
+		<string>نئی ہوم مسجد شامل کریں</string>
+		<key>Umrah</key>
+		<string>عمرہ</string>
+		<key>Hajj</key>
+		<string>حج</string>
+		<key>A_request_pilgrims</key>
+		<string>زائرین کی ایک درخواست</string>
+		<key>Departure_house</key>
+		<string>آپ کے گھر سے روانگی</string>
+		<key>The_method_ihram</key>
+		<string>احرام کا طریقہ</string>
+		<key>The_ihram_men</key>
+		<string>مردوں کا احرام</string>
+		<key>The_ihram_women</key>
+		<string>عورتوں کا احرام</string>
+		<key>The_ihram_children</key>
+		<string>بچوں کا احرام</string>
+		<key>The_three_type_hajj</key>
+		<string>حج کی تین قسمیں</string>
+		<key>Mine</key>
+		<string>میرا</string>
+		<key>Street_Address</key>
+		<string>گلی کا پتہ</string>
+		<key>Confirm_Password</key>
+		<string>پاس ورڈ کی تصدیق کریں</string>
+		<key>Login_Facebook</key>
+		<string>فیس بک کے ذریعے لاگ ان کریں</string>
+		<key>Login_Gmail</key>
+		<string>جی میل کے ذریعے لاگ ان کریں</string>
+		<key>Type_business_name</key>
+		<string>کاروبار کا نام یہاں ٹائپ کریں</string>
+		<key>Map</key>
+		<string>نقشہ</string>
+		<key>Signup_Facebook</key>
+		<string>فیس بک کے ذریعے سائن اپ کریں</string>
+		<key>Signup_Gmail</key>
+		<string>جی میل کے ذریعے سائن اپ کریں</string>
+		<key>Enter_Phone_Number</key>
+		<string>فون نمبر درج کریں</string>
+		<key>Business_name</key>
+		<string>کاروبار کا نام</string>
+		<key>New_Request</key>
+		<string>نئی درخواست</string>
+		<key>Enter_your_request</key>
+		<string>اپنی درخواست درج کریں</string>
+		<key>Post</key>
+		<string>پوسٹ</string>
+		<key>Board</key>
+		<string>بورڈ</string>
+		<key>Prayer_Schedule</key>
+		<string>نماز کا نظام الاوقات</string>
+		<key>Current_Mosque</key>
+		<string>موجودہ مسجد</string>
+		<key>Mosque_near_you</key>
+		<string>آپ کے قریب مسجد</string>
+		<key>Mosque_List</key>
+		<string>مسجد کی فہرست</string>
+		<key>View_More</key>
+		<string>مزید دیکھیں</string>
+		<key>Education_Detail</key>
+		<string>تعلیم کی تفصیل</string>
+		<key>Suggestions</key>
+		<string>تجاویز</string>
+		<key>Write_Message</key>
+		<string>پیغام لکھیں</string>
+		<key>Associates</key>
+		<string>ایسوسی ایٹس</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>زکوٰ Al الفطر</string>
+		<key>Select_payment_method</key>
+		<string>ادائیگی کا طریقہ منتخب کریں</string>
+		<key>Donation_Now</key>
+		<string>اب چندہ</string>
+		<key>News</key>
+		<string>خبریں</string>
+		<key>Course_Objective</key>
+		<string>کورس کا مقصد</string>
+		<key>Methodology</key>
+		<string>طریقہ کار</string>
+		<key>Duration</key>
+		<string>دورانیہ</string>
+		<key>Registration_Fee</key>
+		<string>رجسٹریشن فیس</string>
+		<key>Pre_requisites</key>
+		<string>ضروری شرائط</string>
+		<key>About_Instructor</key>
+		<string>انسٹرکٹر کے بارے میں</string>
+		<key>Calendar</key>
+		<string>کیلنڈر</string>
+		<key>Total_Donation_Amount</key>
+		<string>عطیہ کی کل رقم</string>
+		<key>Donate_Now</key>
+		<string>ابھی عطیہ کیجیے</string>
+		<key>Friday_time</key>
+		<string>جمعہ کی نماز کا وقت</string>
+		<key>WIS_TV</key>
+		<string>WIS TV</string>
+		<key>All_Supplication</key>
+		<string>تمام دعائیں</string>
+		<key>News_Detail</key>
+		<string>خبر کی تفصیل</string>
+		<key>Activity_Detail</key>
+		<string>سرگرمی کی تفصیل</string>
+		<key>Previous</key>
+		<string>پچھلا</string>
+		<key>Forward</key>
+		<string>آگے</string>
+		<key>Type_organization_name</key>
+		<string>تنظیم کا نام یہاں ٹائپ کریں</string>
+		<key>Activities_Detail</key>
+		<string>سرگرمیاں تفصیل</string>
+		<key>My_Quran</key>
+		<string>میرا قرآن</string>
+		<key>Delete</key>
+		<string>حذف کریں</string>
+		<key>Username</key>
+		<string>صارف نام</string>
+		<key>Enter_family_member</key>
+		<string>کنبہ کے ممبر کو داخل کریں</string>
+		<key>profile</key>
+		<string>پروفائل</string>
+		<key>title</key>
+		<string>عنوان</string>
+		<key>posts</key>
+		<string>پوسٹس</string>
+		<key>follow</key>
+		<string>پیروی</string>
+		<key>following</key>
+		<string>درج ذیل</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>پروفائل امیج سیٹ کرنے سے قاصر ہے۔ دوبارہ کوشش کریں!</string>
+		<key>Select_image</key>
+		<string>تصویر منتخب کریں</string>
+		<key>Take_picture</key>
+		<string>تصویر کھینچنا</string>
+		<key>Choose_gallery</key>
+		<string>گیلری سے انتخاب کریں</string>
+		<key>Image_picker_option_missing</key>
+		<string>تصویری چننے والا آپشن غائب ہے!</string>
+		<key>Add_note</key>
+		<string>نوٹ شامل</string>
+		<key>Track</key>
+		<string>ٹریک</string>
+		<key>skip</key>
+		<string>چھوڑ دو</string>
+		<key>select_category</key>
+		<string>زمرہ منتخب کریں</string>
+		<key>select_country</key>
+		<string>ملک کا انتخاب کیجئے</string>
+		<key>Select state</key>
+		<string>ریاست منتخب کریں</string>
+		<key>street_Address</key>
+		<string>پتہ منتخب کریں</string>
+		<key>zip_code</key>
+		<string>زپ کوڈ</string>
+		<key>select_city</key>
+		<string>شہر منتخب کریں</string>
+		<key>submit</key>
+		<string>جمع کرائیں</string>
+		<key>zakat_calc</key>
+		<string>زکوat کیلکولیٹر</string>
+		<key>haji_umrah</key>
+		<string>حاجی اور عمرہ</string>
+		<key>next</key>
+		<string>اگلے</string>
+		<key>donation_amount</key>
+		<string>عطیہ کی رقم</string>
+		<key>no_people</key>
+		<string>لوگوں کی تعداد</string>
+		<key>prayer_name</key>
+		<string>نماز کے نام</string>
+		<key>Terms_con</key>
+		<string>شرائط و ضوابط</string>
+		<key>login</key>
+		<string>لاگ ان کریں</string>
+		<key>logout</key>
+		<string>لاگ آوٹ</string>
+		<key>reply</key>
+		<string>جواب دیں</string>
+		<key>prayer</key>
+		<string>دعا</string>
+		<key>Book_business</key>
+		<string>کتاب کا کاروبار</string>
+		<key>Follw_mosque</key>
+		<string>میری پیروی کرنے والی مسجد</string>
+		<key>unfollow</key>
+		<string>غیر مسدود کریں</string>
+	</dict>
+	<key>hin</key>
+	<dict>
+		<key>Business_organization</key>
+		<string>व्यावसायिक संगठन</string>
+		<key>Audio_test</key>
+		<string>ऑडियो उपलब्ध नहीं है</string>
+		<key>Ummah</key>
+		<string>राष्ट्र</string>
+		<key>mosque</key>
+		<string>मस्जिद</string>
+		<key>Please_option</key>
+		<string>कृपया एक विकल्प चुनें</string>
+		<key>Qiblah</key>
+		<string>क़िबला</string>
+		<key>unfollow</key>
+		<string>करें</string>
+		<key>Follw_mosque</key>
+		<string>माई फॉलो मस्जिद</string>
+		<key>Book_business</key>
+		<string>बुक बिजनेस</string>
+		<key>prayer</key>
+		<string>प्रार्थना</string>
+		<key>reply</key>
+		<string>जवाब दे दो</string>
+		<key>logout</key>
+		<string>लॉग आउट</string>
+		<key>login</key>
+		<string>लॉग इन करें</string>
+		<key>no_people</key>
+		<string>लोगों की संख्या</string>
+		<key>Terms_con</key>
+		<string>नियम व शर्तें</string>
+		<key>prayer_name</key>
+		<string>प्रार्थना के नाम</string>
+		<key>donation_amount</key>
+		<string>दान की राशि</string>
+		<key>next</key>
+		<string>आगे</string>
+		<key>haji_umrah</key>
+		<string>हाजी और उमराह</string>
+		<key>zakat_calc</key>
+		<string>ज़कात कैलकुलेटर</string>
+		<key>submit</key>
+		<string>प्रस्तुत</string>
+		<key>select_city</key>
+		<string>शहर चुनें</string>
+		<key>Home</key>
+		<string>घर</string>
+		<key>Dashboard</key>
+		<string>डैशबोर्ड</string>
+		<key>Notifications</key>
+		<string>सूचनाएं</string>
+		<key>Please_wait</key>
+		<string>कृपया प्रतीक्षा करें</string>
+		<key>Close</key>
+		<string>बंद करे</string>
+		<key>Clear</key>
+		<string>स्पष्ट</string>
+		<key>No_Internet_Connection</key>
+		<string>कोई इंटरनेट कनेक्शन नहीं</string>
+		<key> don&apos;t_ internet_connection</key>
+		<string>आपके पास इंटरनेट कनेक्शन नहीं है</string>
+		<key>Retry</key>
+		<string>पुन: प्रयास करें</string>
+		<key>Exit</key>
+		<string>बाहर जाएं</string>
+		<key>Yes</key>
+		<string>हाँ</string>
+		<key>No</key>
+		<string>नहीं</string>
+		<key>First _name_not_entered</key>
+		<string>पहला नाम दर्ज नहीं किया गया</string>
+		<key>Last_name_not_entered</key>
+		<string>अंतिम नाम दर्ज नहीं किया गया</string>
+		<key>Please_enter_a_valid_email_ID</key>
+		<string>कृपया मान्य ईमेल पता दर्ज करें</string>
+		<key>Forgot_your_password</key>
+		<string>पासवर्ड भूल गए हैं</string>
+		<key>Please_reset_password_token !</key>
+		<string>कृपया अपना ईमेल भेजें रीसेट पासवर्ड टोकन देखें!</string>
+		<key>Reset_Password</key>
+		<string>पासवर्ड रीसेट</string>
+		<key>Forget_Password</key>
+		<string>पासवर्ड भूल गए</string>
+		<key>Please_register_email.</key>
+		<string>कृपया अपना रजिस्टर ईमेल दर्ज करें।</string>
+		<key>Location_Open_GPS</key>
+		<string>स्थान उपलब्ध नहीं है, GPS खोलें?</string>
+		<key>Activate_location_services</key>
+		<string>स्थान सेवाओं का उपयोग करने के लिए GPS सक्रिय करें?</string>
+		<key>Log_in</key>
+		<string>लॉग इन करें</string>
+		<key>Register</key>
+		<string>रजिस्टर करें</string>
+		<key>Password</key>
+		<string>कुंजिका</string>
+		<key>Enter Email</key>
+		<string>ईमेल दर्ज करें</string>
+		<key>Go_settings</key>
+		<string>सेटिंग्स में जाओ</string>
+		<key>app_settings</key>
+		<string>इस ऐप को इस सुविधा का उपयोग करने के लिए अनुमति की आवश्यकता है। आप उन्हें एप्लिकेशन सेटिंग में अनुदान दे सकते हैं।</string>
+		<key>Grant_Permissions</key>
+		<string>अनुदान अनुमतियाँ</string>
+		<key>Loading</key>
+		<string>लोड हो रहा है</string>
+		<key>Auto Code:</key>
+		<string>ऑटो कोड:</string>
+		<key>ID_Token:</key>
+		<string>आईडी टोकन:</string>
+		<key>Sign_Out</key>
+		<string>प्रस्थान करें</string>
+		<key>Disconnect</key>
+		<string>डिस्कनेक्ट</string>
+		<key>Google_Logo</key>
+		<string>गूगल लोगो</string>
+		<key>Name</key>
+		<string>नाम</string>
+		<key>Log_Account</key>
+		<string>अपने खाते में प्रवेश करें</string>
+		<key>Enter_email_address_password_account</key>
+		<string>अपने खाते में लॉग इन करने के लिए अपना ईमेल पता और पासवर्ड दर्ज करें।</string>
+		<key>Or_with</key>
+		<string>या साथ में लॉग इन करें</string>
+		<key>I_am_a</key>
+		<string>मैं एक</string>
+		<key>User</key>
+		<string>उपयोगकर्ता</string>
+		<key>Business_Owner</key>
+		<string>व्यवसाय के मालिक</string>
+		<key>Mosque_Manager</key>
+		<string>मस्जिद प्रबंधक</string>
+		<key>Continue</key>
+		<string>जारी रखें</string>
+		<key>Signup</key>
+		<string>साइन अप करें</string>
+		<key>Sign_up</key>
+		<string>साइन अप करें</string>
+		<key>Enter_Phone</key>
+		<string>फ़ोन दर्ज करें</string>
+		<key>By_agree_term_conditions</key>
+		<string>क्लिक करके जारी रखें कि आप हमारे नियमों और शर्तों से सहमत हैं।</string>
+		<key>Or_Sign_up_with</key>
+		<string>या के साथ साइन अप करें</string>
+		<key>Create_New_Password</key>
+		<string>नया पासवर्ड बनाएं</string>
+		<key>Enter_New_Password</key>
+		<string>नया पासवर्ड दर्ज करें</string>
+		<key>Enter_Verification_Code</key>
+		<string>सत्यापन कोड दर्ज करें</string>
+		<key>verification_email_address</key>
+		<string>अपने ईमेल पते पर भेजा गया सत्यापन कोड डालें</string>
+		<key>Create_New_Account</key>
+		<string>नया खाता बनाएँ</string>
+		<key>Mosque_Name</key>
+		<string>मस्जिद का नाम</string>
+		<key>Name_Contact_Person</key>
+		<string>नाम संपर्क व्यक्ति</string>
+		<key>Zip_code</key>
+		<string>पिन कोड</string>
+		<key>or</key>
+		<string>या</string>
+		<key>Choose_location_automatically</key>
+		<string>स्वचालित रूप से स्थान चुनें</string>
+		<key>Type_mosque_name</key>
+		<string>मस्जिद का नाम टाइप करें</string>
+		<key>Zuhur</key>
+		<string>जुहर की नमाज</string>
+		<key>Open_navigation_drawer</key>
+		<string>नेविगेशन दराज खोलें</string>
+		<key>Find_a_mosque</key>
+		<string>एक मस्जिद ढूंढो</string>
+		<key>Today_Feed</key>
+		<string>आज का खाना</string>
+		<key>Bookmark</key>
+		<string>बुकमार्क</string>
+		<key>Search</key>
+		<string>खोज</string>
+		<key>Prefs</key>
+		<string>वरीयता</string>
+		<key>Quran</key>
+		<string>कुरान</string>
+		<key>Community</key>
+		<string>समुदाय</string>
+		<key>Settings</key>
+		<string>समायोजन</string>
+		<key>Quiz</key>
+		<string>प्रश्नोत्तरी</string>
+		<key>Personage</key>
+		<string>व्यक्ति</string>
+		<key>Zakkat_Calculator</key>
+		<string>ज़कात का कैलकुलेटर</string>
+		<key>Hajj_Umrah</key>
+		<string>हज और उमराह</string>
+		<key>Supplication</key>
+		<string>प्रार्थना</string>
+		<key>Business</key>
+		<string>व्यापार</string>
+		<key>Organization</key>
+		<string>संगठन</string>
+		<key>Donation</key>
+		<string>दान</string>
+		<key>Pray </key>
+		<string>प्रार्थना करना</string>
+		<key>Select_Home_Mosque</key>
+		<string>होम मस्जिद का चयन करें</string>
+		<key>Open</key>
+		<string>खुला हुआ</string>
+		<key>Prayer_Time</key>
+		<string>प्रार्थना का समय</string>
+		<key>Surah</key>
+		<string>सूरा</string>
+		<key>General_Knowledge</key>
+		<string>सामान्य ज्ञान</string>
+		<key>Hajj_knowledge</key>
+		<string>हज ज्ञान</string>
+		<key>Religion_knowledge</key>
+		<string>धर्म का ज्ञान</string>
+		<key>Quran_knowledge</key>
+		<string>कुरान ज्ञान</string>
+		<key>Notification</key>
+		<string>अधिसूचना</string>
+		<key>Language_App</key>
+		<string>ऐप की भाषा</string>
+		<key>Quran_Translation</key>
+		<string>कुरान अनुवाद</string>
+		<key>Prayer_Names</key>
+		<string>प्रार्थना के नाम</string>
+		<key>Term_Condition</key>
+		<string>नियम और शर्तें</string>
+		<key>Language</key>
+		<string>भाषा: हिन्दी</string>
+		<key>Log_Out</key>
+		<string>लॉग आउट</string>
+		<key>What_Looking_For?</key>
+		<string>तुम क्या ढूंढ रहे हो?</string>
+		<key>All</key>
+		<string>सब</string>
+		<key>Morning_Evening</key>
+		<string>सुबह शाम</string>
+		<key>Travel</key>
+		<string>यात्रा</string>
+		<key>Home_Family</key>
+		<string>घर और परिवार</string>
+		<key>Joy_Distress</key>
+		<string>खुशी और संकट</string>
+		<key>Prayer</key>
+		<string>प्रार्थना</string>
+		<key>Praising_Allah</key>
+		<string>अल्लाह की प्रशंसा करना</string>
+		<key>Nature</key>
+		<string>प्रकृति</string>
+		<key>Good_Etiquette</key>
+		<string>अच्छा शिष्टाचार</string>
+		<key>Food_Drink</key>
+		<string>खाद्य पेय</string>
+		<key>Religion_clothing</key>
+		<string>धर्म के कपड़े</string>
+		<key>Incense_Business</key>
+		<string>धूप व्यापार</string>
+		<key>My_favorite_Mosque</key>
+		<string>मेरी पसंदीदा मस्जिद</string>
+		<key>Enter_Mosque_Name</key>
+		<string>मस्जिद का नाम दर्ज करें</string>
+		<key>Khutba</key>
+		<string>भाषण</string>
+		<key>Education</key>
+		<string>शिक्षा</string>
+		<key>Activities</key>
+		<string>क्रियाएँ</string>
+		<key>Rules_Game</key>
+		<string>खेल के नियम</string>
+		<key>Let_Play</key>
+		<string>चलो खेलें</string>
+		<key>Correct_Answer</key>
+		<string>सही उत्तर</string>
+		<key>Replay</key>
+		<string>फिर से खेलना</string>
+		<key>Wrong_Answer</key>
+		<string>गलत जवाब</string>
+		<key>Done</key>
+		<string>किया हुआ</string>
+		<key>Profile</key>
+		<string>प्रोफ़ाइल</string>
+		<key>My_Home_Mosque</key>
+		<string>मेरा घर मस्जिद</string>
+		<key>My_Donation</key>
+		<string>मेरा दान</string>
+		<key>Following</key>
+		<string>निम्नलिखित</string>
+		<key>Following_Mosque</key>
+		<string>मस्जिद का अनुसरण</string>
+		<key>Home_Mosque</key>
+		<string>घर की मस्जिद</string>
+		<key>Add_Home_Mosque</key>
+		<string>नई होम मस्जिद जोड़ें</string>
+		<key>Umrah</key>
+		<string>उमराह</string>
+		<key>Hajj</key>
+		<string>हज</string>
+		<key>A_request_pilgrims</key>
+		<string>तीर्थ यात्रियों का एक अनुरोध</string>
+		<key>Departure_house</key>
+		<string>अपने घर से प्रस्थान</string>
+		<key>The_method_ihram</key>
+		<string>इहराम की विधि</string>
+		<key>The_ihram_men</key>
+		<string>पुरुषों का इहराम</string>
+		<key>The_ihram_women</key>
+		<string>महिलाओं का इहराम</string>
+		<key>The_ihram_children</key>
+		<string>बच्चों का इहराम</string>
+		<key>The_three_type_hajj</key>
+		<string>तीन प्रकार की हज</string>
+		<key>Mine</key>
+		<string>मेरी</string>
+		<key>Street_Address</key>
+		<string>गली का पता</string>
+		<key>Confirm_Password</key>
+		<string>पासवर्ड की पुष्टि कीजिये</string>
+		<key>Login_Facebook</key>
+		<string>फेसबुक के माध्यम से लॉगिन करें</string>
+		<key>Login_Gmail</key>
+		<string>जीमेल  के माध्यम से लॉगिन करें </string>
+		<key>Type_business_name</key>
+		<string>यहां व्यवसाय का नाम लिखें</string>
+		<key>Map</key>
+		<string>नक्शा</string>
+		<key>Signup_Facebook</key>
+		<string>फेसबुक के माध्यम से साइनअप</string>
+		<key>Signup_Gmail</key>
+		<string>जीमेल के माध्यम से साइनअप करें </string>
+		<key>Enter_Phone_Number</key>
+		<string>फोन नंबर दर्ज</string>
+		<key>Business_name</key>
+		<string>व्यवास्यक नाम</string>
+		<key>New_Request</key>
+		<string>नई विनती</string>
+		<key>Enter_your_request</key>
+		<string>अपना अनुरोध दर्ज करें</string>
+		<key>Post</key>
+		<string>पद</string>
+		<key>Board</key>
+		<string>मंडल</string>
+		<key>Prayer_Schedule</key>
+		<string>प्रार्थना अनुसूची</string>
+		<key>Current_Mosque</key>
+		<string>वर्तमान मस्जिद</string>
+		<key>Mosque_near_you</key>
+		<string>तुम्हारे पास मस्जिद</string>
+		<key>Mosque_List</key>
+		<string>मस्जिद सूची</string>
+		<key>View_More</key>
+		<string>और देखो</string>
+		<key>Education_Detail</key>
+		<string>शिक्षा विस्तार</string>
+		<key>Suggestions</key>
+		<string>सुझाव</string>
+		<key>Write_Message</key>
+		<string>संदेश लिखो</string>
+		<key>Associates</key>
+		<string>एसोसिएट्स</string>
+		<key>Zakat_Al_Fitr</key>
+		<string>ज़कात अल फ़ित्र</string>
+		<key>Select_payment_method</key>
+		<string>भुगतान का तरीका चुनें</string>
+		<key>Donation_Now</key>
+		<string>अब दान करें</string>
+		<key>News</key>
+		<string>समाचार</string>
+		<key>Course_Objective</key>
+		<string>पाठ्यक्रम का उद्देश्य</string>
+		<key>Methodology</key>
+		<string>क्रियाविधि</string>
+		<key>Duration</key>
+		<string>अवधि</string>
+		<key>Registration_Fee</key>
+		<string>पंजीयन शुल्क</string>
+		<key>Pre_requisites</key>
+		<string>पूर्व आवश्यकताएं</string>
+		<key>About_Instructor</key>
+		<string>प्रशिक्षक के बारे में</string>
+		<key>Calendar</key>
+		<string>पंचांग</string>
+		<key>Total_Donation_Amount</key>
+		<string>कुल दान राशि</string>
+		<key>Donate_Now</key>
+		<string>अभी दान कीजिए</string>
+		<key>Friday_time</key>
+		<string>शुक्रवार प्रार्थना का समय</string>
+		<key>WIS_TV</key>
+		<string>WIS टी.वी.</string>
+		<key>All_Supplication</key>
+		<string>सभी दमन</string>
+		<key>News_Detail</key>
+		<string>समाचार विस्तार से</string>
+		<key>Activity_Detail</key>
+		<string>गतिविधि विस्तार</string>
+		<key>Previous</key>
+		<string>पिछला</string>
+		<key>Forward</key>
+		<string>आगे</string>
+		<key>Type_organization_name</key>
+		<string>यहां संगठन का नाम लिखें</string>
+		<key>Activities_Detail</key>
+		<string>क्रियाएँ विस्तार</string>
+		<key>My_Quran</key>
+		<string>मेरी कुरान</string>
+		<key>Delete</key>
+		<string>हटाएं</string>
+		<key>Username</key>
+		<string>उपयोगकर्ता नाम</string>
+		<key>Enter_family_member</key>
+		<string>परिवार के सदस्य को दर्ज करें</string>
+		<key>profile</key>
+		<string>प्रोफ़ाइल</string>
+		<key>title</key>
+		<string>शीर्षक</string>
+		<key>posts</key>
+		<string>पदों</string>
+		<key>follow</key>
+		<string>का पालन करें</string>
+		<key>following</key>
+		<string>निम्नलिखित</string>
+		<key>Unable_profile image_Please_again!</key>
+		<string>प्रोफ़ाइल छवि सेट करने में असमर्थ। कृपया पुन: प्रयास करें!</string>
+		<key>Select_image</key>
+		<string>छवि चुने</string>
+		<key>Take_picture</key>
+		<string>एक तस्वीर ले लो</string>
+		<key>Choose_gallery</key>
+		<string>गैलरी से चयन करो</string>
+		<key>Image_picker_option_missing</key>
+		<string>छवि पिकर विकल्प गायब है!</string>
+		<key>Add_note</key>
+		<string>नोट जोड़े</string>
+		<key>Track</key>
+		<string>धावन पथ</string>
+		<key>skip</key>
+		<string>छोड़ें</string>
+		<key>select_category</key>
+		<string>श्रेणी का चयन करें</string>
+		<key>select_country</key>
+		<string>देश चुनिए</string>
+		<key>Select_state</key>
+		<string>राज्य चुनें</string>
+		<key>street_Address</key>
+		<string>गली का पता</string>
+		<key>zip_code</key>
+		<string>पिन कोड</string>
+	</dict>
+</dict>
+</plist>

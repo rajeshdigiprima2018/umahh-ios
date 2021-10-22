@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KhutbaVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="tblKhutba" destination="H0c-26-Uoc" id="orp-AU-kxX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7u-JG-9le">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mosque BG" translatesAutoresizingMaskIntoConstraints="NO" id="K4z-Gh-AGf">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday Salat Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYb-as-ILa">
+                            <rect key="frame" x="54" y="67" width="212" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="t5j-ti-hsN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nov 8, 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2p-YF-1aR">
+                            <rect key="frame" x="54" y="72" width="212" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="uMB-ZU-d34"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4x8-XJ-3NV">
+                            <rect key="frame" x="0.0" y="89" width="320" height="0.0"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="EFw-6U-ikA"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="55" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H0c-26-Uoc">
+                            <rect key="frame" x="20" y="104" width="280" height="444"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="rB5-wY-RRC"/>
+                                <outlet property="delegate" destination="-1" id="GAe-uh-Whh"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="QYb-as-ILa" secondAttribute="trailing" constant="54" id="5Kr-mT-q3O"/>
+                        <constraint firstItem="QYb-as-ILa" firstAttribute="top" secondItem="w7u-JG-9le" secondAttribute="top" constant="67" id="Et5-Bb-rnb"/>
+                        <constraint firstAttribute="trailing" secondItem="K4z-Gh-AGf" secondAttribute="trailing" id="IYe-P3-PlH"/>
+                        <constraint firstItem="R2p-YF-1aR" firstAttribute="leading" secondItem="w7u-JG-9le" secondAttribute="leading" constant="54" id="Idg-dt-cAL"/>
+                        <constraint firstItem="H0c-26-Uoc" firstAttribute="top" secondItem="4x8-XJ-3NV" secondAttribute="bottom" constant="15" id="JCj-3n-axo"/>
+                        <constraint firstItem="K4z-Gh-AGf" firstAttribute="leading" secondItem="w7u-JG-9le" secondAttribute="leading" id="NCD-gd-VzW"/>
+                        <constraint firstAttribute="trailing" secondItem="4x8-XJ-3NV" secondAttribute="trailing" id="QZf-0A-R7b"/>
+                        <constraint firstItem="R2p-YF-1aR" firstAttribute="top" secondItem="QYb-as-ILa" secondAttribute="bottom" constant="5" id="UW7-ep-oVK"/>
+                        <constraint firstAttribute="bottom" secondItem="H0c-26-Uoc" secondAttribute="bottom" constant="20" id="Zx7-m8-PKh"/>
+                        <constraint firstAttribute="trailing" secondItem="H0c-26-Uoc" secondAttribute="trailing" constant="20" id="f4d-6E-vQ6"/>
+                        <constraint firstAttribute="bottom" secondItem="K4z-Gh-AGf" secondAttribute="bottom" constant="-40" id="far-vo-9HT"/>
+                        <constraint firstItem="4x8-XJ-3NV" firstAttribute="leading" secondItem="w7u-JG-9le" secondAttribute="leading" id="keE-CY-xWP"/>
+                        <constraint firstAttribute="trailing" secondItem="R2p-YF-1aR" secondAttribute="trailing" constant="54" id="n2W-E5-ITv"/>
+                        <constraint firstItem="H0c-26-Uoc" firstAttribute="leading" secondItem="w7u-JG-9le" secondAttribute="leading" constant="20" id="o6g-Gm-sT0"/>
+                        <constraint firstItem="K4z-Gh-AGf" firstAttribute="top" secondItem="w7u-JG-9le" secondAttribute="top" id="qaY-oV-YI7"/>
+                        <constraint firstItem="QYb-as-ILa" firstAttribute="leading" secondItem="w7u-JG-9le" secondAttribute="leading" constant="54" id="vHe-wa-sAI"/>
+                        <constraint firstItem="4x8-XJ-3NV" firstAttribute="top" secondItem="R2p-YF-1aR" secondAttribute="bottom" constant="17" id="wtJ-zV-hdm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="w7u-JG-9le" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="JVw-qJ-4g9"/>
+                <constraint firstItem="w7u-JG-9le" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hEI-O8-tQ5"/>
+                <constraint firstItem="w7u-JG-9le" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hpf-3E-42l"/>
+                <constraint firstItem="w7u-JG-9le" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="nZ9-qX-nXt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mosque BG" width="376" height="1083.5"/>
+    </resources>
+</document>

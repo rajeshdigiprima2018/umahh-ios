@@ -3,10 +3,224 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040104E22268E85E00FA590A /* AssociateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040104E02268E85E00FA590A /* AssociateCell.swift */; };
+		040104E32268E85E00FA590A /* AssociateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040104E12268E85E00FA590A /* AssociateCell.xib */; };
+		0401B7DE24CF522F00177B90 /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B7DC24CF522F00177B90 /* TermsVC.swift */; };
+		0401B7DF24CF522F00177B90 /* TermsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401B7DD24CF522F00177B90 /* TermsVC.xib */; };
+		040E7FA02236DF35001599BF /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7F9E2236DF35001599BF /* ChangePasswordVC.swift */; };
+		040E7FA12236DF35001599BF /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7F9F2236DF35001599BF /* ChangePasswordVC.xib */; };
+		040E7FA52236DF63001599BF /* AccountTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FA32236DF63001599BF /* AccountTypeVC.swift */; };
+		040E7FA62236DF63001599BF /* AccountTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FA42236DF63001599BF /* AccountTypeVC.xib */; };
+		040E7FAA2236DF90001599BF /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FA82236DF90001599BF /* VerificationVC.swift */; };
+		040E7FAB2236DF90001599BF /* VerificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FA92236DF90001599BF /* VerificationVC.xib */; };
+		040E7FAF2236F8C8001599BF /* CreateMosqueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FAD2236F8C8001599BF /* CreateMosqueVC.swift */; };
+		040E7FB02236F8C8001599BF /* CreateMosqueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FAE2236F8C8001599BF /* CreateMosqueVC.xib */; };
+		040E7FB42236F92C001599BF /* SelectMosqueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FB22236F92C001599BF /* SelectMosqueVC.swift */; };
+		040E7FB52236F92C001599BF /* SelectMosqueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FB32236F92C001599BF /* SelectMosqueVC.xib */; };
+		040E7FB92236F957001599BF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FB72236F957001599BF /* HomeVC.swift */; };
+		040E7FBA2236F957001599BF /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FB82236F957001599BF /* HomeVC.xib */; };
+		040E7FBE2236F9C3001599BF /* TempCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FBC2236F9C3001599BF /* TempCV.swift */; };
+		040E7FBF2236F9C3001599BF /* TempCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FBD2236F9C3001599BF /* TempCV.xib */; };
+		040E7FC32236FAF8001599BF /* MosqueDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FC12236FAF8001599BF /* MosqueDetailVC.swift */; };
+		040E7FC42236FAF8001599BF /* MosqueDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FC22236FAF8001599BF /* MosqueDetailVC.xib */; };
+		040E7FC82236FB5F001599BF /* BaordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FC62236FB5F001599BF /* BaordVC.swift */; };
+		040E7FC92236FB5F001599BF /* BaordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FC72236FB5F001599BF /* BaordVC.xib */; };
+		040E7FCD2236FB86001599BF /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FCB2236FB86001599BF /* PaymentVC.swift */; };
+		040E7FCE2236FB86001599BF /* PaymentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FCC2236FB86001599BF /* PaymentVC.xib */; };
+		040E7FD62236FBCC001599BF /* EducationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FD42236FBCC001599BF /* EducationListVC.swift */; };
+		040E7FD72236FBCC001599BF /* EducationListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FD52236FBCC001599BF /* EducationListVC.xib */; };
+		040E7FDB2236FBEA001599BF /* DonateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FD92236FBEA001599BF /* DonateVC.swift */; };
+		040E7FDC2236FBEA001599BF /* DonateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FDA2236FBEA001599BF /* DonateVC.xib */; };
+		040E7FE02236FC17001599BF /* EducationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FDE2236FC17001599BF /* EducationDetailVC.swift */; };
+		040E7FE12236FC17001599BF /* EducationDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FDF2236FC17001599BF /* EducationDetailVC.xib */; };
+		040E7FE52236FC34001599BF /* SuggestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FE32236FC34001599BF /* SuggestionVC.swift */; };
+		040E7FE62236FC34001599BF /* SuggestionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FE42236FC34001599BF /* SuggestionVC.xib */; };
+		040E7FEA2236FC56001599BF /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FE82236FC56001599BF /* ActivityList.swift */; };
+		040E7FEB2236FC56001599BF /* ActivityList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FE92236FC56001599BF /* ActivityList.xib */; };
+		040E7FEF2236FC72001599BF /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FED2236FC72001599BF /* ActivityDetail.swift */; };
+		040E7FF02236FC72001599BF /* ActivityDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FEE2236FC72001599BF /* ActivityDetail.xib */; };
+		040E7FF42236FCB5001599BF /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FF22236FCB5001599BF /* NewsList.swift */; };
+		040E7FF52236FCB5001599BF /* NewsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FF32236FCB5001599BF /* NewsList.xib */; };
+		040E7FF92236FCDD001599BF /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FF72236FCDD001599BF /* NewsDetail.swift */; };
+		040E7FFA2236FCDD001599BF /* NewsDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FF82236FCDD001599BF /* NewsDetail.xib */; };
+		040E7FFE2236FD0D001599BF /* AssociationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E7FFC2236FD0D001599BF /* AssociationList.swift */; };
+		040E7FFF2236FD0D001599BF /* AssociationList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E7FFD2236FD0D001599BF /* AssociationList.xib */; };
+		040E80032236FD31001599BF /* CalendorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80012236FD31001599BF /* CalendorVC.swift */; };
+		040E80042236FD31001599BF /* CalendorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80022236FD31001599BF /* CalendorVC.xib */; };
+		040E80082236FD7B001599BF /* FeedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80062236FD7B001599BF /* FeedVc.swift */; };
+		040E80092236FD7B001599BF /* FeedVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80072236FD7B001599BF /* FeedVc.xib */; };
+		040E800D2236FDB1001599BF /* QuranListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E800B2236FDB1001599BF /* QuranListVC.swift */; };
+		040E800E2236FDB1001599BF /* QuranListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E800C2236FDB1001599BF /* QuranListVC.xib */; };
+		040E80122236FDD1001599BF /* QuranDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80102236FDD1001599BF /* QuranDetailVC.swift */; };
+		040E80132236FDD1001599BF /* QuranDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80112236FDD1001599BF /* QuranDetailVC.xib */; };
+		040E80172236FE12001599BF /* CommunityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80152236FE12001599BF /* CommunityListVC.swift */; };
+		040E80182236FE12001599BF /* CommunityListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80162236FE12001599BF /* CommunityListVC.xib */; };
+		040E801C2236FE4A001599BF /* AddNewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E801A2236FE4A001599BF /* AddNewRequest.swift */; };
+		040E801D2236FE4A001599BF /* AddNewRequest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E801B2236FE4A001599BF /* AddNewRequest.xib */; };
+		040E80212236FE88001599BF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E801F2236FE88001599BF /* SettingsVC.swift */; };
+		040E80222236FE88001599BF /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80202236FE88001599BF /* SettingsVC.xib */; };
+		040E80272236FF37001599BF /* QuiblaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80252236FF37001599BF /* QuiblaVC.swift */; };
+		040E80282236FF37001599BF /* QuiblaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80262236FF37001599BF /* QuiblaVC.xib */; };
+		040E802C2236FF85001599BF /* QuizList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E802A2236FF85001599BF /* QuizList.swift */; };
+		040E802D2236FF85001599BF /* QuizList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E802B2236FF85001599BF /* QuizList.xib */; };
+		040E80312236FFA7001599BF /* QuizDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E802F2236FFA7001599BF /* QuizDetail.swift */; };
+		040E80322236FFA7001599BF /* QuizDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80302236FFA7001599BF /* QuizDetail.xib */; };
+		040E80362236FFE5001599BF /* ZakatCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E80342236FFE5001599BF /* ZakatCalcVC.swift */; };
+		040E80372236FFE5001599BF /* ZakatCalcVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80352236FFE5001599BF /* ZakatCalcVC.xib */; };
+		040E803C2237004C001599BF /* HajiUmrahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E803A2237004C001599BF /* HajiUmrahVC.swift */; };
+		040E803D2237004C001599BF /* HajiUmrahVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E803B2237004C001599BF /* HajiUmrahVC.xib */; };
+		040E804122370079001599BF /* HajiListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E803F22370079001599BF /* HajiListVC.swift */; };
+		040E804222370079001599BF /* HajiListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E804022370079001599BF /* HajiListVC.xib */; };
+		040E804622370097001599BF /* UmrahListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E804422370097001599BF /* UmrahListVC.swift */; };
+		040E804722370097001599BF /* UmrahListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E804522370097001599BF /* UmrahListVC.xib */; };
+		040E804B223700E1001599BF /* SupplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E8049223700E1001599BF /* SupplicationVC.swift */; };
+		040E804C223700E1001599BF /* SupplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E804A223700E1001599BF /* SupplicationVC.xib */; };
+		040E80512237011B001599BF /* BusinessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E804F2237011B001599BF /* BusinessVC.swift */; };
+		040E80522237011B001599BF /* BusinessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E80502237011B001599BF /* BusinessVC.xib */; };
+		040E805622370156001599BF /* DonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E805422370156001599BF /* DonationVC.swift */; };
+		040E805722370156001599BF /* DonationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E805522370156001599BF /* DonationVC.xib */; };
+		040E805B223701A0001599BF /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E8059223701A0001599BF /* NotificationVC.swift */; };
+		040E805C223701A0001599BF /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E805A223701A0001599BF /* NotificationVC.xib */; };
+		040E8060223706C1001599BF /* IntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E805E223706C1001599BF /* IntroCell.swift */; };
+		040E8061223706C1001599BF /* IntroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E805F223706C1001599BF /* IntroCell.xib */; };
+		040E806522370AED001599BF /* BusinessOwnerSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E806322370AED001599BF /* BusinessOwnerSignupVC.swift */; };
+		040E806622370AED001599BF /* BusinessOwnerSignupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E806422370AED001599BF /* BusinessOwnerSignupVC.xib */; };
+		040F42A5226F9ECA004F1AA0 /* HajiumrahDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F42A3226F9ECA004F1AA0 /* HajiumrahDetailCell.swift */; };
+		040F42A6226F9ECA004F1AA0 /* HajiumrahDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040F42A4226F9ECA004F1AA0 /* HajiumrahDetailCell.xib */; };
+		040F42AA226FA52A004F1AA0 /* SupplicationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F42A8226FA52A004F1AA0 /* SupplicationDetailVC.swift */; };
+		040F42AB226FA52A004F1AA0 /* SupplicationDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040F42A9226FA52A004F1AA0 /* SupplicationDetailVC.xib */; };
+		040F42AF226FAD3B004F1AA0 /* BusniessDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F42AD226FAD3B004F1AA0 /* BusniessDetailCell.swift */; };
+		040F42B0226FAD3B004F1AA0 /* BusniessDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040F42AE226FAD3B004F1AA0 /* BusniessDetailCell.xib */; };
+		040F42B4226FB14A004F1AA0 /* BusinessDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F42B2226FB14A004F1AA0 /* BusinessDetailVC.swift */; };
+		040F42B5226FB14A004F1AA0 /* BusinessDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040F42B3226FB14A004F1AA0 /* BusinessDetailVC.xib */; };
+		0417B1CE23578DF800B5813E /* PersonnageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B1CC23578DF800B5813E /* PersonnageDetailVC.swift */; };
+		0417B1CF23578DF800B5813E /* PersonnageDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417B1CD23578DF800B5813E /* PersonnageDetailVC.xib */; };
+		0417F06A225DC2CE004FD75B /* MosqueListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F068225DC2CE004FD75B /* MosqueListVC.swift */; };
+		0417F06B225DC2CE004FD75B /* MosqueListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F069225DC2CE004FD75B /* MosqueListVC.xib */; };
+		0417F06E225DC376004FD75B /* MosqueListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F06C225DC376004FD75B /* MosqueListCell.swift */; };
+		0417F06F225DC376004FD75B /* MosqueListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F06D225DC376004FD75B /* MosqueListCell.xib */; };
+		0417F074225DE026004FD75B /* MarkerDInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F072225DE025004FD75B /* MarkerDInfoView.swift */; };
+		0417F075225DE026004FD75B /* MarkerDInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F073225DE026004FD75B /* MarkerDInfoView.xib */; };
+		0434826F2265101600955615 /* PrayerTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434826D2265101600955615 /* PrayerTimeVC.swift */; };
+		043482702265101600955615 /* PrayerTimeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0434826E2265101600955615 /* PrayerTimeVC.xib */; };
+		04348278226517B900955615 /* PrayerTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04348276226517B900955615 /* PrayerTimeCell.swift */; };
+		04348279226517B900955615 /* PrayerTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04348277226517B900955615 /* PrayerTimeCell.xib */; };
+		0437D7672375A33E0048CEA5 /* QuizRulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437D7652375A33E0048CEA5 /* QuizRulesVC.swift */; };
+		0437D7682375A33E0048CEA5 /* QuizRulesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0437D7662375A33E0048CEA5 /* QuizRulesVC.xib */; };
+		0437D76C2375A4A90048CEA5 /* QuizRulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437D76A2375A4A90048CEA5 /* QuizRulesCell.swift */; };
+		0437D76D2375A4A90048CEA5 /* QuizRulesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0437D76B2375A4A90048CEA5 /* QuizRulesCell.xib */; };
+		0437D7712375AADB0048CEA5 /* QuizQuesAnsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437D76F2375AADB0048CEA5 /* QuizQuesAnsCell.swift */; };
+		0437D7722375AADB0048CEA5 /* QuizQuesAnsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0437D7702375AADB0048CEA5 /* QuizQuesAnsCell.xib */; };
+		0437D7762375BD070048CEA5 /* QuizResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437D7742375BD070048CEA5 /* QuizResultVC.swift */; };
+		0437D7772375BD070048CEA5 /* QuizResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0437D7752375BD070048CEA5 /* QuizResultVC.xib */; };
+		04383058223FBBAD0011734C /* SupplicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383056223FBBAD0011734C /* SupplicationCell.swift */; };
+		04383059223FBBAD0011734C /* SupplicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04383057223FBBAD0011734C /* SupplicationCell.xib */; };
+		0438305D223FBC800011734C /* ItemSupplicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438305B223FBC800011734C /* ItemSupplicationCell.swift */; };
+		0438305E223FBC800011734C /* ItemSupplicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0438305C223FBC800011734C /* ItemSupplicationCell.xib */; };
+		04401F4F23565CA20089D929 /* PersonnageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04401F4D23565CA20089D929 /* PersonnageVC.swift */; };
+		04401F5023565CA20089D929 /* PersonnageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04401F4E23565CA20089D929 /* PersonnageVC.xib */; };
+		04401F5423565F600089D929 /* PersonnageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04401F5223565F600089D929 /* PersonnageCell.swift */; };
+		04401F5523565F600089D929 /* PersonnageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04401F5323565F600089D929 /* PersonnageCell.xib */; };
+		044141612281FF650037875D /* MosqueContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441415F2281FF650037875D /* MosqueContentCell.swift */; };
+		044141622281FF650037875D /* MosqueContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044141602281FF650037875D /* MosqueContentCell.xib */; };
+		044141652281FFF60037875D /* MosqueOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044141632281FFF60037875D /* MosqueOptionCell.swift */; };
+		044141662281FFF60037875D /* MosqueOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044141642281FFF60037875D /* MosqueOptionCell.xib */; };
+		044A7C4E22B57732003ADD1D /* MosquelistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A7C4C22B57732003ADD1D /* MosquelistVC.swift */; };
+		044A7C4F22B57732003ADD1D /* MosquelistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044A7C4D22B57732003ADD1D /* MosquelistVC.xib */; };
+		045ABCF622EA35B700BAFEFD /* SecondDonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ABCF422EA35B700BAFEFD /* SecondDonationVC.swift */; };
+		045ABCF722EA35B700BAFEFD /* SecondDonationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045ABCF522EA35B700BAFEFD /* SecondDonationVC.xib */; };
+		045ABCFF22EA399F00BAFEFD /* SecondDonationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ABCFD22EA399F00BAFEFD /* SecondDonationCell.swift */; };
+		045ABD0022EA399F00BAFEFD /* SecondDonationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045ABCFE22EA399F00BAFEFD /* SecondDonationCell.xib */; };
+		0465FD7D224EA9A300B673A1 /* customLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465FD77224EA9A100B673A1 /* customLoader.swift */; };
+		0465FD7E224EA9A300B673A1 /* Globel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465FD78224EA9A200B673A1 /* Globel.swift */; };
+		0465FD7F224EA9A300B673A1 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465FD79224EA9A200B673A1 /* Utility.swift */; };
+		0465FD81224EA9A300B673A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465FD7B224EA9A200B673A1 /* Extensions.swift */; };
+		0465FD82224EA9A300B673A1 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465FD7C224EA9A300B673A1 /* AppHeader.swift */; };
+		047707B824D0778E007E2F14 /* MyDonationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047707B624D0778E007E2F14 /* MyDonationCell.swift */; };
+		047707B924D0778E007E2F14 /* MyDonationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047707B724D0778E007E2F14 /* MyDonationCell.xib */; };
+		047707BD24D07A0C007E2F14 /* MyDonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047707BB24D07A0C007E2F14 /* MyDonationVC.swift */; };
+		047707BE24D07A0C007E2F14 /* MyDonationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047707BC24D07A0C007E2F14 /* MyDonationVC.xib */; };
+		04816D82229DDCF100B3D08F /* BusinessDetailFinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04816D80229DDCF100B3D08F /* BusinessDetailFinalVC.swift */; };
+		04816D83229DDCF100B3D08F /* BusinessDetailFinalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04816D81229DDCF100B3D08F /* BusinessDetailFinalVC.xib */; };
+		04816D8B229DE0A100B3D08F /* BusinessOrganizationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04816D89229DE0A100B3D08F /* BusinessOrganizationCell.swift */; };
+		04816D8C229DE0A100B3D08F /* BusinessOrganizationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04816D8A229DE0A100B3D08F /* BusinessOrganizationCell.xib */; };
+		048E035022E9B3BB00E3741C /* NewMosqueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E034E22E9B3BB00E3741C /* NewMosqueList.swift */; };
+		048E035122E9B3BB00E3741C /* NewMosqueList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E034F22E9B3BB00E3741C /* NewMosqueList.xib */; };
+		048E559D22395DF000493C4F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E559B22395DF000493C4F /* NotificationCell.swift */; };
+		048E559E22395DF000493C4F /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E559C22395DF000493C4F /* NotificationCell.xib */; };
+		048E55A22239615200493C4F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55A02239615200493C4F /* SearchVC.swift */; };
+		048E55A32239615200493C4F /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55A12239615200493C4F /* SearchVC.xib */; };
+		048E55A72239622E00493C4F /* SearchCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55A52239622E00493C4F /* SearchCollectionCell.swift */; };
+		048E55A82239622E00493C4F /* SearchCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55A62239622E00493C4F /* SearchCollectionCell.xib */; };
+		048E55AC223966BA00493C4F /* KhutbaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55AA223966BA00493C4F /* KhutbaVC.swift */; };
+		048E55AD223966BA00493C4F /* KhutbaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55AB223966BA00493C4F /* KhutbaVC.xib */; };
+		048E55B02239815D00493C4F /* ForgetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55AE2239815D00493C4F /* ForgetVc.swift */; };
+		048E55B12239815D00493C4F /* ForgetVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55AF2239815D00493C4F /* ForgetVc.xib */; };
+		048E55B722399ED100493C4F /* SubCategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55B322399ED000493C4F /* SubCategoryViewCell.swift */; };
+		048E55B822399ED100493C4F /* DrawerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55B422399ED000493C4F /* DrawerTransition.swift */; };
+		048E55B922399ED100493C4F /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55B522399ED100493C4F /* HeaderCell.swift */; };
+		048E55BA22399ED100493C4F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55B622399ED100493C4F /* SideMenuViewController.swift */; };
+		048E55BE2239BBF300493C4F /* PersonangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55BC2239BBF300493C4F /* PersonangeVC.swift */; };
+		048E55BF2239BBF300493C4F /* PersonangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55BD2239BBF300493C4F /* PersonangeVC.xib */; };
+		048E55C32239BC1D00493C4F /* OrganizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E55C12239BC1D00493C4F /* OrganizationVC.swift */; };
+		048E55C42239BC1D00493C4F /* OrganizationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E55C22239BC1D00493C4F /* OrganizationVC.xib */; };
+		0499682823C86C5B008E74AC /* kApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499682723C86C5B008E74AC /* kApiClass.swift */; };
+		049BD2CE225B63EF009FB215 /* MosqueSignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD2CC225B63EF009FB215 /* MosqueSignVC.swift */; };
+		049BD2CF225B63EF009FB215 /* MosqueSignVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049BD2CD225B63EF009FB215 /* MosqueSignVC.xib */; };
+		04A28CD822A0821F0027FDA5 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A28CD522A0821E0027FDA5 /* CLLocation+Extension.swift */; };
+		04A28CD922A0821F0027FDA5 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A28CD622A0821F0027FDA5 /* LocationDelegate.swift */; };
+		04A28CDA22A0821F0027FDA5 /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A28CD722A0821F0027FDA5 /* UserDefauts+Extensions.swift */; };
+		04A49A45223C2F680076368E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A49A43223C2F680076368E /* FeedCell.swift */; };
+		04A49A46223C2F680076368E /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A44223C2F680076368E /* FeedCell.xib */; };
+		04A49A49223C39E10076368E /* QuranCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A49A47223C39E10076368E /* QuranCell.swift */; };
+		04A49A4A223C39E10076368E /* QuranCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A48223C39E10076368E /* QuranCell.xib */; };
+		04A49A4F223C3B6D0076368E /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A49A4D223C3B6D0076368E /* CommunityCell.swift */; };
+		04A49A50223C3B6D0076368E /* CommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A4E223C3B6D0076368E /* CommunityCell.xib */; };
+		04A49A54223C3D4F0076368E /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A49A52223C3D4F0076368E /* QuizCell.swift */; };
+		04A49A55223C3D4F0076368E /* QuizCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A53223C3D4F0076368E /* QuizCell.xib */; };
+		04A49A59223C3DFB0076368E /* ZakatCalcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A49A57223C3DFB0076368E /* ZakatCalcCell.swift */; };
+		04A49A5A223C3DFB0076368E /* ZakatCalcCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A58223C3DFB0076368E /* ZakatCalcCell.xib */; };
+		04A49A7C223C4F010076368E /* sf-ui-display-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A75223C4EFD0076368E /* sf-ui-display-black.otf */; };
+		04A49A7D223C4F040076368E /* sf-ui-display-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A7B223C4EFE0076368E /* sf-ui-display-bold.otf */; };
+		04A49A7E223C4F070076368E /* sf-ui-display-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A77223C4EFE0076368E /* sf-ui-display-heavy.otf */; };
+		04A49A7F223C4F090076368E /* sf-ui-display-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A7A223C4EFE0076368E /* sf-ui-display-light.otf */; };
+		04A49A80223C4F0A0076368E /* sf-ui-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A76223C4EFD0076368E /* sf-ui-display-medium.otf */; };
+		04A49A81223C4F0C0076368E /* sf-ui-display-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A73223C4EFD0076368E /* sf-ui-display-semibold.otf */; };
+		04A49A82223C4F0E0076368E /* sf-ui-display-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A78223C4EFE0076368E /* sf-ui-display-thin.otf */; };
+		04A49A83223C4F110076368E /* sf-ui-display-ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A79223C4EFE0076368E /* sf-ui-display-ultralight.otf */; };
+		04A49A84223C53FB0076368E /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A49A74223C4EFD0076368E /* SFUIText-Regular.otf */; };
+		04AB0001227A1E6500FC5567 /* EducationInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABFFFF227A1E6500FC5567 /* EducationInfoCell.swift */; };
+		04AB0002227A1E6500FC5567 /* EducationInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB0000227A1E6500FC5567 /* EducationInfoCell.xib */; };
+		04AB0006227A1E8800FC5567 /* EducationContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0004227A1E8800FC5567 /* EducationContentCell.swift */; };
+		04AB0007227A1E8800FC5567 /* EducationContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB0005227A1E8800FC5567 /* EducationContentCell.xib */; };
+		04AB8F8E223F061400CC8B8E /* HajiumrahCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB8F8C223F061400CC8B8E /* HajiumrahCell.swift */; };
+		04AB8F8F223F061400CC8B8E /* HajiumrahCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB8F8D223F061400CC8B8E /* HajiumrahCell.xib */; };
+		04ADB02E2259187D00185557 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADB02C2259187D00185557 /* TimeCell.swift */; };
+		04ADB02F2259187D00185557 /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ADB02D2259187D00185557 /* TimeCell.xib */; };
+		04ADB033225918A600185557 /* MosqueDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADB031225918A600185557 /* MosqueDetailCell.swift */; };
+		04ADB034225918A600185557 /* MosqueDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ADB032225918A600185557 /* MosqueDetailCell.xib */; };
+		04ADB037225918CB00185557 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADB035225918CB00185557 /* OptionCell.swift */; };
+		04ADB038225918CB00185557 /* OptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ADB036225918CB00185557 /* OptionCell.xib */; };
+		04C64DCB22B6A8FB0081138C /* FirstDonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C64DC922B6A8FB0081138C /* FirstDonationVC.swift */; };
+		04C64DCC22B6A8FB0081138C /* FirstDonationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C64DCA22B6A8FB0081138C /* FirstDonationVC.xib */; };
+		04C64DD022B6B4F50081138C /* DonationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C64DCE22B6B4F50081138C /* DonationCell.swift */; };
+		04C64DD122B6B4F50081138C /* DonationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C64DCF22B6B4F50081138C /* DonationCell.xib */; };
+		04CCED852264A7B0004F13B7 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCED832264A7B0004F13B7 /* BoardCell.swift */; };
+		04CCED862264A7B0004F13B7 /* BoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCED842264A7B0004F13B7 /* BoardCell.xib */; };
+		04CCED8A2264B448004F13B7 /* EducationListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCED882264B448004F13B7 /* EducationListCell.swift */; };
+		04CCED8B2264B448004F13B7 /* EducationListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCED892264B448004F13B7 /* EducationListCell.xib */; };
+		04CCED8F2264B4D3004F13B7 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCED8D2264B4D3004F13B7 /* CalenderCell.swift */; };
+		04CCED902264B4D3004F13B7 /* CalenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCED8E2264B4D3004F13B7 /* CalenderCell.xib */; };
+		04CCED942264B6BC004F13B7 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCED922264B6BC004F13B7 /* NewsCell.swift */; };
+		04CCED952264B6BC004F13B7 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCED932264B6BC004F13B7 /* NewsCell.xib */; };
+		04CCED9D2264B834004F13B7 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCED9B2264B834004F13B7 /* ActivityCell.swift */; };
+		04CCED9E2264B834004F13B7 /* ActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCED9C2264B834004F13B7 /* ActivityCell.xib */; };
+		04CDE2A123139CBE001E2ABD /* AllMosqueListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE29F23139CBE001E2ABD /* AllMosqueListVC.swift */; };
+		04CDE2A223139CBE001E2ABD /* AllMosqueListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE2A023139CBE001E2ABD /* AllMosqueListVC.xib */; };
 		04D7774C222F0C51008A0E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7774B222F0C51008A0E97 /* AppDelegate.swift */; };
 		04D7774E222F0C51008A0E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7774D222F0C51008A0E97 /* ViewController.swift */; };
 		04D77751222F0C51008A0E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7774F222F0C51008A0E97 /* Main.storyboard */; };
@@ -14,6 +228,60 @@
 		04D77756222F0C52008A0E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D77754222F0C52008A0E97 /* LaunchScreen.storyboard */; };
 		04D77761222F0C52008A0E97 /* UmahhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77760222F0C52008A0E97 /* UmahhTests.swift */; };
 		04D7776C222F0C52008A0E97 /* UmahhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7776B222F0C52008A0E97 /* UmahhUITests.swift */; };
+		04D7777C222F0DB0008A0E97 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7777B222F0DB0008A0E97 /* AppConstant.swift */; };
+		04D7777F222F0DEF008A0E97 /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7777E222F0DEF008A0E97 /* ViewControllerHelper.swift */; };
+		04D77783222F0E29008A0E97 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77781222F0E29008A0E97 /* LoginVC.swift */; };
+		04D77784222F0E29008A0E97 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D77782222F0E29008A0E97 /* LoginVC.xib */; };
+		04D77788222F0E50008A0E97 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77786222F0E50008A0E97 /* IntroVC.swift */; };
+		04D77789222F0E50008A0E97 /* IntroVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D77787222F0E50008A0E97 /* IntroVC.xib */; };
+		04D7778D222F1351008A0E97 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7778B222F1351008A0E97 /* SignupVC.swift */; };
+		04D7778E222F1351008A0E97 /* SignupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D7778C222F1351008A0E97 /* SignupVC.xib */; };
+		04DE0A25251C8EFB0037099F /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DE0A24251C8EFB0037099F /* credentials.plist */; };
+		04E4A58E2436601000710C67 /* Lang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E4A58D2436601000710C67 /* Lang.plist */; };
+		04E7A5B823573D59006CA4F1 /* JuzDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A5B623573D59006CA4F1 /* JuzDetailVC.swift */; };
+		04E7A5B923573D59006CA4F1 /* JuzDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7A5B723573D59006CA4F1 /* JuzDetailVC.xib */; };
+		04E80AE82238167000B22635 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE52238166A00B22635 /* SFUIText-Bold.ttf */; };
+		04E80AE92238167400B22635 /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE62238166A00B22635 /* SFUIText-BoldItalic.ttf */; };
+		04E80AEA2238167600B22635 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80ADD2238166900B22635 /* SFUIText-Heavy.ttf */; };
+		04E80AEB2238167900B22635 /* SFUIText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE22238166900B22635 /* SFUIText-HeavyItalic.ttf */; };
+		04E80AEC2238167B00B22635 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE32238166A00B22635 /* SFUIText-Light.ttf */; };
+		04E80AED2238167D00B22635 /* SFUIText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80ADE2238166900B22635 /* SFUIText-LightItalic.ttf */; };
+		04E80AEE2238167F00B22635 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80ADC2238166900B22635 /* SFUIText-Medium.ttf */; };
+		04E80AEF2238168200B22635 /* SFUIText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE12238166900B22635 /* SFUIText-MediumItalic.ttf */; };
+		04E80AF02238168400B22635 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE42238166A00B22635 /* SFUIText-Regular.ttf */; };
+		04E80AF12238168600B22635 /* SFUIText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80ADF2238166900B22635 /* SFUIText-RegularItalic.ttf */; };
+		04E80AF22238168900B22635 /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE02238166900B22635 /* SFUIText-Semibold.ttf */; };
+		04E80AF32238168C00B22635 /* SFUIText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AE72238166A00B22635 /* SFUIText-SemiboldItalic.ttf */; };
+		04E80AF8223817A200B22635 /* SelMosqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E80AF6223817A200B22635 /* SelMosqueCell.swift */; };
+		04E80AF9223817A200B22635 /* SelMosqueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E80AF7223817A200B22635 /* SelMosqueCell.xib */; };
+		04F0E4C922B8D8150063773C /* QuranDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E4C722B8D8150063773C /* QuranDetailCell.swift */; };
+		04F0E4CA22B8D8150063773C /* QuranDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0E4C822B8D8150063773C /* QuranDetailCell.xib */; };
+		04F0E4CE22B8E90F0063773C /* FollowMosqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E4CC22B8E90F0063773C /* FollowMosqueCell.swift */; };
+		04F0E4CF22B8E90F0063773C /* FollowMosqueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0E4CD22B8E90F0063773C /* FollowMosqueCell.xib */; };
+		04F0E4D222B8E9E80063773C /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E4D022B8E9E80063773C /* FollowVC.swift */; };
+		04F0E4D322B8E9E80063773C /* FollowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0E4D122B8E9E80063773C /* FollowVC.xib */; };
+		04F0E4D622B908D20063773C /* DonationMosquelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E4D422B908D20063773C /* DonationMosquelist.swift */; };
+		04F0E4D722B908D20063773C /* DonationMosquelist.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0E4D522B908D20063773C /* DonationMosquelist.xib */; };
+		04F32F7F229D36EF00F8A77C /* MosqueMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F32F7D229D36EF00F8A77C /* MosqueMapVC.swift */; };
+		04F32F80229D36EF00F8A77C /* MosqueMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F32F7E229D36EF00F8A77C /* MosqueMapVC.xib */; };
+		04F32F84229D3E8000F8A77C /* MyCommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F32F82229D3E8000F8A77C /* MyCommunityCell.swift */; };
+		04F32F85229D3E8000F8A77C /* MyCommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F32F83229D3E8000F8A77C /* MyCommunityCell.xib */; };
+		04F32F89229D496400F8A77C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F32F87229D496400F8A77C /* ProfileVC.swift */; };
+		04F32F8A229D496400F8A77C /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F32F88229D496400F8A77C /* ProfileVC.xib */; };
+		04F4A11422401278006450D6 /* BookmarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A11222401278006450D6 /* BookmarkVC.swift */; };
+		04F4A11522401278006450D6 /* BookmarkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A11322401278006450D6 /* BookmarkVC.xib */; };
+		04F4A1192240136B006450D6 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A1172240136B006450D6 /* BookmarkCell.swift */; };
+		04F4A11A2240136B006450D6 /* BookmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1182240136B006450D6 /* BookmarkCell.xib */; };
+		04F82D7E228DDDD800AB6D6B /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82D7B228DDDD700AB6D6B /* NSDateExtension.swift */; };
+		04F82D7F228DDDD800AB6D6B /* DateCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82D7C228DDDD700AB6D6B /* DateCell1.swift */; };
+		04F82D80228DDDD800AB6D6B /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82D7D228DDDD800AB6D6B /* CalendarManager.swift */; };
+		04F82D84228DE1F400AB6D6B /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82D82228DE1F400AB6D6B /* DateCell.swift */; };
+		04F82D85228DE1F400AB6D6B /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F82D83228DE1F400AB6D6B /* DateCell.xib */; };
+		0B1CD558FFC88AA831EFC924 /* Pods_UmahhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2425BB7E65C9967C852EE5 /* Pods_UmahhUITests.framework */; };
+		8CF328FB9D020D27CC55C011 /* Pods_Umahh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C24AD7A604FD4A614180D97 /* Pods_Umahh.framework */; };
+		AAC3E99F2670A0C300FC9623 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAC3E99E2670A0C200FC9623 /* GoogleService-Info.plist */; };
+		AACD9A4026383DB0006CDA99 /* CompassDirectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD9A3F26383DB0006CDA99 /* CompassDirectionManager.swift */; };
+		B197A9D2025B40D729D1A0EA /* Pods_UmahhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905CADFAE1F134800FC91640 /* Pods_UmahhTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +302,223 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040104E02268E85E00FA590A /* AssociateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociateCell.swift; sourceTree = "<group>"; };
+		040104E12268E85E00FA590A /* AssociateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssociateCell.xib; sourceTree = "<group>"; };
+		0401B7DC24CF522F00177B90 /* TermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		0401B7DD24CF522F00177B90 /* TermsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsVC.xib; sourceTree = "<group>"; };
+		040E7F9E2236DF35001599BF /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		040E7F9F2236DF35001599BF /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
+		040E7FA32236DF63001599BF /* AccountTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTypeVC.swift; sourceTree = "<group>"; };
+		040E7FA42236DF63001599BF /* AccountTypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTypeVC.xib; sourceTree = "<group>"; };
+		040E7FA82236DF90001599BF /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		040E7FA92236DF90001599BF /* VerificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerificationVC.xib; sourceTree = "<group>"; };
+		040E7FAD2236F8C8001599BF /* CreateMosqueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMosqueVC.swift; sourceTree = "<group>"; };
+		040E7FAE2236F8C8001599BF /* CreateMosqueVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateMosqueVC.xib; sourceTree = "<group>"; };
+		040E7FB22236F92C001599BF /* SelectMosqueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMosqueVC.swift; sourceTree = "<group>"; };
+		040E7FB32236F92C001599BF /* SelectMosqueVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectMosqueVC.xib; sourceTree = "<group>"; };
+		040E7FB72236F957001599BF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		040E7FB82236F957001599BF /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		040E7FBC2236F9C3001599BF /* TempCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCV.swift; sourceTree = "<group>"; };
+		040E7FBD2236F9C3001599BF /* TempCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TempCV.xib; sourceTree = "<group>"; };
+		040E7FC12236FAF8001599BF /* MosqueDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueDetailVC.swift; sourceTree = "<group>"; };
+		040E7FC22236FAF8001599BF /* MosqueDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueDetailVC.xib; sourceTree = "<group>"; };
+		040E7FC62236FB5F001599BF /* BaordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaordVC.swift; sourceTree = "<group>"; };
+		040E7FC72236FB5F001599BF /* BaordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaordVC.xib; sourceTree = "<group>"; };
+		040E7FCB2236FB86001599BF /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		040E7FCC2236FB86001599BF /* PaymentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentVC.xib; sourceTree = "<group>"; };
+		040E7FD42236FBCC001599BF /* EducationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationListVC.swift; sourceTree = "<group>"; };
+		040E7FD52236FBCC001599BF /* EducationListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationListVC.xib; sourceTree = "<group>"; };
+		040E7FD92236FBEA001599BF /* DonateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateVC.swift; sourceTree = "<group>"; };
+		040E7FDA2236FBEA001599BF /* DonateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonateVC.xib; sourceTree = "<group>"; };
+		040E7FDE2236FC17001599BF /* EducationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationDetailVC.swift; sourceTree = "<group>"; };
+		040E7FDF2236FC17001599BF /* EducationDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationDetailVC.xib; sourceTree = "<group>"; };
+		040E7FE32236FC34001599BF /* SuggestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionVC.swift; sourceTree = "<group>"; };
+		040E7FE42236FC34001599BF /* SuggestionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionVC.xib; sourceTree = "<group>"; };
+		040E7FE82236FC56001599BF /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		040E7FE92236FC56001599BF /* ActivityList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityList.xib; sourceTree = "<group>"; };
+		040E7FED2236FC72001599BF /* ActivityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetail.swift; sourceTree = "<group>"; };
+		040E7FEE2236FC72001599BF /* ActivityDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDetail.xib; sourceTree = "<group>"; };
+		040E7FF22236FCB5001599BF /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		040E7FF32236FCB5001599BF /* NewsList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsList.xib; sourceTree = "<group>"; };
+		040E7FF72236FCDD001599BF /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		040E7FF82236FCDD001599BF /* NewsDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsDetail.xib; sourceTree = "<group>"; };
+		040E7FFC2236FD0D001599BF /* AssociationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociationList.swift; sourceTree = "<group>"; };
+		040E7FFD2236FD0D001599BF /* AssociationList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssociationList.xib; sourceTree = "<group>"; };
+		040E80012236FD31001599BF /* CalendorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendorVC.swift; sourceTree = "<group>"; };
+		040E80022236FD31001599BF /* CalendorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendorVC.xib; sourceTree = "<group>"; };
+		040E80062236FD7B001599BF /* FeedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVc.swift; sourceTree = "<group>"; };
+		040E80072236FD7B001599BF /* FeedVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedVc.xib; sourceTree = "<group>"; };
+		040E800B2236FDB1001599BF /* QuranListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranListVC.swift; sourceTree = "<group>"; };
+		040E800C2236FDB1001599BF /* QuranListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuranListVC.xib; sourceTree = "<group>"; };
+		040E80102236FDD1001599BF /* QuranDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranDetailVC.swift; sourceTree = "<group>"; };
+		040E80112236FDD1001599BF /* QuranDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuranDetailVC.xib; sourceTree = "<group>"; };
+		040E80152236FE12001599BF /* CommunityListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityListVC.swift; sourceTree = "<group>"; };
+		040E80162236FE12001599BF /* CommunityListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityListVC.xib; sourceTree = "<group>"; };
+		040E801A2236FE4A001599BF /* AddNewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRequest.swift; sourceTree = "<group>"; };
+		040E801B2236FE4A001599BF /* AddNewRequest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewRequest.xib; sourceTree = "<group>"; };
+		040E801F2236FE88001599BF /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		040E80202236FE88001599BF /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		040E80252236FF37001599BF /* QuiblaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiblaVC.swift; sourceTree = "<group>"; };
+		040E80262236FF37001599BF /* QuiblaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuiblaVC.xib; sourceTree = "<group>"; };
+		040E802A2236FF85001599BF /* QuizList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizList.swift; sourceTree = "<group>"; };
+		040E802B2236FF85001599BF /* QuizList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizList.xib; sourceTree = "<group>"; };
+		040E802F2236FFA7001599BF /* QuizDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDetail.swift; sourceTree = "<group>"; };
+		040E80302236FFA7001599BF /* QuizDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizDetail.xib; sourceTree = "<group>"; };
+		040E80342236FFE5001599BF /* ZakatCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatCalcVC.swift; sourceTree = "<group>"; };
+		040E80352236FFE5001599BF /* ZakatCalcVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZakatCalcVC.xib; sourceTree = "<group>"; };
+		040E803A2237004C001599BF /* HajiUmrahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajiUmrahVC.swift; sourceTree = "<group>"; };
+		040E803B2237004C001599BF /* HajiUmrahVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HajiUmrahVC.xib; sourceTree = "<group>"; };
+		040E803F22370079001599BF /* HajiListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajiListVC.swift; sourceTree = "<group>"; };
+		040E804022370079001599BF /* HajiListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HajiListVC.xib; sourceTree = "<group>"; };
+		040E804422370097001599BF /* UmrahListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrahListVC.swift; sourceTree = "<group>"; };
+		040E804522370097001599BF /* UmrahListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UmrahListVC.xib; sourceTree = "<group>"; };
+		040E8049223700E1001599BF /* SupplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplicationVC.swift; sourceTree = "<group>"; };
+		040E804A223700E1001599BF /* SupplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupplicationVC.xib; sourceTree = "<group>"; };
+		040E804F2237011B001599BF /* BusinessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessVC.swift; sourceTree = "<group>"; };
+		040E80502237011B001599BF /* BusinessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessVC.xib; sourceTree = "<group>"; };
+		040E805422370156001599BF /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
+		040E805522370156001599BF /* DonationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonationVC.xib; sourceTree = "<group>"; };
+		040E8059223701A0001599BF /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		040E805A223701A0001599BF /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		040E805E223706C1001599BF /* IntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCell.swift; sourceTree = "<group>"; };
+		040E805F223706C1001599BF /* IntroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroCell.xib; sourceTree = "<group>"; };
+		040E806322370AED001599BF /* BusinessOwnerSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOwnerSignupVC.swift; sourceTree = "<group>"; };
+		040E806422370AED001599BF /* BusinessOwnerSignupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessOwnerSignupVC.xib; sourceTree = "<group>"; };
+		040F42A3226F9ECA004F1AA0 /* HajiumrahDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajiumrahDetailCell.swift; sourceTree = "<group>"; };
+		040F42A4226F9ECA004F1AA0 /* HajiumrahDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HajiumrahDetailCell.xib; sourceTree = "<group>"; };
+		040F42A8226FA52A004F1AA0 /* SupplicationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplicationDetailVC.swift; sourceTree = "<group>"; };
+		040F42A9226FA52A004F1AA0 /* SupplicationDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupplicationDetailVC.xib; sourceTree = "<group>"; };
+		040F42AD226FAD3B004F1AA0 /* BusniessDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusniessDetailCell.swift; sourceTree = "<group>"; };
+		040F42AE226FAD3B004F1AA0 /* BusniessDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusniessDetailCell.xib; sourceTree = "<group>"; };
+		040F42B2226FB14A004F1AA0 /* BusinessDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailVC.swift; sourceTree = "<group>"; };
+		040F42B3226FB14A004F1AA0 /* BusinessDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessDetailVC.xib; sourceTree = "<group>"; };
+		0411AC0C24FF7B1800C0B6E8 /* Umahh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Umahh.entitlements; sourceTree = "<group>"; };
+		0417B1CC23578DF800B5813E /* PersonnageDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageDetailVC.swift; sourceTree = "<group>"; };
+		0417B1CD23578DF800B5813E /* PersonnageDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonnageDetailVC.xib; sourceTree = "<group>"; };
+		0417F068225DC2CE004FD75B /* MosqueListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueListVC.swift; sourceTree = "<group>"; };
+		0417F069225DC2CE004FD75B /* MosqueListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueListVC.xib; sourceTree = "<group>"; };
+		0417F06C225DC376004FD75B /* MosqueListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueListCell.swift; sourceTree = "<group>"; };
+		0417F06D225DC376004FD75B /* MosqueListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueListCell.xib; sourceTree = "<group>"; };
+		0417F072225DE025004FD75B /* MarkerDInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerDInfoView.swift; sourceTree = "<group>"; };
+		0417F073225DE026004FD75B /* MarkerDInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerDInfoView.xib; sourceTree = "<group>"; };
+		0434826D2265101600955615 /* PrayerTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeVC.swift; sourceTree = "<group>"; };
+		0434826E2265101600955615 /* PrayerTimeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerTimeVC.xib; sourceTree = "<group>"; };
+		04348276226517B900955615 /* PrayerTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeCell.swift; sourceTree = "<group>"; };
+		04348277226517B900955615 /* PrayerTimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerTimeCell.xib; sourceTree = "<group>"; };
+		0437D7652375A33E0048CEA5 /* QuizRulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRulesVC.swift; sourceTree = "<group>"; };
+		0437D7662375A33E0048CEA5 /* QuizRulesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizRulesVC.xib; sourceTree = "<group>"; };
+		0437D76A2375A4A90048CEA5 /* QuizRulesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRulesCell.swift; sourceTree = "<group>"; };
+		0437D76B2375A4A90048CEA5 /* QuizRulesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizRulesCell.xib; sourceTree = "<group>"; };
+		0437D76F2375AADB0048CEA5 /* QuizQuesAnsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuesAnsCell.swift; sourceTree = "<group>"; };
+		0437D7702375AADB0048CEA5 /* QuizQuesAnsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizQuesAnsCell.xib; sourceTree = "<group>"; };
+		0437D7742375BD070048CEA5 /* QuizResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultVC.swift; sourceTree = "<group>"; };
+		0437D7752375BD070048CEA5 /* QuizResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizResultVC.xib; sourceTree = "<group>"; };
+		04383056223FBBAD0011734C /* SupplicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplicationCell.swift; sourceTree = "<group>"; };
+		04383057223FBBAD0011734C /* SupplicationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupplicationCell.xib; sourceTree = "<group>"; };
+		0438305B223FBC800011734C /* ItemSupplicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSupplicationCell.swift; sourceTree = "<group>"; };
+		0438305C223FBC800011734C /* ItemSupplicationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemSupplicationCell.xib; sourceTree = "<group>"; };
+		04401F4D23565CA20089D929 /* PersonnageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageVC.swift; sourceTree = "<group>"; };
+		04401F4E23565CA20089D929 /* PersonnageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonnageVC.xib; sourceTree = "<group>"; };
+		04401F5223565F600089D929 /* PersonnageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageCell.swift; sourceTree = "<group>"; };
+		04401F5323565F600089D929 /* PersonnageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonnageCell.xib; sourceTree = "<group>"; };
+		0441415F2281FF650037875D /* MosqueContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueContentCell.swift; sourceTree = "<group>"; };
+		044141602281FF650037875D /* MosqueContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueContentCell.xib; sourceTree = "<group>"; };
+		044141632281FFF60037875D /* MosqueOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueOptionCell.swift; sourceTree = "<group>"; };
+		044141642281FFF60037875D /* MosqueOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueOptionCell.xib; sourceTree = "<group>"; };
+		044A7C4C22B57732003ADD1D /* MosquelistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquelistVC.swift; sourceTree = "<group>"; };
+		044A7C4D22B57732003ADD1D /* MosquelistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosquelistVC.xib; sourceTree = "<group>"; };
+		044E546BA65077453DEC3575 /* Pods-UmahhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmahhTests.debug.xcconfig"; path = "Target Support Files/Pods-UmahhTests/Pods-UmahhTests.debug.xcconfig"; sourceTree = "<group>"; };
+		045ABCF422EA35B700BAFEFD /* SecondDonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDonationVC.swift; sourceTree = "<group>"; };
+		045ABCF522EA35B700BAFEFD /* SecondDonationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondDonationVC.xib; sourceTree = "<group>"; };
+		045ABCFD22EA399F00BAFEFD /* SecondDonationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDonationCell.swift; sourceTree = "<group>"; };
+		045ABCFE22EA399F00BAFEFD /* SecondDonationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondDonationCell.xib; sourceTree = "<group>"; };
+		0465FD77224EA9A100B673A1 /* customLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLoader.swift; sourceTree = "<group>"; };
+		0465FD78224EA9A200B673A1 /* Globel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globel.swift; sourceTree = "<group>"; };
+		0465FD79224EA9A200B673A1 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0465FD7B224EA9A200B673A1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0465FD7C224EA9A300B673A1 /* AppHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
+		046DA0C922DE596700FCB91A /* Umahh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Umahh-Bridging-Header.h"; sourceTree = "<group>"; };
+		047707B624D0778E007E2F14 /* MyDonationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationCell.swift; sourceTree = "<group>"; };
+		047707B724D0778E007E2F14 /* MyDonationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDonationCell.xib; sourceTree = "<group>"; };
+		047707BB24D07A0C007E2F14 /* MyDonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationVC.swift; sourceTree = "<group>"; };
+		047707BC24D07A0C007E2F14 /* MyDonationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDonationVC.xib; sourceTree = "<group>"; };
+		04816D80229DDCF100B3D08F /* BusinessDetailFinalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailFinalVC.swift; sourceTree = "<group>"; };
+		04816D81229DDCF100B3D08F /* BusinessDetailFinalVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessDetailFinalVC.xib; sourceTree = "<group>"; };
+		04816D89229DE0A100B3D08F /* BusinessOrganizationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOrganizationCell.swift; sourceTree = "<group>"; };
+		04816D8A229DE0A100B3D08F /* BusinessOrganizationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessOrganizationCell.xib; sourceTree = "<group>"; };
+		048E034E22E9B3BB00E3741C /* NewMosqueList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMosqueList.swift; sourceTree = "<group>"; };
+		048E034F22E9B3BB00E3741C /* NewMosqueList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewMosqueList.xib; sourceTree = "<group>"; };
+		048E559B22395DF000493C4F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		048E559C22395DF000493C4F /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		048E55A02239615200493C4F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		048E55A12239615200493C4F /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		048E55A52239622E00493C4F /* SearchCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionCell.swift; sourceTree = "<group>"; };
+		048E55A62239622E00493C4F /* SearchCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionCell.xib; sourceTree = "<group>"; };
+		048E55AA223966BA00493C4F /* KhutbaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhutbaVC.swift; sourceTree = "<group>"; };
+		048E55AB223966BA00493C4F /* KhutbaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KhutbaVC.xib; sourceTree = "<group>"; };
+		048E55AE2239815D00493C4F /* ForgetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetVc.swift; sourceTree = "<group>"; };
+		048E55AF2239815D00493C4F /* ForgetVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetVc.xib; sourceTree = "<group>"; };
+		048E55B322399ED000493C4F /* SubCategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryViewCell.swift; sourceTree = "<group>"; };
+		048E55B422399ED000493C4F /* DrawerTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTransition.swift; sourceTree = "<group>"; };
+		048E55B522399ED100493C4F /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		048E55B622399ED100493C4F /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		048E55BC2239BBF300493C4F /* PersonangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonangeVC.swift; sourceTree = "<group>"; };
+		048E55BD2239BBF300493C4F /* PersonangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonangeVC.xib; sourceTree = "<group>"; };
+		048E55C12239BC1D00493C4F /* OrganizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationVC.swift; sourceTree = "<group>"; };
+		048E55C22239BC1D00493C4F /* OrganizationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrganizationVC.xib; sourceTree = "<group>"; };
+		0499682723C86C5B008E74AC /* kApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kApiClass.swift; sourceTree = "<group>"; };
+		049BD2CC225B63EF009FB215 /* MosqueSignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueSignVC.swift; sourceTree = "<group>"; };
+		049BD2CD225B63EF009FB215 /* MosqueSignVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueSignVC.xib; sourceTree = "<group>"; };
+		04A28CD522A0821E0027FDA5 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		04A28CD622A0821F0027FDA5 /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		04A28CD722A0821F0027FDA5 /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		04A49A43223C2F680076368E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		04A49A44223C2F680076368E /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		04A49A47223C39E10076368E /* QuranCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranCell.swift; sourceTree = "<group>"; };
+		04A49A48223C39E10076368E /* QuranCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuranCell.xib; sourceTree = "<group>"; };
+		04A49A4D223C3B6D0076368E /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
+		04A49A4E223C3B6D0076368E /* CommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityCell.xib; sourceTree = "<group>"; };
+		04A49A52223C3D4F0076368E /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
+		04A49A53223C3D4F0076368E /* QuizCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizCell.xib; sourceTree = "<group>"; };
+		04A49A57223C3DFB0076368E /* ZakatCalcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatCalcCell.swift; sourceTree = "<group>"; };
+		04A49A58223C3DFB0076368E /* ZakatCalcCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZakatCalcCell.xib; sourceTree = "<group>"; };
+		04A49A73223C4EFD0076368E /* sf-ui-display-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-semibold.otf"; sourceTree = "<group>"; };
+		04A49A74223C4EFD0076368E /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		04A49A75223C4EFD0076368E /* sf-ui-display-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-black.otf"; sourceTree = "<group>"; };
+		04A49A76223C4EFD0076368E /* sf-ui-display-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-medium.otf"; sourceTree = "<group>"; };
+		04A49A77223C4EFE0076368E /* sf-ui-display-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-heavy.otf"; sourceTree = "<group>"; };
+		04A49A78223C4EFE0076368E /* sf-ui-display-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-thin.otf"; sourceTree = "<group>"; };
+		04A49A79223C4EFE0076368E /* sf-ui-display-ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-ultralight.otf"; sourceTree = "<group>"; };
+		04A49A7A223C4EFE0076368E /* sf-ui-display-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-light.otf"; sourceTree = "<group>"; };
+		04A49A7B223C4EFE0076368E /* sf-ui-display-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-bold.otf"; sourceTree = "<group>"; };
+		04AB0000227A1E6500FC5567 /* EducationInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationInfoCell.xib; sourceTree = "<group>"; };
+		04AB0004227A1E8800FC5567 /* EducationContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationContentCell.swift; sourceTree = "<group>"; };
+		04AB0005227A1E8800FC5567 /* EducationContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationContentCell.xib; sourceTree = "<group>"; };
+		04AB8F8C223F061400CC8B8E /* HajiumrahCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajiumrahCell.swift; sourceTree = "<group>"; };
+		04AB8F8D223F061400CC8B8E /* HajiumrahCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HajiumrahCell.xib; sourceTree = "<group>"; };
+		04ABFFFF227A1E6500FC5567 /* EducationInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationInfoCell.swift; sourceTree = "<group>"; };
+		04ADB02C2259187D00185557 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		04ADB02D2259187D00185557 /* TimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
+		04ADB031225918A600185557 /* MosqueDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueDetailCell.swift; sourceTree = "<group>"; };
+		04ADB032225918A600185557 /* MosqueDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueDetailCell.xib; sourceTree = "<group>"; };
+		04ADB035225918CB00185557 /* OptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		04ADB036225918CB00185557 /* OptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCell.xib; sourceTree = "<group>"; };
+		04C64DC922B6A8FB0081138C /* FirstDonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDonationVC.swift; sourceTree = "<group>"; };
+		04C64DCA22B6A8FB0081138C /* FirstDonationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstDonationVC.xib; sourceTree = "<group>"; };
+		04C64DCE22B6B4F50081138C /* DonationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationCell.swift; sourceTree = "<group>"; };
+		04C64DCF22B6B4F50081138C /* DonationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonationCell.xib; sourceTree = "<group>"; };
+		04CCED832264A7B0004F13B7 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		04CCED842264A7B0004F13B7 /* BoardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCell.xib; sourceTree = "<group>"; };
+		04CCED882264B448004F13B7 /* EducationListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationListCell.swift; sourceTree = "<group>"; };
+		04CCED892264B448004F13B7 /* EducationListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationListCell.xib; sourceTree = "<group>"; };
+		04CCED8D2264B4D3004F13B7 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		04CCED8E2264B4D3004F13B7 /* CalenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderCell.xib; sourceTree = "<group>"; };
+		04CCED922264B6BC004F13B7 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		04CCED932264B6BC004F13B7 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		04CCED9B2264B834004F13B7 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		04CCED9C2264B834004F13B7 /* ActivityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityCell.xib; sourceTree = "<group>"; };
+		04CDE29F23139CBE001E2ABD /* AllMosqueListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMosqueListVC.swift; sourceTree = "<group>"; };
+		04CDE2A023139CBE001E2ABD /* AllMosqueListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllMosqueListVC.xib; sourceTree = "<group>"; };
 		04D77748222F0C51008A0E97 /* Umahh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umahh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D7774B222F0C51008A0E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D7774D222F0C51008A0E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +532,65 @@
 		04D77767222F0C52008A0E97 /* UmahhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmahhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D7776B222F0C52008A0E97 /* UmahhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmahhUITests.swift; sourceTree = "<group>"; };
 		04D7776D222F0C52008A0E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D7777B222F0DB0008A0E97 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		04D7777E222F0DEF008A0E97 /* ViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
+		04D77781222F0E29008A0E97 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04D77782222F0E29008A0E97 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		04D77786222F0E50008A0E97 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		04D77787222F0E50008A0E97 /* IntroVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroVC.xib; sourceTree = "<group>"; };
+		04D7778B222F1351008A0E97 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		04D7778C222F1351008A0E97 /* SignupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupVC.xib; sourceTree = "<group>"; };
+		04DE0A24251C8EFB0037099F /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		04E4A58D2436601000710C67 /* Lang.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Lang.plist; sourceTree = "<group>"; };
+		04E7A5B623573D59006CA4F1 /* JuzDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzDetailVC.swift; sourceTree = "<group>"; };
+		04E7A5B723573D59006CA4F1 /* JuzDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JuzDetailVC.xib; sourceTree = "<group>"; };
+		04E80ADC2238166900B22635 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		04E80ADD2238166900B22635 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		04E80ADE2238166900B22635 /* SFUIText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.ttf"; sourceTree = "<group>"; };
+		04E80ADF2238166900B22635 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		04E80AE02238166900B22635 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		04E80AE12238166900B22635 /* SFUIText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		04E80AE22238166900B22635 /* SFUIText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		04E80AE32238166A00B22635 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		04E80AE42238166A00B22635 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		04E80AE52238166A00B22635 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		04E80AE62238166A00B22635 /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		04E80AE72238166A00B22635 /* SFUIText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		04E80AF6223817A200B22635 /* SelMosqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelMosqueCell.swift; sourceTree = "<group>"; };
+		04E80AF7223817A200B22635 /* SelMosqueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelMosqueCell.xib; sourceTree = "<group>"; };
+		04F0E4C722B8D8150063773C /* QuranDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranDetailCell.swift; sourceTree = "<group>"; };
+		04F0E4C822B8D8150063773C /* QuranDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuranDetailCell.xib; sourceTree = "<group>"; };
+		04F0E4CC22B8E90F0063773C /* FollowMosqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowMosqueCell.swift; sourceTree = "<group>"; };
+		04F0E4CD22B8E90F0063773C /* FollowMosqueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowMosqueCell.xib; sourceTree = "<group>"; };
+		04F0E4D022B8E9E80063773C /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		04F0E4D122B8E9E80063773C /* FollowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowVC.xib; sourceTree = "<group>"; };
+		04F0E4D422B908D20063773C /* DonationMosquelist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationMosquelist.swift; sourceTree = "<group>"; };
+		04F0E4D522B908D20063773C /* DonationMosquelist.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonationMosquelist.xib; sourceTree = "<group>"; };
+		04F32F7D229D36EF00F8A77C /* MosqueMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueMapVC.swift; sourceTree = "<group>"; };
+		04F32F7E229D36EF00F8A77C /* MosqueMapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosqueMapVC.xib; sourceTree = "<group>"; };
+		04F32F82229D3E8000F8A77C /* MyCommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommunityCell.swift; sourceTree = "<group>"; };
+		04F32F83229D3E8000F8A77C /* MyCommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCommunityCell.xib; sourceTree = "<group>"; };
+		04F32F87229D496400F8A77C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		04F32F88229D496400F8A77C /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		04F4A11222401278006450D6 /* BookmarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkVC.swift; sourceTree = "<group>"; };
+		04F4A11322401278006450D6 /* BookmarkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkVC.xib; sourceTree = "<group>"; };
+		04F4A1172240136B006450D6 /* BookmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		04F4A1182240136B006450D6 /* BookmarkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkCell.xib; sourceTree = "<group>"; };
+		04F82D7B228DDDD700AB6D6B /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		04F82D7C228DDDD700AB6D6B /* DateCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell1.swift; sourceTree = "<group>"; };
+		04F82D7D228DDDD800AB6D6B /* CalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		04F82D82228DE1F400AB6D6B /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		04F82D83228DE1F400AB6D6B /* DateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		0D6FE1D6F91AB6647BEE5E20 /* Pods-Umahh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umahh.debug.xcconfig"; path = "Target Support Files/Pods-Umahh/Pods-Umahh.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7CDCA1A8CA05F4328FCAFB /* Pods-UmahhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmahhTests.release.xcconfig"; path = "Target Support Files/Pods-UmahhTests/Pods-UmahhTests.release.xcconfig"; sourceTree = "<group>"; };
+		4635500A2856B6C00C7C3FFA /* Pods-Umahh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umahh.release.xcconfig"; path = "Target Support Files/Pods-Umahh/Pods-Umahh.release.xcconfig"; sourceTree = "<group>"; };
+		4C24AD7A604FD4A614180D97 /* Pods_Umahh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umahh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482ABF88ECDDC0AD2C0C542 /* Pods-UmahhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmahhUITests.release.xcconfig"; path = "Target Support Files/Pods-UmahhUITests/Pods-UmahhUITests.release.xcconfig"; sourceTree = "<group>"; };
+		905CADFAE1F134800FC91640 /* Pods_UmahhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmahhTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC3E99E2670A0C200FC9623 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AACD9A3F26383DB0006CDA99 /* CompassDirectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassDirectionManager.swift; sourceTree = "<group>"; };
+		BD2425BB7E65C9967C852EE5 /* Pods_UmahhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmahhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB98970F8768169C7018E580 /* Pods-UmahhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmahhUITests.debug.xcconfig"; path = "Target Support Files/Pods-UmahhUITests/Pods-UmahhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +598,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF328FB9D020D27CC55C011 /* Pods_Umahh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +606,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B197A9D2025B40D729D1A0EA /* Pods_UmahhTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +614,928 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1CD558FFC88AA831EFC924 /* Pods_UmahhUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040104DF2268E84700FA590A /* Associate Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040104E02268E85E00FA590A /* AssociateCell.swift */,
+				040104E12268E85E00FA590A /* AssociateCell.xib */,
+			);
+			path = "Associate Cell";
+			sourceTree = "<group>";
+		};
+		0401B7DB24CF520100177B90 /* terms & Condition VC */ = {
+			isa = PBXGroup;
+			children = (
+				0401B7DC24CF522F00177B90 /* TermsVC.swift */,
+				0401B7DD24CF522F00177B90 /* TermsVC.xib */,
+			);
+			path = "terms & Condition VC";
+			sourceTree = "<group>";
+		};
+		040E7F9D2236DF10001599BF /* Change Password */ = {
+			isa = PBXGroup;
+			children = (
+				040E7F9E2236DF35001599BF /* ChangePasswordVC.swift */,
+				040E7F9F2236DF35001599BF /* ChangePasswordVC.xib */,
+			);
+			path = "Change Password";
+			sourceTree = "<group>";
+		};
+		040E7FA22236DF43001599BF /* Account Type */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FA32236DF63001599BF /* AccountTypeVC.swift */,
+				040E7FA42236DF63001599BF /* AccountTypeVC.xib */,
+			);
+			path = "Account Type";
+			sourceTree = "<group>";
+		};
+		040E7FA72236DF6D001599BF /* Verification  */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FA82236DF90001599BF /* VerificationVC.swift */,
+				040E7FA92236DF90001599BF /* VerificationVC.xib */,
+			);
+			path = "Verification ";
+			sourceTree = "<group>";
+		};
+		040E7FAC2236F2E5001599BF /* Create Mosque */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FAD2236F8C8001599BF /* CreateMosqueVC.swift */,
+				040E7FAE2236F8C8001599BF /* CreateMosqueVC.xib */,
+			);
+			path = "Create Mosque";
+			sourceTree = "<group>";
+		};
+		040E7FB12236F8E6001599BF /* Select Mosque */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FB22236F92C001599BF /* SelectMosqueVC.swift */,
+				040E7FB32236F92C001599BF /* SelectMosqueVC.xib */,
+			);
+			path = "Select Mosque";
+			sourceTree = "<group>";
+		};
+		040E7FB62236F945001599BF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04ADB0302259188300185557 /* Table Cell */,
+				040E7FB72236F957001599BF /* HomeVC.swift */,
+				040E7FB82236F957001599BF /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040E7FBB2236F9A1001599BF /* Tempratuer */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FBC2236F9C3001599BF /* TempCV.swift */,
+				040E7FBD2236F9C3001599BF /* TempCV.xib */,
+			);
+			path = Tempratuer;
+			sourceTree = "<group>";
+		};
+		040E7FC02236FADE001599BF /* Mosque Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FC12236FAF8001599BF /* MosqueDetailVC.swift */,
+				040E7FC22236FAF8001599BF /* MosqueDetailVC.xib */,
+			);
+			path = "Mosque Detail";
+			sourceTree = "<group>";
+		};
+		040E7FC52236FB43001599BF /* Board  */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FC62236FB5F001599BF /* BaordVC.swift */,
+				040E7FC72236FB5F001599BF /* BaordVC.xib */,
+			);
+			path = "Board ";
+			sourceTree = "<group>";
+		};
+		040E7FCA2236FB6D001599BF /* Payment  */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FCB2236FB86001599BF /* PaymentVC.swift */,
+				040E7FCC2236FB86001599BF /* PaymentVC.xib */,
+			);
+			path = "Payment ";
+			sourceTree = "<group>";
+		};
+		040E7FCF2236FB91001599BF /* Education List */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FD42236FBCC001599BF /* EducationListVC.swift */,
+				040E7FD52236FBCC001599BF /* EducationListVC.xib */,
+			);
+			path = "Education List";
+			sourceTree = "<group>";
+		};
+		040E7FD82236FBD6001599BF /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FD92236FBEA001599BF /* DonateVC.swift */,
+				040E7FDA2236FBEA001599BF /* DonateVC.xib */,
+			);
+			path = Donate;
+			sourceTree = "<group>";
+		};
+		040E7FDD2236FBF7001599BF /* Education Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FDE2236FC17001599BF /* EducationDetailVC.swift */,
+				040E7FDF2236FC17001599BF /* EducationDetailVC.xib */,
+			);
+			path = "Education Detail";
+			sourceTree = "<group>";
+		};
+		040E7FE22236FC1F001599BF /* Suggestion */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FE32236FC34001599BF /* SuggestionVC.swift */,
+				040E7FE42236FC34001599BF /* SuggestionVC.xib */,
+			);
+			path = Suggestion;
+			sourceTree = "<group>";
+		};
+		040E7FE72236FC40001599BF /* Activity List */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FE82236FC56001599BF /* ActivityList.swift */,
+				040E7FE92236FC56001599BF /* ActivityList.xib */,
+			);
+			path = "Activity List";
+			sourceTree = "<group>";
+		};
+		040E7FEC2236FC5A001599BF /* Activity Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FED2236FC72001599BF /* ActivityDetail.swift */,
+				040E7FEE2236FC72001599BF /* ActivityDetail.xib */,
+			);
+			path = "Activity Detail";
+			sourceTree = "<group>";
+		};
+		040E7FF12236FC98001599BF /* News List */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FF22236FCB5001599BF /* NewsList.swift */,
+				040E7FF32236FCB5001599BF /* NewsList.xib */,
+			);
+			path = "News List";
+			sourceTree = "<group>";
+		};
+		040E7FF62236FCBC001599BF /* News Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FF72236FCDD001599BF /* NewsDetail.swift */,
+				040E7FF82236FCDD001599BF /* NewsDetail.xib */,
+			);
+			path = "News Detail";
+			sourceTree = "<group>";
+		};
+		040E7FFB2236FCE9001599BF /* Association */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FFC2236FD0D001599BF /* AssociationList.swift */,
+				040E7FFD2236FD0D001599BF /* AssociationList.xib */,
+			);
+			path = Association;
+			sourceTree = "<group>";
+		};
+		040E80002236FD1B001599BF /* Calendor */ = {
+			isa = PBXGroup;
+			children = (
+				040E7FFB2236FCE9001599BF /* Association */,
+				040E80012236FD31001599BF /* CalendorVC.swift */,
+				040E80022236FD31001599BF /* CalendorVC.xib */,
+			);
+			path = Calendor;
+			sourceTree = "<group>";
+		};
+		040E80052236FD68001599BF /* Feed VC */ = {
+			isa = PBXGroup;
+			children = (
+				040E80062236FD7B001599BF /* FeedVc.swift */,
+				040E80072236FD7B001599BF /* FeedVc.xib */,
+			);
+			path = "Feed VC";
+			sourceTree = "<group>";
+		};
+		040E800A2236FD90001599BF /* Quran List */ = {
+			isa = PBXGroup;
+			children = (
+				040E800B2236FDB1001599BF /* QuranListVC.swift */,
+				040E800C2236FDB1001599BF /* QuranListVC.xib */,
+			);
+			path = "Quran List";
+			sourceTree = "<group>";
+		};
+		040E800F2236FDB6001599BF /* Quran Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E80052236FD68001599BF /* Feed VC */,
+				040E80102236FDD1001599BF /* QuranDetailVC.swift */,
+				040E80112236FDD1001599BF /* QuranDetailVC.xib */,
+			);
+			path = "Quran Detail";
+			sourceTree = "<group>";
+		};
+		040E80142236FDF1001599BF /* Community List */ = {
+			isa = PBXGroup;
+			children = (
+				040E80152236FE12001599BF /* CommunityListVC.swift */,
+				040E80162236FE12001599BF /* CommunityListVC.xib */,
+			);
+			path = "Community List";
+			sourceTree = "<group>";
+		};
+		040E80192236FE29001599BF /* Add New Request */ = {
+			isa = PBXGroup;
+			children = (
+				040E801A2236FE4A001599BF /* AddNewRequest.swift */,
+				040E801B2236FE4A001599BF /* AddNewRequest.xib */,
+			);
+			path = "Add New Request";
+			sourceTree = "<group>";
+		};
+		040E801E2236FE75001599BF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				040E801F2236FE88001599BF /* SettingsVC.swift */,
+				040E80202236FE88001599BF /* SettingsVC.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		040E80242236FF23001599BF /* Quibla */ = {
+			isa = PBXGroup;
+			children = (
+				040E80252236FF37001599BF /* QuiblaVC.swift */,
+				040E80262236FF37001599BF /* QuiblaVC.xib */,
+				AACD9A3F26383DB0006CDA99 /* CompassDirectionManager.swift */,
+			);
+			path = Quibla;
+			sourceTree = "<group>";
+		};
+		040E80292236FF51001599BF /* Quiz List */ = {
+			isa = PBXGroup;
+			children = (
+				040E802A2236FF85001599BF /* QuizList.swift */,
+				040E802B2236FF85001599BF /* QuizList.xib */,
+			);
+			path = "Quiz List";
+			sourceTree = "<group>";
+		};
+		040E802E2236FF8F001599BF /* Quiz Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040E802F2236FFA7001599BF /* QuizDetail.swift */,
+				040E80302236FFA7001599BF /* QuizDetail.xib */,
+			);
+			path = "Quiz Detail";
+			sourceTree = "<group>";
+		};
+		040E80332236FFBE001599BF /* Zakat Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				040E80342236FFE5001599BF /* ZakatCalcVC.swift */,
+				040E80352236FFE5001599BF /* ZakatCalcVC.xib */,
+			);
+			path = "Zakat Calculator";
+			sourceTree = "<group>";
+		};
+		040E803922370032001599BF /* Haji Umrah */ = {
+			isa = PBXGroup;
+			children = (
+				040E803A2237004C001599BF /* HajiUmrahVC.swift */,
+				040E803B2237004C001599BF /* HajiUmrahVC.xib */,
+			);
+			path = "Haji Umrah";
+			sourceTree = "<group>";
+		};
+		040E803E22370055001599BF /* Haji List */ = {
+			isa = PBXGroup;
+			children = (
+				040E803F22370079001599BF /* HajiListVC.swift */,
+				040E804022370079001599BF /* HajiListVC.xib */,
+			);
+			path = "Haji List";
+			sourceTree = "<group>";
+		};
+		040E804322370082001599BF /* Umrah List */ = {
+			isa = PBXGroup;
+			children = (
+				040E804422370097001599BF /* UmrahListVC.swift */,
+				040E804522370097001599BF /* UmrahListVC.xib */,
+			);
+			path = "Umrah List";
+			sourceTree = "<group>";
+		};
+		040E8048223700B9001599BF /* Supplication */ = {
+			isa = PBXGroup;
+			children = (
+				040E8049223700E1001599BF /* SupplicationVC.swift */,
+				040E804A223700E1001599BF /* SupplicationVC.xib */,
+			);
+			path = Supplication;
+			sourceTree = "<group>";
+		};
+		040E804D223700FF001599BF /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				040E804F2237011B001599BF /* BusinessVC.swift */,
+				040E80502237011B001599BF /* BusinessVC.xib */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		040E80532237013B001599BF /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				040E805422370156001599BF /* DonationVC.swift */,
+				040E805522370156001599BF /* DonationVC.xib */,
+			);
+			path = Donation;
+			sourceTree = "<group>";
+		};
+		040E805822370189001599BF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				040E8059223701A0001599BF /* NotificationVC.swift */,
+				040E805A223701A0001599BF /* NotificationVC.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		040E805D223702CD001599BF /*  Cell Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047707B524D07772007E2F14 /* My Donation Cell */,
+				0437D76E2375AABA0048CEA5 /* Quiz Ques Ans Cell */,
+				0437D7692375A48E0048CEA5 /* Quiz Rules Cell */,
+				04401F5123565F400089D929 /* PersonnageCell */,
+				045ABCFC22EA394A00BAFEFD /* Second Donation cell */,
+				04F0E4CB22B8E8F10063773C /* Follow Mosque */,
+				04F0E4C622B8D7FB0063773C /* Quran Detail Cell */,
+				04C64DCD22B6B4C00081138C /* Donation Cell */,
+				04816D84229DDD7800B3D08F /* Business Organization Detail Cell */,
+				04F32F81229D3E6100F8A77C /* My Commnunity Cell */,
+				0441415E2281FF460037875D /* Mqsque Detail */,
+				04ABFFFE227A089D00FC5567 /* Education Detail cell */,
+				040F42AC226FAD0D004F1AA0 /* Business Detail Cell */,
+				040F42A2226F9EA5004F1AA0 /* Haji umrah detail Cell */,
+				040104DF2268E84700FA590A /* Associate Cell */,
+				043482712265157800955615 /* Prayer Time Cell */,
+				04CCED962264B7F7004F13B7 /* Activity Cell */,
+				04CCED912264B61E004F13B7 /* News Cell */,
+				04CCED8C2264B4B3004F13B7 /* Calender List Cell */,
+				04CCED872264B3EF004F13B7 /* Education List Cell  */,
+				04CCED822264A798004F13B7 /* Board Cell */,
+				0417F070225DC37C004FD75B /* Mosque List Cell */,
+				04F4A11622401351006450D6 /* Bookmark cell */,
+				0438305A223FBBB80011734C /* Supplication cell */,
+				04AB8F8B223F05FB00CC8B8E /* Haji umrah cell */,
+				04A49A5B223C3EFE0076368E /* Supplication cell */,
+				04A49A56223C3DD60076368E /* Zakat Calutator cell */,
+				04A49A51223C3D2A0076368E /* Quiz Cell */,
+				04A49A4C223C3B590076368E /* Community */,
+				04A49A4B223C39E90076368E /* Quran Cell */,
+				04A49A42223C2F1B0076368E /* Feed Cell */,
+				048E55A42239620E00493C4F /* Search Collection */,
+				048E559A22395DD800493C4F /* Notification Cell */,
+				04E80AF52238177100B22635 /* Sel Mosque Cell */,
+				04E80AF42238173F00B22635 /* Intro Cell */,
+			);
+			path = " Cell Controller";
+			sourceTree = "<group>";
+		};
+		040E806222370AC2001599BF /* Business Owner Signup */ = {
+			isa = PBXGroup;
+			children = (
+				040E806322370AED001599BF /* BusinessOwnerSignupVC.swift */,
+				040E806422370AED001599BF /* BusinessOwnerSignupVC.xib */,
+			);
+			path = "Business Owner Signup";
+			sourceTree = "<group>";
+		};
+		040F42A2226F9EA5004F1AA0 /* Haji umrah detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040F42A3226F9ECA004F1AA0 /* HajiumrahDetailCell.swift */,
+				040F42A4226F9ECA004F1AA0 /* HajiumrahDetailCell.xib */,
+			);
+			path = "Haji umrah detail Cell";
+			sourceTree = "<group>";
+		};
+		040F42A7226FA507004F1AA0 /* Supplication Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040F42A8226FA52A004F1AA0 /* SupplicationDetailVC.swift */,
+				040F42A9226FA52A004F1AA0 /* SupplicationDetailVC.xib */,
+			);
+			path = "Supplication Detail";
+			sourceTree = "<group>";
+		};
+		040F42AC226FAD0D004F1AA0 /* Business Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040F42AD226FAD3B004F1AA0 /* BusniessDetailCell.swift */,
+				040F42AE226FAD3B004F1AA0 /* BusniessDetailCell.xib */,
+			);
+			path = "Business Detail Cell";
+			sourceTree = "<group>";
+		};
+		040F42B1226FB12B004F1AA0 /* Business Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040F42B2226FB14A004F1AA0 /* BusinessDetailVC.swift */,
+				040F42B3226FB14A004F1AA0 /* BusinessDetailVC.xib */,
+			);
+			path = "Business Detail";
+			sourceTree = "<group>";
+		};
+		0417B1CB23578DD500B5813E /* PersonnageDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				0417B1CC23578DF800B5813E /* PersonnageDetailVC.swift */,
+				0417B1CD23578DF800B5813E /* PersonnageDetailVC.xib */,
+			);
+			path = PersonnageDetailVC;
+			sourceTree = "<group>";
+		};
+		0417F067225DC2A8004FD75B /* Mosque List */ = {
+			isa = PBXGroup;
+			children = (
+				0417F068225DC2CE004FD75B /* MosqueListVC.swift */,
+				0417F069225DC2CE004FD75B /* MosqueListVC.xib */,
+			);
+			path = "Mosque List";
+			sourceTree = "<group>";
+		};
+		0417F070225DC37C004FD75B /* Mosque List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0417F06C225DC376004FD75B /* MosqueListCell.swift */,
+				0417F06D225DC376004FD75B /* MosqueListCell.xib */,
+			);
+			path = "Mosque List Cell";
+			sourceTree = "<group>";
+		};
+		0417F071225DE011004FD75B /* Custome Info window */ = {
+			isa = PBXGroup;
+			children = (
+				0417F072225DE025004FD75B /* MarkerDInfoView.swift */,
+				0417F073225DE026004FD75B /* MarkerDInfoView.xib */,
+			);
+			path = "Custome Info window";
+			sourceTree = "<group>";
+		};
+		0434826C22650FE100955615 /* Prayer Time */ = {
+			isa = PBXGroup;
+			children = (
+				0434826D2265101600955615 /* PrayerTimeVC.swift */,
+				0434826E2265101600955615 /* PrayerTimeVC.xib */,
+			);
+			path = "Prayer Time";
+			sourceTree = "<group>";
+		};
+		043482712265157800955615 /* Prayer Time Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04348276226517B900955615 /* PrayerTimeCell.swift */,
+				04348277226517B900955615 /* PrayerTimeCell.xib */,
+			);
+			path = "Prayer Time Cell";
+			sourceTree = "<group>";
+		};
+		0437D7642375A31B0048CEA5 /* Quiz Rules VC */ = {
+			isa = PBXGroup;
+			children = (
+				0437D7652375A33E0048CEA5 /* QuizRulesVC.swift */,
+				0437D7662375A33E0048CEA5 /* QuizRulesVC.xib */,
+			);
+			path = "Quiz Rules VC";
+			sourceTree = "<group>";
+		};
+		0437D7692375A48E0048CEA5 /* Quiz Rules Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0437D76A2375A4A90048CEA5 /* QuizRulesCell.swift */,
+				0437D76B2375A4A90048CEA5 /* QuizRulesCell.xib */,
+			);
+			path = "Quiz Rules Cell";
+			sourceTree = "<group>";
+		};
+		0437D76E2375AABA0048CEA5 /* Quiz Ques Ans Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0437D76F2375AADB0048CEA5 /* QuizQuesAnsCell.swift */,
+				0437D7702375AADB0048CEA5 /* QuizQuesAnsCell.xib */,
+			);
+			path = "Quiz Ques Ans Cell";
+			sourceTree = "<group>";
+		};
+		0437D7732375BCE20048CEA5 /* Quiz Result VC */ = {
+			isa = PBXGroup;
+			children = (
+				0437D7742375BD070048CEA5 /* QuizResultVC.swift */,
+				0437D7752375BD070048CEA5 /* QuizResultVC.xib */,
+			);
+			path = "Quiz Result VC";
+			sourceTree = "<group>";
+		};
+		0438305A223FBBB80011734C /* Supplication cell */ = {
+			isa = PBXGroup;
+			children = (
+				04383056223FBBAD0011734C /* SupplicationCell.swift */,
+				04383057223FBBAD0011734C /* SupplicationCell.xib */,
+			);
+			name = "Supplication cell";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		04401F4C23565C680089D929 /* PersonnageVC */ = {
+			isa = PBXGroup;
+			children = (
+				04401F4D23565CA20089D929 /* PersonnageVC.swift */,
+				04401F4E23565CA20089D929 /* PersonnageVC.xib */,
+			);
+			path = PersonnageVC;
+			sourceTree = "<group>";
+		};
+		04401F5123565F400089D929 /* PersonnageCell */ = {
+			isa = PBXGroup;
+			children = (
+				04401F5223565F600089D929 /* PersonnageCell.swift */,
+				04401F5323565F600089D929 /* PersonnageCell.xib */,
+			);
+			path = PersonnageCell;
+			sourceTree = "<group>";
+		};
+		0441415E2281FF460037875D /* Mqsque Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0441415F2281FF650037875D /* MosqueContentCell.swift */,
+				044141602281FF650037875D /* MosqueContentCell.xib */,
+				044141632281FFF60037875D /* MosqueOptionCell.swift */,
+				044141642281FFF60037875D /* MosqueOptionCell.xib */,
+			);
+			path = "Mqsque Detail";
+			sourceTree = "<group>";
+		};
+		044A7C4B22B57716003ADD1D /* Mosque list VC */ = {
+			isa = PBXGroup;
+			children = (
+				044A7C4C22B57732003ADD1D /* MosquelistVC.swift */,
+				044A7C4D22B57732003ADD1D /* MosquelistVC.xib */,
+				04F0E4D422B908D20063773C /* DonationMosquelist.swift */,
+				04F0E4D522B908D20063773C /* DonationMosquelist.xib */,
+				048E034E22E9B3BB00E3741C /* NewMosqueList.swift */,
+				048E034F22E9B3BB00E3741C /* NewMosqueList.xib */,
+			);
+			path = "Mosque list VC";
+			sourceTree = "<group>";
+		};
+		045ABCF322EA358600BAFEFD /* Donation Second */ = {
+			isa = PBXGroup;
+			children = (
+				045ABCF422EA35B700BAFEFD /* SecondDonationVC.swift */,
+				045ABCF522EA35B700BAFEFD /* SecondDonationVC.xib */,
+			);
+			path = "Donation Second";
+			sourceTree = "<group>";
+		};
+		045ABCFC22EA394A00BAFEFD /* Second Donation cell */ = {
+			isa = PBXGroup;
+			children = (
+				045ABCFD22EA399F00BAFEFD /* SecondDonationCell.swift */,
+				045ABCFE22EA399F00BAFEFD /* SecondDonationCell.xib */,
+			);
+			path = "Second Donation cell";
+			sourceTree = "<group>";
+		};
+		0465FD76224EA98200B673A1 /* Thired Party */ = {
+			isa = PBXGroup;
+			children = (
+				0499682723C86C5B008E74AC /* kApiClass.swift */,
+				04D7777B222F0DB0008A0E97 /* AppConstant.swift */,
+				0465FD7C224EA9A300B673A1 /* AppHeader.swift */,
+				0465FD7B224EA9A200B673A1 /* Extensions.swift */,
+				0465FD78224EA9A200B673A1 /* Globel.swift */,
+				0465FD79224EA9A200B673A1 /* Utility.swift */,
+			);
+			path = "Thired Party";
+			sourceTree = "<group>";
+		};
+		047707B524D07772007E2F14 /* My Donation Cell */ = {
+			isa = PBXGroup;
+			children = (
+				047707B624D0778E007E2F14 /* MyDonationCell.swift */,
+				047707B724D0778E007E2F14 /* MyDonationCell.xib */,
+			);
+			path = "My Donation Cell";
+			sourceTree = "<group>";
+		};
+		047707BA24D079EA007E2F14 /* My Donation VC */ = {
+			isa = PBXGroup;
+			children = (
+				047707BB24D07A0C007E2F14 /* MyDonationVC.swift */,
+				047707BC24D07A0C007E2F14 /* MyDonationVC.xib */,
+			);
+			path = "My Donation VC";
+			sourceTree = "<group>";
+		};
+		04816D7F229DDCBB00B3D08F /* Business Final Detail */ = {
+			isa = PBXGroup;
+			children = (
+				04816D80229DDCF100B3D08F /* BusinessDetailFinalVC.swift */,
+				04816D81229DDCF100B3D08F /* BusinessDetailFinalVC.xib */,
+			);
+			path = "Business Final Detail";
+			sourceTree = "<group>";
+		};
+		04816D84229DDD7800B3D08F /* Business Organization Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04816D89229DE0A100B3D08F /* BusinessOrganizationCell.swift */,
+				04816D8A229DE0A100B3D08F /* BusinessOrganizationCell.xib */,
+			);
+			path = "Business Organization Detail Cell";
+			sourceTree = "<group>";
+		};
+		048E559A22395DD800493C4F /* Notification Cell */ = {
+			isa = PBXGroup;
+			children = (
+				048E559B22395DF000493C4F /* NotificationCell.swift */,
+				048E559C22395DF000493C4F /* NotificationCell.xib */,
+			);
+			path = "Notification Cell";
+			sourceTree = "<group>";
+		};
+		048E559F2239613600493C4F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				048E55A02239615200493C4F /* SearchVC.swift */,
+				048E55A12239615200493C4F /* SearchVC.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		048E55A42239620E00493C4F /* Search Collection */ = {
+			isa = PBXGroup;
+			children = (
+				048E55A52239622E00493C4F /* SearchCollectionCell.swift */,
+				048E55A62239622E00493C4F /* SearchCollectionCell.xib */,
+			);
+			path = "Search Collection";
+			sourceTree = "<group>";
+		};
+		048E55A9223964E100493C4F /* Khutba */ = {
+			isa = PBXGroup;
+			children = (
+				048E55AA223966BA00493C4F /* KhutbaVC.swift */,
+				048E55AB223966BA00493C4F /* KhutbaVC.xib */,
+			);
+			path = Khutba;
+			sourceTree = "<group>";
+		};
+		048E55B222399EB300493C4F /* Side menu */ = {
+			isa = PBXGroup;
+			children = (
+				048E55B422399ED000493C4F /* DrawerTransition.swift */,
+				048E55B522399ED100493C4F /* HeaderCell.swift */,
+				048E55B622399ED100493C4F /* SideMenuViewController.swift */,
+				048E55B322399ED000493C4F /* SubCategoryViewCell.swift */,
+			);
+			path = "Side menu";
+			sourceTree = "<group>";
+		};
+		048E55BB2239BBD500493C4F /* Personange */ = {
+			isa = PBXGroup;
+			children = (
+				048E55BC2239BBF300493C4F /* PersonangeVC.swift */,
+				048E55BD2239BBF300493C4F /* PersonangeVC.xib */,
+			);
+			path = Personange;
+			sourceTree = "<group>";
+		};
+		048E55C02239BC0000493C4F /* Organization  */ = {
+			isa = PBXGroup;
+			children = (
+				048E55C12239BC1D00493C4F /* OrganizationVC.swift */,
+				048E55C22239BC1D00493C4F /* OrganizationVC.xib */,
+			);
+			path = "Organization ";
+			sourceTree = "<group>";
+		};
+		049BD2CB225B63C8009FB215 /* Mosque Signup */ = {
+			isa = PBXGroup;
+			children = (
+				049BD2CC225B63EF009FB215 /* MosqueSignVC.swift */,
+				049BD2CD225B63EF009FB215 /* MosqueSignVC.xib */,
+			);
+			path = "Mosque Signup";
+			sourceTree = "<group>";
+		};
+		04A28CD422A082010027FDA5 /* Qiblah Class */ = {
+			isa = PBXGroup;
+			children = (
+				04A28CD522A0821E0027FDA5 /* CLLocation+Extension.swift */,
+				04A28CD622A0821F0027FDA5 /* LocationDelegate.swift */,
+				04A28CD722A0821F0027FDA5 /* UserDefauts+Extensions.swift */,
+			);
+			path = "Qiblah Class";
+			sourceTree = "<group>";
+		};
+		04A49A42223C2F1B0076368E /* Feed Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A43223C2F680076368E /* FeedCell.swift */,
+				04A49A44223C2F680076368E /* FeedCell.xib */,
+			);
+			path = "Feed Cell";
+			sourceTree = "<group>";
+		};
+		04A49A4B223C39E90076368E /* Quran Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A47223C39E10076368E /* QuranCell.swift */,
+				04A49A48223C39E10076368E /* QuranCell.xib */,
+			);
+			path = "Quran Cell";
+			sourceTree = "<group>";
+		};
+		04A49A4C223C3B590076368E /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A4D223C3B6D0076368E /* CommunityCell.swift */,
+				04A49A4E223C3B6D0076368E /* CommunityCell.xib */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		04A49A51223C3D2A0076368E /* Quiz Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A52223C3D4F0076368E /* QuizCell.swift */,
+				04A49A53223C3D4F0076368E /* QuizCell.xib */,
+			);
+			path = "Quiz Cell";
+			sourceTree = "<group>";
+		};
+		04A49A56223C3DD60076368E /* Zakat Calutator cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A57223C3DFB0076368E /* ZakatCalcCell.swift */,
+				04A49A58223C3DFB0076368E /* ZakatCalcCell.xib */,
+			);
+			path = "Zakat Calutator cell";
+			sourceTree = "<group>";
+		};
+		04A49A5B223C3EFE0076368E /* Supplication cell */ = {
+			isa = PBXGroup;
+			children = (
+				0438305B223FBC800011734C /* ItemSupplicationCell.swift */,
+				0438305C223FBC800011734C /* ItemSupplicationCell.xib */,
+			);
+			path = "Supplication cell";
+			sourceTree = "<group>";
+		};
+		04AB8F8B223F05FB00CC8B8E /* Haji umrah cell */ = {
+			isa = PBXGroup;
+			children = (
+				04AB8F8C223F061400CC8B8E /* HajiumrahCell.swift */,
+				04AB8F8D223F061400CC8B8E /* HajiumrahCell.xib */,
+			);
+			path = "Haji umrah cell";
+			sourceTree = "<group>";
+		};
+		04ABFFFE227A089D00FC5567 /* Education Detail cell */ = {
+			isa = PBXGroup;
+			children = (
+				04ABFFFF227A1E6500FC5567 /* EducationInfoCell.swift */,
+				04AB0000227A1E6500FC5567 /* EducationInfoCell.xib */,
+				04AB0004227A1E8800FC5567 /* EducationContentCell.swift */,
+				04AB0005227A1E8800FC5567 /* EducationContentCell.xib */,
+			);
+			path = "Education Detail cell";
+			sourceTree = "<group>";
+		};
+		04ADB0302259188300185557 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04ADB02C2259187D00185557 /* TimeCell.swift */,
+				04ADB02D2259187D00185557 /* TimeCell.xib */,
+				04ADB031225918A600185557 /* MosqueDetailCell.swift */,
+				04ADB032225918A600185557 /* MosqueDetailCell.xib */,
+				04ADB035225918CB00185557 /* OptionCell.swift */,
+				04ADB036225918CB00185557 /* OptionCell.xib */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		04C64DC822B6A8B50081138C /* First Donation */ = {
+			isa = PBXGroup;
+			children = (
+				04C64DC922B6A8FB0081138C /* FirstDonationVC.swift */,
+				04C64DCA22B6A8FB0081138C /* FirstDonationVC.xib */,
+			);
+			path = "First Donation";
+			sourceTree = "<group>";
+		};
+		04C64DCD22B6B4C00081138C /* Donation Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04C64DCE22B6B4F50081138C /* DonationCell.swift */,
+				04C64DCF22B6B4F50081138C /* DonationCell.xib */,
+			);
+			path = "Donation Cell";
+			sourceTree = "<group>";
+		};
+		04CCED822264A798004F13B7 /* Board Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04CCED832264A7B0004F13B7 /* BoardCell.swift */,
+				04CCED842264A7B0004F13B7 /* BoardCell.xib */,
+			);
+			path = "Board Cell";
+			sourceTree = "<group>";
+		};
+		04CCED872264B3EF004F13B7 /* Education List Cell  */ = {
+			isa = PBXGroup;
+			children = (
+				04CCED882264B448004F13B7 /* EducationListCell.swift */,
+				04CCED892264B448004F13B7 /* EducationListCell.xib */,
+			);
+			path = "Education List Cell ";
+			sourceTree = "<group>";
+		};
+		04CCED8C2264B4B3004F13B7 /* Calender List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04CCED8D2264B4D3004F13B7 /* CalenderCell.swift */,
+				04CCED8E2264B4D3004F13B7 /* CalenderCell.xib */,
+			);
+			path = "Calender List Cell";
+			sourceTree = "<group>";
+		};
+		04CCED912264B61E004F13B7 /* News Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04CCED922264B6BC004F13B7 /* NewsCell.swift */,
+				04CCED932264B6BC004F13B7 /* NewsCell.xib */,
+			);
+			path = "News Cell";
+			sourceTree = "<group>";
+		};
+		04CCED962264B7F7004F13B7 /* Activity Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04CCED9B2264B834004F13B7 /* ActivityCell.swift */,
+				04CCED9C2264B834004F13B7 /* ActivityCell.xib */,
+			);
+			path = "Activity Cell";
+			sourceTree = "<group>";
+		};
+		04CDE29E23139C9C001E2ABD /* All Mosque List  */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE29F23139CBE001E2ABD /* AllMosqueListVC.swift */,
+				04CDE2A023139CBE001E2ABD /* AllMosqueListVC.xib */,
+			);
+			path = "All Mosque List ";
+			sourceTree = "<group>";
+		};
+		04D2469522B83A1B00FD3247 /* Follow VC */ = {
+			isa = PBXGroup;
+			children = (
+				04F0E4D022B8E9E80063773C /* FollowVC.swift */,
+				04F0E4D122B8E9E80063773C /* FollowVC.xib */,
+			);
+			path = "Follow VC";
+			sourceTree = "<group>";
+		};
 		04D7773F222F0C51008A0E97 = {
 			isa = PBXGroup;
 			children = (
+				04DE0A24251C8EFB0037099F /* credentials.plist */,
+				AAC3E99E2670A0C200FC9623 /* GoogleService-Info.plist */,
+				046DA0C922DE596700FCB91A /* Umahh-Bridging-Header.h */,
 				04D7774A222F0C51008A0E97 /* Umahh */,
 				04D7775F222F0C52008A0E97 /* UmahhTests */,
 				04D7776A222F0C52008A0E97 /* UmahhUITests */,
 				04D77749222F0C51008A0E97 /* Products */,
+				DDFA3E94C05F8810343EB28D /* Pods */,
+				D16EF5DB41C7D44E985ECD37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +1552,12 @@
 		04D7774A222F0C51008A0E97 /* Umahh */ = {
 			isa = PBXGroup;
 			children = (
+				0411AC0C24FF7B1800C0B6E8 /* Umahh.entitlements */,
+				04E4A58B24365FE700710C67 /* New Group */,
+				04E80AB6223813C900B22635 /* Resources */,
+				040E805D223702CD001599BF /*  Cell Controller */,
+				04D7777D222F0DE1008A0E97 /* Helper */,
+				04D77779222F0C66008A0E97 /* Controller */,
 				04D7774B222F0C51008A0E97 /* AppDelegate.swift */,
 				04D7774D222F0C51008A0E97 /* ViewController.swift */,
 				04D7774F222F0C51008A0E97 /* Main.storyboard */,
@@ -125,6 +1586,305 @@
 			path = UmahhUITests;
 			sourceTree = "<group>";
 		};
+		04D77779222F0C66008A0E97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047707BA24D079EA007E2F14 /* My Donation VC */,
+				0401B7DB24CF520100177B90 /* terms & Condition VC */,
+				0437D7732375BCE20048CEA5 /* Quiz Result VC */,
+				0437D7642375A31B0048CEA5 /* Quiz Rules VC */,
+				0417B1CB23578DD500B5813E /* PersonnageDetailVC */,
+				04E7A5B523573D2D006CA4F1 /* JuzDetailVc */,
+				04401F4C23565C680089D929 /* PersonnageVC */,
+				04CDE29E23139C9C001E2ABD /* All Mosque List  */,
+				045ABCF322EA358600BAFEFD /* Donation Second */,
+				04D2469522B83A1B00FD3247 /* Follow VC */,
+				04C64DC822B6A8B50081138C /* First Donation */,
+				044A7C4B22B57716003ADD1D /* Mosque list VC */,
+				04816D7F229DDCBB00B3D08F /* Business Final Detail */,
+				04F32F86229D493900F8A77C /* Profile */,
+				04F32F7C229D36D000F8A77C /* Mosque Map */,
+				040F42B1226FB12B004F1AA0 /* Business Detail */,
+				040F42A7226FA507004F1AA0 /* Supplication Detail */,
+				0434826C22650FE100955615 /* Prayer Time */,
+				0417F067225DC2A8004FD75B /* Mosque List */,
+				04F4A1112240123C006450D6 /* Bookmark */,
+				048E55C02239BC0000493C4F /* Organization  */,
+				048E55BB2239BBD500493C4F /* Personange */,
+				048E55A9223964E100493C4F /* Khutba */,
+				048E559F2239613600493C4F /* Search */,
+				040E805822370189001599BF /* Notification */,
+				040E80532237013B001599BF /* Donation */,
+				040E804D223700FF001599BF /* Business */,
+				040E8048223700B9001599BF /* Supplication */,
+				040E804322370082001599BF /* Umrah List */,
+				040E803E22370055001599BF /* Haji List */,
+				040E803922370032001599BF /* Haji Umrah */,
+				040E80332236FFBE001599BF /* Zakat Calculator */,
+				040E802E2236FF8F001599BF /* Quiz Detail */,
+				040E80292236FF51001599BF /* Quiz List */,
+				040E80242236FF23001599BF /* Quibla */,
+				040E801E2236FE75001599BF /* Settings */,
+				040E80192236FE29001599BF /* Add New Request */,
+				040E80142236FDF1001599BF /* Community List */,
+				040E800F2236FDB6001599BF /* Quran Detail */,
+				040E800A2236FD90001599BF /* Quran List */,
+				040E80002236FD1B001599BF /* Calendor */,
+				040E7FF62236FCBC001599BF /* News Detail */,
+				040E7FF12236FC98001599BF /* News List */,
+				040E7FEC2236FC5A001599BF /* Activity Detail */,
+				040E7FE72236FC40001599BF /* Activity List */,
+				040E7FE22236FC1F001599BF /* Suggestion */,
+				040E7FDD2236FBF7001599BF /* Education Detail */,
+				040E7FD82236FBD6001599BF /* Donate */,
+				040E7FCF2236FB91001599BF /* Education List */,
+				040E7FCA2236FB6D001599BF /* Payment  */,
+				040E7FC52236FB43001599BF /* Board  */,
+				040E7FC02236FADE001599BF /* Mosque Detail */,
+				040E7FBB2236F9A1001599BF /* Tempratuer */,
+				040E7FB62236F945001599BF /* Home */,
+				040E7FB12236F8E6001599BF /* Select Mosque */,
+				040E7FAC2236F2E5001599BF /* Create Mosque */,
+				040E7FA72236DF6D001599BF /* Verification  */,
+				040E7FA22236DF43001599BF /* Account Type */,
+				040E7F9D2236DF10001599BF /* Change Password */,
+				04D7778A222F133F008A0E97 /* Signup */,
+				04D77785222F0E32008A0E97 /* Intro VC */,
+				04D77780222F0E0D008A0E97 /* LoginVC */,
+				048E55AE2239815D00493C4F /* ForgetVc.swift */,
+				048E55AF2239815D00493C4F /* ForgetVc.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04D7777D222F0DE1008A0E97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				04D7777E222F0DEF008A0E97 /* ViewControllerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		04D77780222F0E0D008A0E97 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				04D77781222F0E29008A0E97 /* LoginVC.swift */,
+				04D77782222F0E29008A0E97 /* LoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		04D77785222F0E32008A0E97 /* Intro VC */ = {
+			isa = PBXGroup;
+			children = (
+				04D77786222F0E50008A0E97 /* IntroVC.swift */,
+				04D77787222F0E50008A0E97 /* IntroVC.xib */,
+			);
+			path = "Intro VC";
+			sourceTree = "<group>";
+		};
+		04D7778A222F133F008A0E97 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				049BD2CB225B63C8009FB215 /* Mosque Signup */,
+				040E806222370AC2001599BF /* Business Owner Signup */,
+				04D7778B222F1351008A0E97 /* SignupVC.swift */,
+				04D7778C222F1351008A0E97 /* SignupVC.xib */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		04E4A58B24365FE700710C67 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		04E4A58C24365FF000710C67 /* Language File */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A58D2436601000710C67 /* Lang.plist */,
+			);
+			path = "Language File";
+			sourceTree = "<group>";
+		};
+		04E7A5B523573D2D006CA4F1 /* JuzDetailVc */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A5B623573D59006CA4F1 /* JuzDetailVC.swift */,
+				04E7A5B723573D59006CA4F1 /* JuzDetailVC.xib */,
+			);
+			path = JuzDetailVc;
+			sourceTree = "<group>";
+		};
+		04E80AB6223813C900B22635 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A58C24365FF000710C67 /* Language File */,
+				04A28CD422A082010027FDA5 /* Qiblah Class */,
+				04F82D7A228DDDB900AB6D6B /* Calendor View */,
+				0417F071225DE011004FD75B /* Custome Info window */,
+				0465FD76224EA98200B673A1 /* Thired Party */,
+				048E55B222399EB300493C4F /* Side menu */,
+				04E80AB72238148C00B22635 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E80AB72238148C00B22635 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0465FD77224EA9A100B673A1 /* customLoader.swift */,
+				04A49A75223C4EFD0076368E /* sf-ui-display-black.otf */,
+				04A49A7B223C4EFE0076368E /* sf-ui-display-bold.otf */,
+				04A49A77223C4EFE0076368E /* sf-ui-display-heavy.otf */,
+				04A49A7A223C4EFE0076368E /* sf-ui-display-light.otf */,
+				04A49A76223C4EFD0076368E /* sf-ui-display-medium.otf */,
+				04A49A73223C4EFD0076368E /* sf-ui-display-semibold.otf */,
+				04A49A78223C4EFE0076368E /* sf-ui-display-thin.otf */,
+				04A49A79223C4EFE0076368E /* sf-ui-display-ultralight.otf */,
+				04A49A74223C4EFD0076368E /* SFUIText-Regular.otf */,
+				04E80AE52238166A00B22635 /* SFUIText-Bold.ttf */,
+				04E80AE62238166A00B22635 /* SFUIText-BoldItalic.ttf */,
+				04E80ADD2238166900B22635 /* SFUIText-Heavy.ttf */,
+				04E80AE22238166900B22635 /* SFUIText-HeavyItalic.ttf */,
+				04E80AE32238166A00B22635 /* SFUIText-Light.ttf */,
+				04E80ADE2238166900B22635 /* SFUIText-LightItalic.ttf */,
+				04E80ADC2238166900B22635 /* SFUIText-Medium.ttf */,
+				04E80AE12238166900B22635 /* SFUIText-MediumItalic.ttf */,
+				04E80AE42238166A00B22635 /* SFUIText-Regular.ttf */,
+				04E80ADF2238166900B22635 /* SFUIText-RegularItalic.ttf */,
+				04E80AE02238166900B22635 /* SFUIText-Semibold.ttf */,
+				04E80AE72238166A00B22635 /* SFUIText-SemiboldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		04E80AF42238173F00B22635 /* Intro Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040E805E223706C1001599BF /* IntroCell.swift */,
+				040E805F223706C1001599BF /* IntroCell.xib */,
+			);
+			path = "Intro Cell";
+			sourceTree = "<group>";
+		};
+		04E80AF52238177100B22635 /* Sel Mosque Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04E80AF6223817A200B22635 /* SelMosqueCell.swift */,
+				04E80AF7223817A200B22635 /* SelMosqueCell.xib */,
+			);
+			path = "Sel Mosque Cell";
+			sourceTree = "<group>";
+		};
+		04F0E4C622B8D7FB0063773C /* Quran Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04F0E4C722B8D8150063773C /* QuranDetailCell.swift */,
+				04F0E4C822B8D8150063773C /* QuranDetailCell.xib */,
+			);
+			path = "Quran Detail Cell";
+			sourceTree = "<group>";
+		};
+		04F0E4CB22B8E8F10063773C /* Follow Mosque */ = {
+			isa = PBXGroup;
+			children = (
+				04F0E4CC22B8E90F0063773C /* FollowMosqueCell.swift */,
+				04F0E4CD22B8E90F0063773C /* FollowMosqueCell.xib */,
+			);
+			path = "Follow Mosque";
+			sourceTree = "<group>";
+		};
+		04F32F7C229D36D000F8A77C /* Mosque Map */ = {
+			isa = PBXGroup;
+			children = (
+				04F32F7D229D36EF00F8A77C /* MosqueMapVC.swift */,
+				04F32F7E229D36EF00F8A77C /* MosqueMapVC.xib */,
+			);
+			path = "Mosque Map";
+			sourceTree = "<group>";
+		};
+		04F32F81229D3E6100F8A77C /* My Commnunity Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04F32F82229D3E8000F8A77C /* MyCommunityCell.swift */,
+				04F32F83229D3E8000F8A77C /* MyCommunityCell.xib */,
+			);
+			path = "My Commnunity Cell";
+			sourceTree = "<group>";
+		};
+		04F32F86229D493900F8A77C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04F32F87229D496400F8A77C /* ProfileVC.swift */,
+				04F32F88229D496400F8A77C /* ProfileVC.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04F4A1112240123C006450D6 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A11222401278006450D6 /* BookmarkVC.swift */,
+				04F4A11322401278006450D6 /* BookmarkVC.xib */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		04F4A11622401351006450D6 /* Bookmark cell */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A1172240136B006450D6 /* BookmarkCell.swift */,
+				04F4A1182240136B006450D6 /* BookmarkCell.xib */,
+			);
+			path = "Bookmark cell";
+			sourceTree = "<group>";
+		};
+		04F82D7A228DDDB900AB6D6B /* Calendor View */ = {
+			isa = PBXGroup;
+			children = (
+				04F82D81228DE1DF00AB6D6B /* Date Cell */,
+				04F82D7D228DDDD800AB6D6B /* CalendarManager.swift */,
+				04F82D7C228DDDD700AB6D6B /* DateCell1.swift */,
+				04F82D7B228DDDD700AB6D6B /* NSDateExtension.swift */,
+			);
+			path = "Calendor View";
+			sourceTree = "<group>";
+		};
+		04F82D81228DE1DF00AB6D6B /* Date Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04F82D82228DE1F400AB6D6B /* DateCell.swift */,
+				04F82D83228DE1F400AB6D6B /* DateCell.xib */,
+			);
+			path = "Date Cell";
+			sourceTree = "<group>";
+		};
+		D16EF5DB41C7D44E985ECD37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C24AD7A604FD4A614180D97 /* Pods_Umahh.framework */,
+				905CADFAE1F134800FC91640 /* Pods_UmahhTests.framework */,
+				BD2425BB7E65C9967C852EE5 /* Pods_UmahhUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDFA3E94C05F8810343EB28D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6FE1D6F91AB6647BEE5E20 /* Pods-Umahh.debug.xcconfig */,
+				4635500A2856B6C00C7C3FFA /* Pods-Umahh.release.xcconfig */,
+				044E546BA65077453DEC3575 /* Pods-UmahhTests.debug.xcconfig */,
+				3C7CDCA1A8CA05F4328FCAFB /* Pods-UmahhTests.release.xcconfig */,
+				FB98970F8768169C7018E580 /* Pods-UmahhUITests.debug.xcconfig */,
+				8482ABF88ECDDC0AD2C0C542 /* Pods-UmahhUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +1892,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D77770222F0C52008A0E97 /* Build configuration list for PBXNativeTarget "Umahh" */;
 			buildPhases = (
+				1E47382041581CF8C2E8335A /* [CP] Check Pods Manifest.lock */,
 				04D77744222F0C51008A0E97 /* Sources */,
 				04D77745222F0C51008A0E97 /* Frameworks */,
 				04D77746222F0C51008A0E97 /* Resources */,
+				CE3B199B340E3A553A5278D2 /* [CP] Embed Pods Frameworks */,
+				694D679ABDA6DD705315585C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +1912,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D77773222F0C52008A0E97 /* Build configuration list for PBXNativeTarget "UmahhTests" */;
 			buildPhases = (
+				8D0A6BEC29F28001BB175CED /* [CP] Check Pods Manifest.lock */,
 				04D77758222F0C52008A0E97 /* Sources */,
 				04D77759222F0C52008A0E97 /* Frameworks */,
 				04D7775A222F0C52008A0E97 /* Resources */,
@@ -167,6 +1931,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D77776222F0C52008A0E97 /* Build configuration list for PBXNativeTarget "UmahhUITests" */;
 			buildPhases = (
+				9F751FC94201DE992D30862F /* [CP] Check Pods Manifest.lock */,
 				04D77763222F0C52008A0E97 /* Sources */,
 				04D77764222F0C52008A0E97 /* Frameworks */,
 				04D77765222F0C52008A0E97 /* Resources */,
@@ -229,9 +1994,144 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A49A84223C53FB0076368E /* SFUIText-Regular.otf in Resources */,
+				044141622281FF650037875D /* MosqueContentCell.xib in Resources */,
+				040104E32268E85E00FA590A /* AssociateCell.xib in Resources */,
+				040E805722370156001599BF /* DonationVC.xib in Resources */,
+				04E80AEE2238167F00B22635 /* SFUIText-Medium.ttf in Resources */,
+				0417B1CF23578DF800B5813E /* PersonnageDetailVC.xib in Resources */,
 				04D77756222F0C52008A0E97 /* LaunchScreen.storyboard in Resources */,
+				04A49A50223C3B6D0076368E /* CommunityCell.xib in Resources */,
+				0437D7722375AADB0048CEA5 /* QuizQuesAnsCell.xib in Resources */,
+				04F0E4CA22B8D8150063773C /* QuranDetailCell.xib in Resources */,
+				040E80132236FDD1001599BF /* QuranDetailVC.xib in Resources */,
+				040E7FBA2236F957001599BF /* HomeVC.xib in Resources */,
+				043482702265101600955615 /* PrayerTimeVC.xib in Resources */,
+				04A49A82223C4F0E0076368E /* sf-ui-display-thin.otf in Resources */,
+				04E80AF12238168600B22635 /* SFUIText-RegularItalic.ttf in Resources */,
+				04E80AF32238168C00B22635 /* SFUIText-SemiboldItalic.ttf in Resources */,
+				040E80282236FF37001599BF /* QuiblaVC.xib in Resources */,
+				04E80AEB2238167900B22635 /* SFUIText-HeavyItalic.ttf in Resources */,
+				044141662281FFF60037875D /* MosqueOptionCell.xib in Resources */,
+				040E7FE62236FC34001599BF /* SuggestionVC.xib in Resources */,
+				040E7FEB2236FC56001599BF /* ActivityList.xib in Resources */,
+				040E80042236FD31001599BF /* CalendorVC.xib in Resources */,
+				048E55C42239BC1D00493C4F /* OrganizationVC.xib in Resources */,
+				04A49A7C223C4F010076368E /* sf-ui-display-black.otf in Resources */,
+				040E80372236FFE5001599BF /* ZakatCalcVC.xib in Resources */,
+				04DE0A25251C8EFB0037099F /* credentials.plist in Resources */,
+				045ABD0022EA399F00BAFEFD /* SecondDonationCell.xib in Resources */,
+				048E55A82239622E00493C4F /* SearchCollectionCell.xib in Resources */,
+				04F0E4D322B8E9E80063773C /* FollowVC.xib in Resources */,
+				040E80322236FFA7001599BF /* QuizDetail.xib in Resources */,
+				04401F5023565CA20089D929 /* PersonnageVC.xib in Resources */,
+				040E7FFF2236FD0D001599BF /* AssociationList.xib in Resources */,
+				049BD2CF225B63EF009FB215 /* MosqueSignVC.xib in Resources */,
+				04816D8C229DE0A100B3D08F /* BusinessOrganizationCell.xib in Resources */,
+				04A49A4A223C39E10076368E /* QuranCell.xib in Resources */,
 				04D77753222F0C52008A0E97 /* Assets.xcassets in Resources */,
+				040F42B5226FB14A004F1AA0 /* BusinessDetailVC.xib in Resources */,
+				047707BE24D07A0C007E2F14 /* MyDonationVC.xib in Resources */,
+				040E803D2237004C001599BF /* HajiUmrahVC.xib in Resources */,
+				04AB0007227A1E8800FC5567 /* EducationContentCell.xib in Resources */,
+				040E7FC92236FB5F001599BF /* BaordVC.xib in Resources */,
+				04CDE2A223139CBE001E2ABD /* AllMosqueListVC.xib in Resources */,
+				04F4A11522401278006450D6 /* BookmarkVC.xib in Resources */,
+				048E035122E9B3BB00E3741C /* NewMosqueList.xib in Resources */,
+				040E80522237011B001599BF /* BusinessVC.xib in Resources */,
+				048E559E22395DF000493C4F /* NotificationCell.xib in Resources */,
+				048E55A32239615200493C4F /* SearchVC.xib in Resources */,
+				040E80222236FE88001599BF /* SettingsVC.xib in Resources */,
+				040E7FA62236DF63001599BF /* AccountTypeVC.xib in Resources */,
+				04F0E4D722B908D20063773C /* DonationMosquelist.xib in Resources */,
+				040E804C223700E1001599BF /* SupplicationVC.xib in Resources */,
+				0437D76D2375A4A90048CEA5 /* QuizRulesCell.xib in Resources */,
+				0437D7682375A33E0048CEA5 /* QuizRulesVC.xib in Resources */,
+				04F82D85228DE1F400AB6D6B /* DateCell.xib in Resources */,
+				04E80AEF2238168200B22635 /* SFUIText-MediumItalic.ttf in Resources */,
+				040E7FCE2236FB86001599BF /* PaymentVC.xib in Resources */,
+				040E7FE12236FC17001599BF /* EducationDetailVC.xib in Resources */,
+				04E80AEA2238167600B22635 /* SFUIText-Heavy.ttf in Resources */,
+				04D77784222F0E29008A0E97 /* LoginVC.xib in Resources */,
+				040E7FBF2236F9C3001599BF /* TempCV.xib in Resources */,
+				04F32F8A229D496400F8A77C /* ProfileVC.xib in Resources */,
 				04D77751222F0C51008A0E97 /* Main.storyboard in Resources */,
+				04E80AF02238168400B22635 /* SFUIText-Regular.ttf in Resources */,
+				04E80AF9223817A200B22635 /* SelMosqueCell.xib in Resources */,
+				04CCED952264B6BC004F13B7 /* NewsCell.xib in Resources */,
+				04AB0002227A1E6500FC5567 /* EducationInfoCell.xib in Resources */,
+				04E80AE92238167400B22635 /* SFUIText-BoldItalic.ttf in Resources */,
+				04CCED902264B4D3004F13B7 /* CalenderCell.xib in Resources */,
+				04F32F85229D3E8000F8A77C /* MyCommunityCell.xib in Resources */,
+				04E80AE82238167000B22635 /* SFUIText-Bold.ttf in Resources */,
+				04CCED9E2264B834004F13B7 /* ActivityCell.xib in Resources */,
+				04A49A7E223C4F070076368E /* sf-ui-display-heavy.otf in Resources */,
+				040E7FA12236DF35001599BF /* ChangePasswordVC.xib in Resources */,
+				040E80182236FE12001599BF /* CommunityListVC.xib in Resources */,
+				04E80AF22238168900B22635 /* SFUIText-Semibold.ttf in Resources */,
+				04E7A5B923573D59006CA4F1 /* JuzDetailVC.xib in Resources */,
+				04E80AED2238167D00B22635 /* SFUIText-LightItalic.ttf in Resources */,
+				040E7FB02236F8C8001599BF /* CreateMosqueVC.xib in Resources */,
+				040E805C223701A0001599BF /* NotificationVC.xib in Resources */,
+				04E4A58E2436601000710C67 /* Lang.plist in Resources */,
+				04A49A80223C4F0A0076368E /* sf-ui-display-medium.otf in Resources */,
+				04F4A11A2240136B006450D6 /* BookmarkCell.xib in Resources */,
+				040E7FDC2236FBEA001599BF /* DonateVC.xib in Resources */,
+				044A7C4F22B57732003ADD1D /* MosquelistVC.xib in Resources */,
+				040E80092236FD7B001599BF /* FeedVc.xib in Resources */,
+				048E55BF2239BBF300493C4F /* PersonangeVC.xib in Resources */,
+				040E7FF02236FC72001599BF /* ActivityDetail.xib in Resources */,
+				045ABCF722EA35B700BAFEFD /* SecondDonationVC.xib in Resources */,
+				040F42AB226FA52A004F1AA0 /* SupplicationDetailVC.xib in Resources */,
+				040E806622370AED001599BF /* BusinessOwnerSignupVC.xib in Resources */,
+				04A49A55223C3D4F0076368E /* QuizCell.xib in Resources */,
+				04E80AEC2238167B00B22635 /* SFUIText-Light.ttf in Resources */,
+				04CCED8B2264B448004F13B7 /* EducationListCell.xib in Resources */,
+				04AB8F8F223F061400CC8B8E /* HajiumrahCell.xib in Resources */,
+				04F32F80229D36EF00F8A77C /* MosqueMapVC.xib in Resources */,
+				040E8061223706C1001599BF /* IntroCell.xib in Resources */,
+				04383059223FBBAD0011734C /* SupplicationCell.xib in Resources */,
+				04ADB034225918A600185557 /* MosqueDetailCell.xib in Resources */,
+				04A49A7D223C4F040076368E /* sf-ui-display-bold.otf in Resources */,
+				040E7FC42236FAF8001599BF /* MosqueDetailVC.xib in Resources */,
+				04A49A46223C2F680076368E /* FeedCell.xib in Resources */,
+				04A49A83223C4F110076368E /* sf-ui-display-ultralight.otf in Resources */,
+				040E804722370097001599BF /* UmrahListVC.xib in Resources */,
+				040E800E2236FDB1001599BF /* QuranListVC.xib in Resources */,
+				04D7778E222F1351008A0E97 /* SignupVC.xib in Resources */,
+				040E7FD72236FBCC001599BF /* EducationListVC.xib in Resources */,
+				040E801D2236FE4A001599BF /* AddNewRequest.xib in Resources */,
+				04401F5523565F600089D929 /* PersonnageCell.xib in Resources */,
+				0401B7DF24CF522F00177B90 /* TermsVC.xib in Resources */,
+				04A49A81223C4F0C0076368E /* sf-ui-display-semibold.otf in Resources */,
+				04348279226517B900955615 /* PrayerTimeCell.xib in Resources */,
+				0417F06B225DC2CE004FD75B /* MosqueListVC.xib in Resources */,
+				040E802D2236FF85001599BF /* QuizList.xib in Resources */,
+				04F0E4CF22B8E90F0063773C /* FollowMosqueCell.xib in Resources */,
+				040E7FB52236F92C001599BF /* SelectMosqueVC.xib in Resources */,
+				04A49A5A223C3DFB0076368E /* ZakatCalcCell.xib in Resources */,
+				04CCED862264A7B0004F13B7 /* BoardCell.xib in Resources */,
+				04D77789222F0E50008A0E97 /* IntroVC.xib in Resources */,
+				04ADB038225918CB00185557 /* OptionCell.xib in Resources */,
+				040F42A6226F9ECA004F1AA0 /* HajiumrahDetailCell.xib in Resources */,
+				04A49A7F223C4F090076368E /* sf-ui-display-light.otf in Resources */,
+				0417F075225DE026004FD75B /* MarkerDInfoView.xib in Resources */,
+				047707B924D0778E007E2F14 /* MyDonationCell.xib in Resources */,
+				0437D7772375BD070048CEA5 /* QuizResultVC.xib in Resources */,
+				048E55B12239815D00493C4F /* ForgetVc.xib in Resources */,
+				040E804222370079001599BF /* HajiListVC.xib in Resources */,
+				04C64DD122B6B4F50081138C /* DonationCell.xib in Resources */,
+				040F42B0226FAD3B004F1AA0 /* BusniessDetailCell.xib in Resources */,
+				04ADB02F2259187D00185557 /* TimeCell.xib in Resources */,
+				040E7FF52236FCB5001599BF /* NewsList.xib in Resources */,
+				0417F06F225DC376004FD75B /* MosqueListCell.xib in Resources */,
+				AAC3E99F2670A0C300FC9623 /* GoogleService-Info.plist in Resources */,
+				0438305E223FBC800011734C /* ItemSupplicationCell.xib in Resources */,
+				04816D83229DDCF100B3D08F /* BusinessDetailFinalVC.xib in Resources */,
+				048E55AD223966BA00493C4F /* KhutbaVC.xib in Resources */,
+				040E7FAB2236DF90001599BF /* VerificationVC.xib in Resources */,
+				04C64DCC22B6A8FB0081138C /* FirstDonationVC.xib in Resources */,
+				040E7FFA2236FCDD001599BF /* NewsDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +2151,246 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E47382041581CF8C2E8335A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Umahh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694D679ABDA6DD705315585C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0A6BEC29F28001BB175CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UmahhTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F751FC94201DE992D30862F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UmahhUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE3B199B340E3A553A5278D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Umahh/Pods-Umahh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D77744222F0C51008A0E97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E80082236FD7B001599BF /* FeedVc.swift in Sources */,
+				049BD2CE225B63EF009FB215 /* MosqueSignVC.swift in Sources */,
+				040E7FCD2236FB86001599BF /* PaymentVC.swift in Sources */,
+				048E55B722399ED100493C4F /* SubCategoryViewCell.swift in Sources */,
+				0437D76C2375A4A90048CEA5 /* QuizRulesCell.swift in Sources */,
+				0438305D223FBC800011734C /* ItemSupplicationCell.swift in Sources */,
+				040E805622370156001599BF /* DonationVC.swift in Sources */,
+				040E7FBE2236F9C3001599BF /* TempCV.swift in Sources */,
+				040E7FDB2236FBEA001599BF /* DonateVC.swift in Sources */,
+				040E7FF92236FCDD001599BF /* NewsDetail.swift in Sources */,
+				04F0E4D622B908D20063773C /* DonationMosquelist.swift in Sources */,
+				048E55B822399ED100493C4F /* DrawerTransition.swift in Sources */,
+				040E80122236FDD1001599BF /* QuranDetailVC.swift in Sources */,
+				0434826F2265101600955615 /* PrayerTimeVC.swift in Sources */,
+				04D7777F222F0DEF008A0E97 /* ViewControllerHelper.swift in Sources */,
+				047707BD24D07A0C007E2F14 /* MyDonationVC.swift in Sources */,
+				04F4A1192240136B006450D6 /* BookmarkCell.swift in Sources */,
+				0417F074225DE026004FD75B /* MarkerDInfoView.swift in Sources */,
+				04A49A54223C3D4F0076368E /* QuizCell.swift in Sources */,
+				04816D8B229DE0A100B3D08F /* BusinessOrganizationCell.swift in Sources */,
+				048E55AC223966BA00493C4F /* KhutbaVC.swift in Sources */,
+				04F82D84228DE1F400AB6D6B /* DateCell.swift in Sources */,
+				040E7FEF2236FC72001599BF /* ActivityDetail.swift in Sources */,
+				040E7FAA2236DF90001599BF /* VerificationVC.swift in Sources */,
+				04D7778D222F1351008A0E97 /* SignupVC.swift in Sources */,
+				04AB8F8E223F061400CC8B8E /* HajiumrahCell.swift in Sources */,
+				04CCED9D2264B834004F13B7 /* ActivityCell.swift in Sources */,
+				0417B1CE23578DF800B5813E /* PersonnageDetailVC.swift in Sources */,
+				048E035022E9B3BB00E3741C /* NewMosqueList.swift in Sources */,
+				04F0E4CE22B8E90F0063773C /* FollowMosqueCell.swift in Sources */,
+				040E804B223700E1001599BF /* SupplicationVC.swift in Sources */,
+				040E802C2236FF85001599BF /* QuizList.swift in Sources */,
+				0417F06E225DC376004FD75B /* MosqueListCell.swift in Sources */,
+				0465FD7F224EA9A300B673A1 /* Utility.swift in Sources */,
+				040E801C2236FE4A001599BF /* AddNewRequest.swift in Sources */,
+				0465FD82224EA9A300B673A1 /* AppHeader.swift in Sources */,
+				04F32F84229D3E8000F8A77C /* MyCommunityCell.swift in Sources */,
+				0465FD7D224EA9A300B673A1 /* customLoader.swift in Sources */,
+				04F82D80228DDDD800AB6D6B /* CalendarManager.swift in Sources */,
+				040E806522370AED001599BF /* BusinessOwnerSignupVC.swift in Sources */,
+				04F82D7E228DDDD800AB6D6B /* NSDateExtension.swift in Sources */,
+				040E80212236FE88001599BF /* SettingsVC.swift in Sources */,
+				04A49A4F223C3B6D0076368E /* CommunityCell.swift in Sources */,
+				04AB0001227A1E6500FC5567 /* EducationInfoCell.swift in Sources */,
+				040E7FA52236DF63001599BF /* AccountTypeVC.swift in Sources */,
+				04401F4F23565CA20089D929 /* PersonnageVC.swift in Sources */,
+				04CCED8F2264B4D3004F13B7 /* CalenderCell.swift in Sources */,
+				0437D7762375BD070048CEA5 /* QuizResultVC.swift in Sources */,
+				040E7FB92236F957001599BF /* HomeVC.swift in Sources */,
+				04F0E4C922B8D8150063773C /* QuranDetailCell.swift in Sources */,
+				04A49A49223C39E10076368E /* QuranCell.swift in Sources */,
+				040E80272236FF37001599BF /* QuiblaVC.swift in Sources */,
+				044141652281FFF60037875D /* MosqueOptionCell.swift in Sources */,
+				04CDE2A123139CBE001E2ABD /* AllMosqueListVC.swift in Sources */,
+				040E803C2237004C001599BF /* HajiUmrahVC.swift in Sources */,
+				04D7777C222F0DB0008A0E97 /* AppConstant.swift in Sources */,
+				040E80172236FE12001599BF /* CommunityListVC.swift in Sources */,
+				040E80362236FFE5001599BF /* ZakatCalcVC.swift in Sources */,
+				04C64DCB22B6A8FB0081138C /* FirstDonationVC.swift in Sources */,
+				040E7FA02236DF35001599BF /* ChangePasswordVC.swift in Sources */,
+				048E55B02239815D00493C4F /* ForgetVc.swift in Sources */,
+				040E800D2236FDB1001599BF /* QuranListVC.swift in Sources */,
+				040E804622370097001599BF /* UmrahListVC.swift in Sources */,
 				04D7774E222F0C51008A0E97 /* ViewController.swift in Sources */,
+				048E55C32239BC1D00493C4F /* OrganizationVC.swift in Sources */,
+				048E55B922399ED100493C4F /* HeaderCell.swift in Sources */,
+				048E55BA22399ED100493C4F /* SideMenuViewController.swift in Sources */,
+				048E55A22239615200493C4F /* SearchVC.swift in Sources */,
+				040E7FC82236FB5F001599BF /* BaordVC.swift in Sources */,
+				048E55A72239622E00493C4F /* SearchCollectionCell.swift in Sources */,
+				047707B824D0778E007E2F14 /* MyDonationCell.swift in Sources */,
+				040E7FEA2236FC56001599BF /* ActivityList.swift in Sources */,
+				04A28CDA22A0821F0027FDA5 /* UserDefauts+Extensions.swift in Sources */,
+				04F32F89229D496400F8A77C /* ProfileVC.swift in Sources */,
+				04CCED8A2264B448004F13B7 /* EducationListCell.swift in Sources */,
+				04A49A45223C2F680076368E /* FeedCell.swift in Sources */,
+				0437D7672375A33E0048CEA5 /* QuizRulesVC.swift in Sources */,
+				04816D82229DDCF100B3D08F /* BusinessDetailFinalVC.swift in Sources */,
+				04F32F7F229D36EF00F8A77C /* MosqueMapVC.swift in Sources */,
+				0401B7DE24CF522F00177B90 /* TermsVC.swift in Sources */,
+				048E55BE2239BBF300493C4F /* PersonangeVC.swift in Sources */,
+				040E7FFE2236FD0D001599BF /* AssociationList.swift in Sources */,
+				0465FD81224EA9A300B673A1 /* Extensions.swift in Sources */,
+				045ABCFF22EA399F00BAFEFD /* SecondDonationCell.swift in Sources */,
+				040E7FD62236FBCC001599BF /* EducationListVC.swift in Sources */,
+				040E8060223706C1001599BF /* IntroCell.swift in Sources */,
 				04D7774C222F0C51008A0E97 /* AppDelegate.swift in Sources */,
+				04CCED852264A7B0004F13B7 /* BoardCell.swift in Sources */,
+				04AB0006227A1E8800FC5567 /* EducationContentCell.swift in Sources */,
+				04F82D7F228DDDD800AB6D6B /* DateCell1.swift in Sources */,
+				040E7FE52236FC34001599BF /* SuggestionVC.swift in Sources */,
+				040E7FAF2236F8C8001599BF /* CreateMosqueVC.swift in Sources */,
+				04348278226517B900955615 /* PrayerTimeCell.swift in Sources */,
+				040E7FF42236FCB5001599BF /* NewsList.swift in Sources */,
+				04CCED942264B6BC004F13B7 /* NewsCell.swift in Sources */,
+				04E7A5B823573D59006CA4F1 /* JuzDetailVC.swift in Sources */,
+				04D77783222F0E29008A0E97 /* LoginVC.swift in Sources */,
+				044141612281FF650037875D /* MosqueContentCell.swift in Sources */,
+				040E7FB42236F92C001599BF /* SelectMosqueVC.swift in Sources */,
+				040E804122370079001599BF /* HajiListVC.swift in Sources */,
+				040E80032236FD31001599BF /* CalendorVC.swift in Sources */,
+				044A7C4E22B57732003ADD1D /* MosquelistVC.swift in Sources */,
+				04A28CD922A0821F0027FDA5 /* LocationDelegate.swift in Sources */,
+				04C64DD022B6B4F50081138C /* DonationCell.swift in Sources */,
+				0499682823C86C5B008E74AC /* kApiClass.swift in Sources */,
+				048E559D22395DF000493C4F /* NotificationCell.swift in Sources */,
+				04ADB02E2259187D00185557 /* TimeCell.swift in Sources */,
+				040F42AA226FA52A004F1AA0 /* SupplicationDetailVC.swift in Sources */,
+				04F4A11422401278006450D6 /* BookmarkVC.swift in Sources */,
+				04D77788222F0E50008A0E97 /* IntroVC.swift in Sources */,
+				04F0E4D222B8E9E80063773C /* FollowVC.swift in Sources */,
+				04ADB033225918A600185557 /* MosqueDetailCell.swift in Sources */,
+				04383058223FBBAD0011734C /* SupplicationCell.swift in Sources */,
+				04401F5423565F600089D929 /* PersonnageCell.swift in Sources */,
+				04A28CD822A0821F0027FDA5 /* CLLocation+Extension.swift in Sources */,
+				040E7FE02236FC17001599BF /* EducationDetailVC.swift in Sources */,
+				045ABCF622EA35B700BAFEFD /* SecondDonationVC.swift in Sources */,
+				0465FD7E224EA9A300B673A1 /* Globel.swift in Sources */,
+				AACD9A4026383DB0006CDA99 /* CompassDirectionManager.swift in Sources */,
+				0437D7712375AADB0048CEA5 /* QuizQuesAnsCell.swift in Sources */,
+				040F42A5226F9ECA004F1AA0 /* HajiumrahDetailCell.swift in Sources */,
+				040F42AF226FAD3B004F1AA0 /* BusniessDetailCell.swift in Sources */,
+				040F42B4226FB14A004F1AA0 /* BusinessDetailVC.swift in Sources */,
+				040E7FC32236FAF8001599BF /* MosqueDetailVC.swift in Sources */,
+				040E80512237011B001599BF /* BusinessVC.swift in Sources */,
+				04ADB037225918CB00185557 /* OptionCell.swift in Sources */,
+				0417F06A225DC2CE004FD75B /* MosqueListVC.swift in Sources */,
+				040104E22268E85E00FA590A /* AssociateCell.swift in Sources */,
+				040E80312236FFA7001599BF /* QuizDetail.swift in Sources */,
+				04A49A59223C3DFB0076368E /* ZakatCalcCell.swift in Sources */,
+				040E805B223701A0001599BF /* NotificationVC.swift in Sources */,
+				04E80AF8223817A200B22635 /* SelMosqueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,40 +2561,61 @@
 		};
 		04D77771222F0C52008A0E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6FE1D6F91AB6647BEE5E20 /* Pods-Umahh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Umahh/Umahh.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = KKUZDXUJFX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Umahh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Iplexuss-Software-Solution.Umahh";
+				MARKETING_VERSION = 1.0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digiprima.ummah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Umahh-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04D77772222F0C52008A0E97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4635500A2856B6C00C7C3FFA /* Pods-Umahh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Umahh/Umahh.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = KKUZDXUJFX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Umahh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Iplexuss-Software-Solution.Umahh";
+				MARKETING_VERSION = 1.0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digiprima.ummah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Umahh-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		04D77774222F0C52008A0E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044E546BA65077453DEC3575 /* Pods-UmahhTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +2636,7 @@
 		};
 		04D77775222F0C52008A0E97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7CDCA1A8CA05F4328FCAFB /* Pods-UmahhTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +2657,7 @@
 		};
 		04D77777222F0C52008A0E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB98970F8768169C7018E580 /* Pods-UmahhUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +2677,7 @@
 		};
 		04D77778222F0C52008A0E97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8482ABF88ECDDC0AD2C0C542 /* Pods-UmahhUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AllMosqueListVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="TableViewmosque" destination="fxo-QE-YZk" id="ijI-Ya-Ze1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noi-7q-BgJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="f2O-i1-gEA">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fxo-QE-YZk">
+                            <rect key="frame" x="20" y="90" width="280" height="461"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="4e5-NK-imy"/>
+                                <outlet property="delegate" destination="-1" id="EGI-nw-2uc"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="fxo-QE-YZk" secondAttribute="bottom" constant="17" id="8hD-mt-KYr"/>
+                        <constraint firstItem="f2O-i1-gEA" firstAttribute="leading" secondItem="noi-7q-BgJ" secondAttribute="leading" id="IxJ-4Q-2Pi"/>
+                        <constraint firstItem="fxo-QE-YZk" firstAttribute="leading" secondItem="noi-7q-BgJ" secondAttribute="leading" constant="20" id="RTf-PR-5Qv"/>
+                        <constraint firstItem="f2O-i1-gEA" firstAttribute="top" secondItem="noi-7q-BgJ" secondAttribute="top" id="f1G-9o-NwO"/>
+                        <constraint firstItem="fxo-QE-YZk" firstAttribute="top" secondItem="noi-7q-BgJ" secondAttribute="top" constant="90" id="iVX-up-fHV"/>
+                        <constraint firstAttribute="trailing" secondItem="fxo-QE-YZk" secondAttribute="trailing" constant="20" id="nwB-vM-YH4"/>
+                        <constraint firstAttribute="bottom" secondItem="f2O-i1-gEA" secondAttribute="bottom" constant="-40" id="rV9-yz-2d6"/>
+                        <constraint firstAttribute="trailing" secondItem="f2O-i1-gEA" secondAttribute="trailing" id="yvS-au-sRF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="noi-7q-BgJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EOJ-kN-Sg6"/>
+                <constraint firstAttribute="bottom" secondItem="noi-7q-BgJ" secondAttribute="bottom" id="KrJ-Bv-POj"/>
+                <constraint firstItem="noi-7q-BgJ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="hlm-zv-EBl"/>
+                <constraint firstItem="noi-7q-BgJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oOa-60-hE8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="224.63768115942031" y="94.419642857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+    </resources>
+</document>

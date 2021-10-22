@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="104" id="KGk-i7-Jjw" customClass="NotificationCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLk-l4-cos">
+                        <rect key="frame" x="5" y="5" width="310" height="95"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="abc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUT-mf-DUG">
+                                <rect key="frame" x="8" y="8" width="294" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="c31-Hf-5Zr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fi-LX-gEU">
+                                <rect key="frame" x="8" y="33.5" width="294" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="VmU-UR-khq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGo-aB-AaE">
+                                <rect key="frame" x="8" y="59" width="294" height="21"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axO-S0-Na4">
+                                <rect key="frame" x="285" y="3" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="YCf-qm-2Q8"/>
+                                    <constraint firstAttribute="height" constant="25" id="sCw-ZY-Og1"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                <state key="normal" image="delete_icon"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CUT-mf-DUG" secondAttribute="trailing" constant="8" id="2LH-Le-Owz"/>
+                            <constraint firstItem="2fi-LX-gEU" firstAttribute="top" secondItem="CUT-mf-DUG" secondAttribute="bottom" constant="5" id="4cj-gt-m3C"/>
+                            <constraint firstItem="CUT-mf-DUG" firstAttribute="top" secondItem="fLk-l4-cos" secondAttribute="top" constant="8" id="7Mb-Rs-VYo"/>
+                            <constraint firstItem="axO-S0-Na4" firstAttribute="top" secondItem="fLk-l4-cos" secondAttribute="top" constant="3" id="B95-4Y-wei"/>
+                            <constraint firstAttribute="trailing" secondItem="rGo-aB-AaE" secondAttribute="trailing" constant="8" id="Feg-fs-IpF"/>
+                            <constraint firstItem="rGo-aB-AaE" firstAttribute="leading" secondItem="fLk-l4-cos" secondAttribute="leading" constant="8" id="SgE-Vx-8xl"/>
+                            <constraint firstItem="2fi-LX-gEU" firstAttribute="leading" secondItem="fLk-l4-cos" secondAttribute="leading" constant="8" id="YgW-zO-fer"/>
+                            <constraint firstAttribute="bottom" secondItem="rGo-aB-AaE" secondAttribute="bottom" constant="15" id="bep-mc-jbh"/>
+                            <constraint firstAttribute="trailing" secondItem="2fi-LX-gEU" secondAttribute="trailing" constant="8" id="hb6-K6-LSP"/>
+                            <constraint firstItem="2fi-LX-gEU" firstAttribute="top" secondItem="CUT-mf-DUG" secondAttribute="bottom" constant="5" id="iJS-eX-zVm"/>
+                            <constraint firstItem="CUT-mf-DUG" firstAttribute="leading" secondItem="fLk-l4-cos" secondAttribute="leading" constant="8" id="nfP-ay-P7s"/>
+                            <constraint firstAttribute="trailing" secondItem="axO-S0-Na4" secondAttribute="trailing" id="oGf-C6-ADn"/>
+                            <constraint firstItem="rGo-aB-AaE" firstAttribute="top" secondItem="2fi-LX-gEU" secondAttribute="bottom" constant="5" id="s0q-BE-vlp"/>
+                            <constraint firstItem="rGo-aB-AaE" firstAttribute="top" secondItem="2fi-LX-gEU" secondAttribute="bottom" constant="5" id="vep-TT-epw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fLk-l4-cos" secondAttribute="bottom" constant="5" id="20Z-wj-4yo"/>
+                    <constraint firstItem="fLk-l4-cos" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="EiD-4p-VT7"/>
+                    <constraint firstAttribute="trailing" secondItem="fLk-l4-cos" secondAttribute="trailing" constant="5" id="MTp-Dd-LAs"/>
+                    <constraint firstItem="fLk-l4-cos" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Tzo-d3-U6v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="deleteBtn" destination="axO-S0-Na4" id="MfG-Vp-tJl"/>
+                <outlet property="lblMessage" destination="rGo-aB-AaE" id="tLK-4b-NRD"/>
+                <outlet property="lblTitle" destination="CUT-mf-DUG" id="ZgA-c2-tNH"/>
+                <outlet property="lblname" destination="2fi-LX-gEU" id="aGw-p6-sEy"/>
+                <outlet property="viewMain" destination="fLk-l4-cos" id="ZDx-uc-WVE"/>
+            </connections>
+            <point key="canvasLocation" x="17.600000000000001" y="33.733133433283363"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete_icon" width="25" height="25"/>
+    </resources>
+</document>

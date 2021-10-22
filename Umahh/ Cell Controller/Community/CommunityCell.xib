@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-light.otf">
+            <string>SFUIDisplay-Light</string>
+        </array>
+        <array key="sf-ui-display-thin.otf">
+            <string>SFUIDisplay-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="KGk-i7-Jjw" customClass="CommunityCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QxZ-yj-LKD">
+                        <rect key="frame" x="5" y="5" width="310" height="140"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98C-Kf-sFu">
+                                <rect key="frame" x="15" y="7" width="285" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="fFG-8K-DUQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8io-pt-z7w">
+                                <rect key="frame" x="0.0" y="66" width="310" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjd-or-VN5">
+                                        <rect key="frame" x="15" y="8" width="126" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="jJx-7K-BYz"/>
+                                            <constraint firstAttribute="width" constant="126" id="kTF-kb-8vI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="13"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="15k Make Dua" image="heart like">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7M6-Yp-Flc">
+                                        <rect key="frame" x="198" y="7" width="104" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="104" id="9sX-fG-3NO"/>
+                                            <constraint firstAttribute="height" constant="25" id="Xxm-4m-ffT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Mohd. Islam" image="Community fill">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7M6-Yp-Flc" secondAttribute="trailing" constant="8" id="0kI-uo-xOn"/>
+                                    <constraint firstItem="vjd-or-VN5" firstAttribute="top" secondItem="8io-pt-z7w" secondAttribute="top" constant="8" id="4u8-5M-Hjl"/>
+                                    <constraint firstItem="7M6-Yp-Flc" firstAttribute="top" secondItem="8io-pt-z7w" secondAttribute="top" constant="7" id="CMh-7p-GgI"/>
+                                    <constraint firstAttribute="height" constant="35" id="MeG-yi-Wld"/>
+                                    <constraint firstItem="vjd-or-VN5" firstAttribute="leading" secondItem="8io-pt-z7w" secondAttribute="leading" constant="15" id="OZx-y5-pEN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BUp-PA-94c">
+                                <rect key="frame" x="0.0" y="101" width="310" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="8pk-Ak-huU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v7q-uy-hP4">
+                                <rect key="frame" x="1" y="103" width="310" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpJ-ft-r6b">
+                                        <rect key="frame" x="107" y="4" width="96" height="22"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="D8W-iB-6NA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Make Dua" image="dislike"/>
+                                        <state key="selected" image="heart like"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CpJ-ft-r6b" firstAttribute="leading" secondItem="v7q-uy-hP4" secondAttribute="leading" constant="107" id="1F3-RU-pS7"/>
+                                    <constraint firstAttribute="trailing" secondItem="CpJ-ft-r6b" secondAttribute="trailing" constant="107" id="1Ha-e0-vgz"/>
+                                    <constraint firstAttribute="height" constant="35" id="7Wf-GZ-fp3"/>
+                                    <constraint firstItem="CpJ-ft-r6b" firstAttribute="top" secondItem="v7q-uy-hP4" secondAttribute="top" constant="4" id="hdj-hB-yRX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="98C-Kf-sFu" firstAttribute="top" secondItem="QxZ-yj-LKD" secondAttribute="top" constant="7" id="0Ou-zo-hZ0"/>
+                            <constraint firstAttribute="trailing" secondItem="v7q-uy-hP4" secondAttribute="trailing" constant="-1" id="1Ke-KC-xbH"/>
+                            <constraint firstItem="v7q-uy-hP4" firstAttribute="leading" secondItem="QxZ-yj-LKD" secondAttribute="leading" constant="1" id="50H-AU-S8K"/>
+                            <constraint firstItem="8io-pt-z7w" firstAttribute="top" secondItem="98C-Kf-sFu" secondAttribute="bottom" constant="3" id="A5N-yS-Skx"/>
+                            <constraint firstItem="BUp-PA-94c" firstAttribute="top" secondItem="8io-pt-z7w" secondAttribute="bottom" id="DJj-dK-C2e"/>
+                            <constraint firstAttribute="trailing" secondItem="BUp-PA-94c" secondAttribute="trailing" id="GJi-yO-f3P"/>
+                            <constraint firstItem="8io-pt-z7w" firstAttribute="leading" secondItem="QxZ-yj-LKD" secondAttribute="leading" id="Isp-wh-c9r"/>
+                            <constraint firstAttribute="trailing" secondItem="8io-pt-z7w" secondAttribute="trailing" id="SzN-7i-zGX"/>
+                            <constraint firstItem="98C-Kf-sFu" firstAttribute="leading" secondItem="QxZ-yj-LKD" secondAttribute="leading" constant="15" id="nww-3x-P5L"/>
+                            <constraint firstItem="BUp-PA-94c" firstAttribute="leading" secondItem="QxZ-yj-LKD" secondAttribute="leading" id="pK9-gg-buS"/>
+                            <constraint firstAttribute="trailing" secondItem="98C-Kf-sFu" secondAttribute="trailing" constant="10" id="v2b-2i-rBi"/>
+                            <constraint firstItem="v7q-uy-hP4" firstAttribute="top" secondItem="BUp-PA-94c" secondAttribute="bottom" constant="1" id="vfZ-7v-XJu"/>
+                            <constraint firstAttribute="height" constant="140" id="zxE-ib-UgK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="QxZ-yj-LKD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="9fn-cj-PJU"/>
+                    <constraint firstItem="QxZ-yj-LKD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="AMk-W9-pfW"/>
+                    <constraint firstAttribute="trailing" secondItem="QxZ-yj-LKD" secondAttribute="trailing" constant="5" id="Tn5-9L-8uD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnLike" destination="CpJ-ft-r6b" id="1GT-At-dfo"/>
+                <outlet property="btnname" destination="7M6-Yp-Flc" id="WmX-bH-BwX"/>
+                <outlet property="btnnoLike" destination="vjd-or-VN5" id="273-3i-OTA"/>
+                <outlet property="lbltext" destination="98C-Kf-sFu" id="caO-kr-i3K"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="81"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Community fill" width="25" height="19"/>
+        <image name="dislike" width="17" height="15"/>
+        <image name="heart like" width="17" height="15"/>
+    </resources>
+</document>

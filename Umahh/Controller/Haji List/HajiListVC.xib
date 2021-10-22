@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HajiListVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="imgDetail" destination="xPk-Ux-yw6" id="xC2-Uc-ThZ"/>
+                <outlet property="tblHajiumrahDetaillist" destination="c2Q-y3-4sO" id="sLI-NV-1BR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VfM-ze-IBL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="tGv-wk-Onq">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="55" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c2Q-y3-4sO">
+                            <rect key="frame" x="20" y="250" width="280" height="298"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="gx8-aN-bM4"/>
+                                <outlet property="delegate" destination="-1" id="u1f-xh-8te"/>
+                            </connections>
+                        </tableView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hajj" translatesAutoresizingMaskIntoConstraints="NO" id="xPk-Ux-yw6">
+                            <rect key="frame" x="5" y="70" width="310" height="167"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="tGv-wk-Onq" firstAttribute="top" secondItem="VfM-ze-IBL" secondAttribute="top" id="Ab1-g7-yo2"/>
+                        <constraint firstAttribute="bottom" secondItem="c2Q-y3-4sO" secondAttribute="bottom" constant="20" id="KU4-df-dJ0"/>
+                        <constraint firstItem="c2Q-y3-4sO" firstAttribute="top" secondItem="VfM-ze-IBL" secondAttribute="top" constant="250" id="Kjd-DN-aqF"/>
+                        <constraint firstItem="tGv-wk-Onq" firstAttribute="leading" secondItem="VfM-ze-IBL" secondAttribute="leading" id="NNh-6D-Fo1"/>
+                        <constraint firstItem="xPk-Ux-yw6" firstAttribute="leading" secondItem="VfM-ze-IBL" secondAttribute="leading" constant="5" id="SMU-mu-UGo"/>
+                        <constraint firstAttribute="trailing" secondItem="c2Q-y3-4sO" secondAttribute="trailing" constant="20" id="Uxn-mF-Ath"/>
+                        <constraint firstItem="c2Q-y3-4sO" firstAttribute="leading" secondItem="VfM-ze-IBL" secondAttribute="leading" constant="20" id="cwZ-E3-Vkb"/>
+                        <constraint firstItem="c2Q-y3-4sO" firstAttribute="top" secondItem="xPk-Ux-yw6" secondAttribute="bottom" constant="13" id="dlS-br-Ds8"/>
+                        <constraint firstAttribute="trailing" secondItem="xPk-Ux-yw6" secondAttribute="trailing" constant="5" id="jDf-gp-zAk"/>
+                        <constraint firstAttribute="trailing" secondItem="tGv-wk-Onq" secondAttribute="trailing" id="m83-D6-xcW"/>
+                        <constraint firstAttribute="bottom" secondItem="tGv-wk-Onq" secondAttribute="bottom" constant="-40" id="np3-f7-4jE"/>
+                        <constraint firstItem="xPk-Ux-yw6" firstAttribute="top" secondItem="VfM-ze-IBL" secondAttribute="top" constant="70" id="yJy-py-XpV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VfM-ze-IBL" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Cas-I3-MJX"/>
+                <constraint firstItem="VfM-ze-IBL" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="RhK-en-ZnR"/>
+                <constraint firstItem="VfM-ze-IBL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="X9R-HT-lzp"/>
+                <constraint firstItem="VfM-ze-IBL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cHI-ci-Xn0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133" y="142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+        <image name="Hajj" width="322" height="171"/>
+    </resources>
+</document>

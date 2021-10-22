@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-light.otf">
+            <string>SFUIDisplay-Light</string>
+        </array>
+        <array key="sf-ui-display-medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="270" id="KGk-i7-Jjw" customClass="NewsCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jSm-S8-mow">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Todays Feed 1" translatesAutoresizingMaskIntoConstraints="NO" id="75S-Df-i53">
+                                <rect key="frame" x="8" y="8" width="304" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="i0h-AH-eak"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sE2-9o-oAk">
+                                <rect key="frame" x="8" y="196" width="304" height="19.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8U-gG-Cyl">
+                                <rect key="frame" x="8" y="226" width="197" height="18"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDg-Jq-Lhi">
+                                <rect key="frame" x="11" y="268" width="300" height="0.5"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="2Zm-xY-kUb"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGz-a3-FeN">
+                                <rect key="frame" x="221" y="223.5" width="91" height="30"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.83529411760000005" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gqs-zf-fKy"/>
+                                    <constraint firstAttribute="width" constant="91" id="kYu-SK-n7E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                <state key="normal" title="View More"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EGz-a3-FeN" firstAttribute="leading" secondItem="Y8U-gG-Cyl" secondAttribute="trailing" constant="16" id="6Fg-uZ-OOe"/>
+                            <constraint firstItem="sE2-9o-oAk" firstAttribute="top" secondItem="75S-Df-i53" secondAttribute="bottom" constant="8" id="8VH-zz-hFW"/>
+                            <constraint firstAttribute="trailing" secondItem="75S-Df-i53" secondAttribute="trailing" constant="8" id="MVN-M4-Nvx"/>
+                            <constraint firstItem="zDg-Jq-Lhi" firstAttribute="top" secondItem="Y8U-gG-Cyl" secondAttribute="bottom" constant="24" id="Mtp-cf-xzy"/>
+                            <constraint firstItem="Y8U-gG-Cyl" firstAttribute="leading" secondItem="jSm-S8-mow" secondAttribute="leading" constant="8" id="TAD-03-nkM"/>
+                            <constraint firstItem="zDg-Jq-Lhi" firstAttribute="leading" secondItem="jSm-S8-mow" secondAttribute="leading" constant="11" id="WpN-Pa-02l"/>
+                            <constraint firstAttribute="bottom" secondItem="zDg-Jq-Lhi" secondAttribute="bottom" constant="1" id="Z61-nz-UrK"/>
+                            <constraint firstItem="EGz-a3-FeN" firstAttribute="top" secondItem="sE2-9o-oAk" secondAttribute="bottom" constant="8" id="d2o-IS-3EW"/>
+                            <constraint firstAttribute="trailing" secondItem="sE2-9o-oAk" secondAttribute="trailing" constant="8" id="e7d-RM-4c6"/>
+                            <constraint firstItem="Y8U-gG-Cyl" firstAttribute="top" secondItem="sE2-9o-oAk" secondAttribute="bottom" constant="10.5" id="ehw-n0-pGT"/>
+                            <constraint firstItem="75S-Df-i53" firstAttribute="leading" secondItem="jSm-S8-mow" secondAttribute="leading" constant="8" id="g8H-t6-oIR"/>
+                            <constraint firstItem="zDg-Jq-Lhi" firstAttribute="top" secondItem="EGz-a3-FeN" secondAttribute="bottom" constant="14.5" id="h5Z-oF-AlJ"/>
+                            <constraint firstAttribute="trailing" secondItem="zDg-Jq-Lhi" secondAttribute="trailing" constant="9" id="mOA-YL-oyZ"/>
+                            <constraint firstItem="75S-Df-i53" firstAttribute="top" secondItem="jSm-S8-mow" secondAttribute="top" constant="8" id="ptw-Xd-LSe"/>
+                            <constraint firstAttribute="trailing" secondItem="EGz-a3-FeN" secondAttribute="trailing" constant="8" id="ska-eH-dsT"/>
+                            <constraint firstItem="sE2-9o-oAk" firstAttribute="leading" secondItem="jSm-S8-mow" secondAttribute="leading" constant="8" id="vTp-98-CR6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jSm-S8-mow" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2Ts-H0-oDZ"/>
+                    <constraint firstItem="jSm-S8-mow" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AcB-yP-vZT"/>
+                    <constraint firstItem="jSm-S8-mow" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="J2U-oP-ucw"/>
+                    <constraint firstAttribute="trailing" secondItem="jSm-S8-mow" secondAttribute="trailing" id="R3x-sg-LoQ"/>
+                    <constraint firstAttribute="trailing" secondItem="jSm-S8-mow" secondAttribute="trailing" id="adS-9H-D1t"/>
+                    <constraint firstAttribute="bottom" secondItem="jSm-S8-mow" secondAttribute="bottom" id="gvT-VE-iYJ"/>
+                    <constraint firstItem="jSm-S8-mow" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hq5-YX-0Dc"/>
+                    <constraint firstAttribute="bottom" secondItem="jSm-S8-mow" secondAttribute="bottom" id="wtX-jK-cJU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnViewmore" destination="EGz-a3-FeN" id="LQc-6K-2CY"/>
+                <outlet property="imgNews" destination="75S-Df-i53" id="php-cd-yfl"/>
+                <outlet property="lblname" destination="Y8U-gG-Cyl" id="6gM-FV-Z09"/>
+                <outlet property="lbltext" destination="sE2-9o-oAk" id="ZLi-6U-biw"/>
+            </connections>
+            <point key="canvasLocation" x="12" y="70"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Todays Feed 1" width="300" height="188"/>
+    </resources>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="54" id="KGk-i7-Jjw" customClass="PersonnageCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Moy-k2-S5N">
+                        <rect key="frame" x="5" y="5" width="310" height="54.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCK-5K-p44">
+                                <rect key="frame" x="5" y="5" width="300" height="44.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mCK-5K-p44" secondAttribute="bottom" constant="5" id="8K7-6u-253"/>
+                            <constraint firstItem="mCK-5K-p44" firstAttribute="top" secondItem="Moy-k2-S5N" secondAttribute="top" constant="5" id="8wb-Sk-Oa8"/>
+                            <constraint firstAttribute="trailing" secondItem="mCK-5K-p44" secondAttribute="trailing" constant="5" id="Gky-Rf-8KH"/>
+                            <constraint firstItem="mCK-5K-p44" firstAttribute="leading" secondItem="Moy-k2-S5N" secondAttribute="leading" constant="5" id="Idw-wJ-Ogu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Moy-k2-S5N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="HUc-Nx-leA"/>
+                    <constraint firstAttribute="bottom" secondItem="Moy-k2-S5N" secondAttribute="bottom" constant="5" id="JbF-52-4sC"/>
+                    <constraint firstAttribute="trailing" secondItem="Moy-k2-S5N" secondAttribute="trailing" constant="5" id="YyO-Le-8aH"/>
+                    <constraint firstItem="Moy-k2-S5N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="vci-uP-lFE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbltitle" destination="mCK-5K-p44" id="IvU-Xg-t0q"/>
+                <outlet property="viewMain" destination="Moy-k2-S5N" id="YAH-Su-Y2I"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="72.991071428571431"/>
+        </tableViewCell>
+    </objects>
+</document>

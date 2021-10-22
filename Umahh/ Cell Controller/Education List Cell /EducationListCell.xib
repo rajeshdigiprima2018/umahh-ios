@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Light.ttf">
+            <string>SFUIText-Light</string>
+        </array>
+        <array key="SFUIText-Medium.ttf">
+            <string>SFUIText-Medium</string>
+        </array>
+        <array key="SFUIText-Semibold.ttf">
+            <string>SFUIText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="113" id="KGk-i7-Jjw" customClass="EducationListCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPb-qI-TYg">
+                        <rect key="frame" x="0.0" y="5" width="320" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mosque" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPZ-QB-JWX">
+                                <rect key="frame" x="15" y="9" width="291" height="17"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNl-hM-AuN">
+                                <rect key="frame" x="40" y="57" width="193" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65r-IJ-UlS">
+                                <rect key="frame" x="241" y="59" width="60" height="25"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.83529411764705885" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="KXK-hj-Vra"/>
+                                    <constraint firstAttribute="width" constant="60" id="hdk-X0-g2q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="10"/>
+                                <state key="normal" title="View more"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="372/5 mosque RR colony" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9u-Qr-zjZ">
+                                <rect key="frame" x="40" y="35" width="268" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="ZkV-0i-h6V">
+                                <rect key="frame" x="15" y="35" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="Ked-Ew-31Q"/>
+                                    <constraint firstAttribute="height" constant="15" id="VOc-Ot-x78"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="PP1-iu-FES">
+                                <rect key="frame" x="15" y="58" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="YSf-i2-liR"/>
+                                    <constraint firstAttribute="width" constant="15" id="aDf-GB-EY2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PP1-iu-FES" firstAttribute="top" secondItem="ZkV-0i-h6V" secondAttribute="bottom" constant="8" id="2B3-zS-3wM"/>
+                            <constraint firstAttribute="trailing" secondItem="kPZ-QB-JWX" secondAttribute="trailing" constant="14" id="4Sf-a8-TW1"/>
+                            <constraint firstItem="ZkV-0i-h6V" firstAttribute="leading" secondItem="QPb-qI-TYg" secondAttribute="leading" constant="15" id="6qc-io-OpI"/>
+                            <constraint firstItem="PP1-iu-FES" firstAttribute="leading" secondItem="QPb-qI-TYg" secondAttribute="leading" constant="15" id="DcD-Pc-xO6"/>
+                            <constraint firstAttribute="bottom" secondItem="65r-IJ-UlS" secondAttribute="bottom" constant="16" id="MNQ-kp-fpZ"/>
+                            <constraint firstAttribute="bottom" secondItem="PNl-hM-AuN" secondAttribute="bottom" constant="28.5" id="RAp-K1-mpd"/>
+                            <constraint firstItem="ZkV-0i-h6V" firstAttribute="top" secondItem="kPZ-QB-JWX" secondAttribute="bottom" constant="9" id="V0u-ZT-T4I"/>
+                            <constraint firstItem="v9u-Qr-zjZ" firstAttribute="top" secondItem="kPZ-QB-JWX" secondAttribute="bottom" constant="9" id="bax-pG-mk8"/>
+                            <constraint firstAttribute="trailing" secondItem="v9u-Qr-zjZ" secondAttribute="trailing" constant="12" id="cR1-wo-QcX"/>
+                            <constraint firstAttribute="trailing" secondItem="65r-IJ-UlS" secondAttribute="trailing" constant="19" id="fb1-jN-ovt"/>
+                            <constraint firstItem="v9u-Qr-zjZ" firstAttribute="leading" secondItem="ZkV-0i-h6V" secondAttribute="trailing" constant="10" id="i2P-Os-Xg8"/>
+                            <constraint firstItem="PNl-hM-AuN" firstAttribute="top" secondItem="v9u-Qr-zjZ" secondAttribute="bottom" constant="7.5" id="lhi-Ou-KVh"/>
+                            <constraint firstItem="kPZ-QB-JWX" firstAttribute="top" secondItem="QPb-qI-TYg" secondAttribute="top" constant="9" id="va2-hn-n1j"/>
+                            <constraint firstItem="PNl-hM-AuN" firstAttribute="top" secondItem="v9u-Qr-zjZ" secondAttribute="bottom" constant="7.5" id="vxh-hZ-LKE"/>
+                            <constraint firstItem="65r-IJ-UlS" firstAttribute="leading" secondItem="PNl-hM-AuN" secondAttribute="trailing" constant="8" id="wsj-7b-zEP"/>
+                            <constraint firstItem="kPZ-QB-JWX" firstAttribute="leading" secondItem="QPb-qI-TYg" secondAttribute="leading" constant="15" id="xXo-I5-hE1"/>
+                            <constraint firstItem="PNl-hM-AuN" firstAttribute="leading" secondItem="PP1-iu-FES" secondAttribute="trailing" constant="10" id="z3Q-WR-ugy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QPb-qI-TYg" secondAttribute="trailing" id="3f2-Hf-cym"/>
+                    <constraint firstAttribute="bottom" secondItem="QPb-qI-TYg" secondAttribute="bottom" constant="4.5" id="GgB-88-nee"/>
+                    <constraint firstItem="QPb-qI-TYg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="daY-qw-if0"/>
+                    <constraint firstItem="QPb-qI-TYg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="qzS-If-Ue8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnmore" destination="65r-IJ-UlS" id="umm-ac-1S5"/>
+                <outlet property="imagedate" destination="ZkV-0i-h6V" id="Y9C-Yf-fhF"/>
+                <outlet property="lbledudate" destination="v9u-Qr-zjZ" id="k5p-3A-yGc"/>
+                <outlet property="lbleduname" destination="kPZ-QB-JWX" id="fov-RL-akU"/>
+                <outlet property="lbledutime" destination="PNl-hM-AuN" id="c1f-a3-LtM"/>
+                <outlet property="viewmain" destination="QPb-qI-TYg" id="ywt-zb-Lpa"/>
+            </connections>
+            <point key="canvasLocation" x="16" y="90"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" width="128" height="128"/>
+        <image name="clock" width="128" height="128"/>
+    </resources>
+</document>

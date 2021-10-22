@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuiblaVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="googleMap" destination="aNy-mR-vyY" id="ZWp-em-bg6"/>
+                <outlet property="ivCompassBack" destination="OIN-1m-6ek" id="CWd-ek-MD0"/>
+                <outlet property="ivCompassNeedle" destination="IQo-of-duf" id="zdi-iX-vXO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="f7s-kV-C23">
+                    <rect key="frame" x="-28" y="-50" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compassback" translatesAutoresizingMaskIntoConstraints="NO" id="ysm-m9-2m7">
+                            <rect key="frame" x="37.5" y="167" width="300" height="333.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="needleneedle" translatesAutoresizingMaskIntoConstraints="NO" id="Yfy-53-8o4">
+                            <rect key="frame" x="97.5" y="225" width="180" height="217"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ysm-m9-2m7" firstAttribute="centerX" secondItem="f7s-kV-C23" secondAttribute="centerX" id="16u-is-Tg1"/>
+                        <constraint firstItem="Yfy-53-8o4" firstAttribute="height" secondItem="ysm-m9-2m7" secondAttribute="height" multiplier="0.65" id="7GS-uj-jHX"/>
+                        <constraint firstItem="ysm-m9-2m7" firstAttribute="centerY" secondItem="f7s-kV-C23" secondAttribute="centerY" id="8jr-YT-bpX"/>
+                        <constraint firstItem="ysm-m9-2m7" firstAttribute="height" secondItem="f7s-kV-C23" secondAttribute="height" multiplier="0.5" id="LQJ-f8-XBk"/>
+                        <constraint firstItem="Yfy-53-8o4" firstAttribute="centerY" secondItem="ysm-m9-2m7" secondAttribute="centerY" id="edF-lw-lnQ"/>
+                        <constraint firstItem="ysm-m9-2m7" firstAttribute="width" secondItem="f7s-kV-C23" secondAttribute="width" multiplier="0.8" id="pfs-4c-ysf"/>
+                        <constraint firstItem="Yfy-53-8o4" firstAttribute="centerX" secondItem="ysm-m9-2m7" secondAttribute="centerX" id="qqh-gq-029"/>
+                        <constraint firstItem="Yfy-53-8o4" firstAttribute="width" secondItem="ysm-m9-2m7" secondAttribute="width" multiplier="0.6" id="sQr-b1-odh"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIP-Pe-Qpd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="p0A-Fz-6Qe">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNy-mR-vyY" customClass="GMSMapView">
+                            <rect key="frame" x="0.0" y="50" width="320" height="220"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="220" id="TlJ-HY-lu2"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="exN-u6-X90"/>
+                            </connections>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="OIN-1m-6ek">
+                            <rect key="frame" x="10" y="270" width="300" height="298"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="298" id="6td-AM-B4l"/>
+                                <constraint firstAttribute="width" constant="300" id="G15-di-Elq"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow-macca" translatesAutoresizingMaskIntoConstraints="NO" id="IQo-of-duf">
+                            <rect key="frame" x="70" y="300" width="180" height="238"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="180" id="aso-6R-NGP"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="p0A-Fz-6Qe" secondAttribute="bottom" constant="-40" id="0fA-SX-Kgu"/>
+                        <constraint firstAttribute="trailing" secondItem="IQo-of-duf" secondAttribute="trailing" constant="70" id="0y5-L7-0ct"/>
+                        <constraint firstAttribute="bottom" secondItem="IQo-of-duf" secondAttribute="bottom" constant="30" id="3hv-bz-UWZ"/>
+                        <constraint firstItem="aNy-mR-vyY" firstAttribute="leading" secondItem="AIP-Pe-Qpd" secondAttribute="leading" id="5ht-Je-VJE"/>
+                        <constraint firstItem="aNy-mR-vyY" firstAttribute="top" secondItem="AIP-Pe-Qpd" secondAttribute="top" constant="50" id="A3j-Bt-wqo"/>
+                        <constraint firstItem="IQo-of-duf" firstAttribute="leading" secondItem="AIP-Pe-Qpd" secondAttribute="leading" constant="70" id="L33-F5-I6B"/>
+                        <constraint firstItem="IQo-of-duf" firstAttribute="top" secondItem="aNy-mR-vyY" secondAttribute="bottom" constant="30" id="MLJ-P7-e9C"/>
+                        <constraint firstAttribute="bottom" secondItem="OIN-1m-6ek" secondAttribute="bottom" id="VmN-HC-FBn"/>
+                        <constraint firstAttribute="trailing" secondItem="aNy-mR-vyY" secondAttribute="trailing" id="b6l-zr-3gh"/>
+                        <constraint firstAttribute="trailing" secondItem="p0A-Fz-6Qe" secondAttribute="trailing" id="dFA-sw-FCU"/>
+                        <constraint firstItem="p0A-Fz-6Qe" firstAttribute="leading" secondItem="AIP-Pe-Qpd" secondAttribute="leading" id="hSz-Cv-tmc"/>
+                        <constraint firstItem="OIN-1m-6ek" firstAttribute="top" secondItem="aNy-mR-vyY" secondAttribute="bottom" id="rJC-Wl-78u"/>
+                        <constraint firstItem="OIN-1m-6ek" firstAttribute="leading" secondItem="AIP-Pe-Qpd" secondAttribute="leading" constant="10" id="rOn-D8-VEB"/>
+                        <constraint firstItem="p0A-Fz-6Qe" firstAttribute="top" secondItem="AIP-Pe-Qpd" secondAttribute="top" id="x9J-H9-xTM"/>
+                        <constraint firstAttribute="trailing" secondItem="OIN-1m-6ek" secondAttribute="trailing" constant="10" id="xbG-2a-pc9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AIP-Pe-Qpd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Vdo-Lc-P6M"/>
+                <constraint firstItem="AIP-Pe-Qpd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fhE-0i-FwQ"/>
+                <constraint firstItem="AIP-Pe-Qpd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oXx-zS-QEb"/>
+                <constraint firstItem="AIP-Pe-Qpd" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="whf-nk-RFQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="38" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+        <image name="compass" width="1584" height="1633"/>
+        <image name="compassback" width="752" height="752"/>
+        <image name="needleneedle" width="79" height="747"/>
+        <image name="yellow-macca" width="158" height="1494"/>
+    </resources>
+</document>

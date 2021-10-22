@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommunityListVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="btnAlltab" destination="xOW-7N-Zmj" id="cKd-YJ-iTe"/>
+                <outlet property="btnMinetab" destination="pfq-PV-vTV" id="8EP-eQ-GBA"/>
+                <outlet property="tblCommnuity" destination="px5-jh-eef" id="LMi-Ln-gq0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewAlltab" destination="oXh-Vw-UrH" id="eno-C6-El9"/>
+                <outlet property="viewMinetab" destination="Vqw-cB-4V0" id="7ei-Yk-ywh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQz-gw-sLX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="R3g-WS-yoy">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-wk-jtj">
+                            <rect key="frame" x="0.0" y="90" width="320" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOW-7N-Zmj">
+                                    <rect key="frame" x="8" y="5" width="151" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <state key="normal" title="ALL"/>
+                                    <connections>
+                                        <action selector="clicktabClicked:" destination="-1" eventType="touchUpInside" id="AT0-G5-uFP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfq-PV-vTV">
+                                    <rect key="frame" x="161" y="4" width="151" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <state key="normal" title="Mine"/>
+                                    <connections>
+                                        <action selector="clicktabClicked:" destination="-1" eventType="touchUpInside" id="AJM-nQ-VCF"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXh-Vw-UrH">
+                                    <rect key="frame" x="0.0" y="38" width="160" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vqw-cB-4V0">
+                                    <rect key="frame" x="160" y="38" width="160" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.27450980392156865" green="0.25882352941176467" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="yXR-Ki-pTY"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="55" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="px5-jh-eef">
+                            <rect key="frame" x="20" y="138" width="280" height="410"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="gDV-QM-OWi"/>
+                                <outlet property="delegate" destination="-1" id="DDy-bl-PBX"/>
+                            </connections>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7V-4U-5i9">
+                            <rect key="frame" x="260" y="508" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" backgroundImage="Add button"/>
+                            <connections>
+                                <action selector="addCoummnityClicked:" destination="-1" eventType="touchUpInside" id="y2u-Sn-KcY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="R3g-WS-yoy" secondAttribute="trailing" id="7CA-fe-RVg"/>
+                        <constraint firstItem="R3g-WS-yoy" firstAttribute="leading" secondItem="SQz-gw-sLX" secondAttribute="leading" id="B5W-KF-od7"/>
+                        <constraint firstItem="gyz-wk-jtj" firstAttribute="top" secondItem="SQz-gw-sLX" secondAttribute="top" constant="90" id="GON-0J-hnL"/>
+                        <constraint firstItem="gyz-wk-jtj" firstAttribute="leading" secondItem="SQz-gw-sLX" secondAttribute="leading" id="II3-U6-ZEN"/>
+                        <constraint firstItem="R3g-WS-yoy" firstAttribute="top" secondItem="SQz-gw-sLX" secondAttribute="top" id="NnD-Mm-jhJ"/>
+                        <constraint firstAttribute="trailing" secondItem="gyz-wk-jtj" secondAttribute="trailing" id="Qnw-gd-gDM"/>
+                        <constraint firstAttribute="bottom" secondItem="px5-jh-eef" secondAttribute="bottom" constant="20" id="TlJ-lj-LIw"/>
+                        <constraint firstItem="px5-jh-eef" firstAttribute="top" secondItem="gyz-wk-jtj" secondAttribute="bottom" constant="8" id="VSA-Rw-ZLT"/>
+                        <constraint firstAttribute="bottom" secondItem="R3g-WS-yoy" secondAttribute="bottom" constant="-40" id="a8Y-ax-EyA"/>
+                        <constraint firstAttribute="trailing" secondItem="px5-jh-eef" secondAttribute="trailing" constant="20" id="h2l-t3-rES"/>
+                        <constraint firstItem="px5-jh-eef" firstAttribute="leading" secondItem="SQz-gw-sLX" secondAttribute="leading" constant="20" id="yT5-mx-awu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SQz-gw-sLX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EYf-HN-iYn"/>
+                <constraint firstItem="SQz-gw-sLX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="G1Q-A1-ky8"/>
+                <constraint firstItem="SQz-gw-sLX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HgU-Eh-j4I"/>
+                <constraint firstItem="SQz-gw-sLX" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="w4H-7E-iZ1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133" y="142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Add button" width="160" height="160"/>
+        <image name="BG" width="375" height="813"/>
+    </resources>
+</document>

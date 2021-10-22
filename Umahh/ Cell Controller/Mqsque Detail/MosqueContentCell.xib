@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Light.ttf">
+            <string>SFUIText-Light</string>
+        </array>
+        <array key="sf-ui-display-bold.otf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+        <array key="sf-ui-display-light.otf">
+            <string>SFUIDisplay-Light</string>
+        </array>
+        <array key="sf-ui-display-medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="MosqueContentCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="473"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="473"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9HW-Kb-AqC">
+                        <rect key="frame" x="0.0" y="-1" width="320" height="473.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mosque view" translatesAutoresizingMaskIntoConstraints="NO" id="Kdq-7f-lIo">
+                                <rect key="frame" x="82" y="10" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="IRY-wg-ugy"/>
+                                    <constraint firstAttribute="width" constant="160" id="oAz-7x-UoX"/>
+                                    <constraint firstAttribute="width" secondItem="Kdq-7f-lIo" secondAttribute="height" multiplier="1:1" id="rSP-KI-Lms"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="256" text="Mosque" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWM-G7-jzO">
+                                <rect key="frame" x="12" y="181" width="298" height="23"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="372/5 mosque RR Colony" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UId-GL-ZZ6">
+                                <rect key="frame" x="14" y="215" width="298" height="20.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" text="(718) 345 -3845" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGb-SP-MyC">
+                                <rect key="frame" x="14" y="241" width="298" height="17"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="info@bicnyc.org" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnL-dS-KiC">
+                                <rect key="frame" x="14" y="266" width="298" height="16"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="Lorem Ipsum is simply dummy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqt-WE-6oO">
+                                <rect key="frame" x="12" y="295" width="298" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@bicnyc.org" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ0-wx-pXh">
+                                <rect key="frame" x="14" y="322" width="298" height="16"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQm-0I-4NW">
+                                <rect key="frame" x="34" y="406.5" width="258" height="46"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZY-3b-BuW">
+                                        <rect key="frame" x="0.0" y="4" width="125" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.49786919359999998" green="0.82127565150000004" blue="0.40775519609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                        <state key="normal" title="Prayer Schedule">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTb-li-XtK">
+                                        <rect key="frame" x="132" y="4" width="125" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.30588235289999999" green="0.85098039219999999" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                        <state key="normal" title="Map"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="6ni-gU-FH5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hD9-v4-jq0">
+                                <rect key="frame" x="34" y="352" width="258" height="46"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoI-Ai-c17">
+                                        <rect key="frame" x="0.0" y="3" width="125" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.047058823530000002" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                        <state key="normal" title="Follow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmb-aM-uaS">
+                                        <rect key="frame" x="133" y="3" width="125" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.047058823530000002" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                        <state key="normal" title="Home Mosque"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="WuK-dN-Cgg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hD9-v4-jq0" firstAttribute="top" secondItem="wQ0-wx-pXh" secondAttribute="bottom" constant="14" id="0rO-HL-IyM"/>
+                            <constraint firstItem="wQ0-wx-pXh" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="14" id="3Kc-lR-D7C"/>
+                            <constraint firstItem="UId-GL-ZZ6" firstAttribute="top" secondItem="lWM-G7-jzO" secondAttribute="bottom" constant="11" id="5re-dj-cCm"/>
+                            <constraint firstItem="JnL-dS-KiC" firstAttribute="top" secondItem="aGb-SP-MyC" secondAttribute="bottom" constant="8" id="6LQ-a6-YeA"/>
+                            <constraint firstAttribute="trailing" secondItem="UId-GL-ZZ6" secondAttribute="trailing" constant="8" id="7As-ud-LEj"/>
+                            <constraint firstItem="lWM-G7-jzO" firstAttribute="top" secondItem="Kdq-7f-lIo" secondAttribute="bottom" constant="11" id="7PO-WM-Ei7"/>
+                            <constraint firstItem="lWM-G7-jzO" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="12" id="Be3-AL-yUF"/>
+                            <constraint firstItem="aGb-SP-MyC" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="14" id="CAx-Ti-QCd"/>
+                            <constraint firstItem="Kdq-7f-lIo" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="82" id="DCl-wA-uVT"/>
+                            <constraint firstAttribute="trailing" secondItem="Yqt-WE-6oO" secondAttribute="trailing" constant="10" id="Eo9-xd-WQf"/>
+                            <constraint firstItem="UId-GL-ZZ6" firstAttribute="top" secondItem="lWM-G7-jzO" secondAttribute="bottom" constant="11" id="HBU-XS-INN"/>
+                            <constraint firstItem="UId-GL-ZZ6" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="14" id="Hxc-bl-Sa0"/>
+                            <constraint firstAttribute="trailing" secondItem="OQm-0I-4NW" secondAttribute="trailing" constant="28" id="Idc-sr-QQV"/>
+                            <constraint firstAttribute="trailing" secondItem="aGb-SP-MyC" secondAttribute="trailing" constant="8" id="Ihx-yZ-9V1"/>
+                            <constraint firstItem="Yqt-WE-6oO" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="12" id="Jg4-9f-LtG"/>
+                            <constraint firstItem="OQm-0I-4NW" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="34" id="KZ4-JA-C45"/>
+                            <constraint firstAttribute="trailing" secondItem="wQ0-wx-pXh" secondAttribute="trailing" constant="8" id="KgI-id-R4s"/>
+                            <constraint firstItem="Yqt-WE-6oO" firstAttribute="top" secondItem="JnL-dS-KiC" secondAttribute="bottom" constant="13" id="Q7t-hG-hPx"/>
+                            <constraint firstItem="wQ0-wx-pXh" firstAttribute="top" secondItem="Yqt-WE-6oO" secondAttribute="bottom" constant="12.5" id="Rn8-TR-lgc"/>
+                            <constraint firstItem="aGb-SP-MyC" firstAttribute="top" secondItem="UId-GL-ZZ6" secondAttribute="bottom" constant="5.5" id="S2D-BN-HPD"/>
+                            <constraint firstAttribute="trailing" secondItem="lWM-G7-jzO" secondAttribute="trailing" constant="10" id="Sem-yJ-bU7"/>
+                            <constraint firstItem="wQ0-wx-pXh" firstAttribute="top" secondItem="Yqt-WE-6oO" secondAttribute="bottom" constant="12.5" id="UKw-l8-bbx"/>
+                            <constraint firstItem="JnL-dS-KiC" firstAttribute="top" secondItem="aGb-SP-MyC" secondAttribute="bottom" constant="8" id="X43-PS-uqb"/>
+                            <constraint firstAttribute="trailing" secondItem="Kdq-7f-lIo" secondAttribute="trailing" constant="78" id="hmv-ei-1wO"/>
+                            <constraint firstItem="aGb-SP-MyC" firstAttribute="top" secondItem="UId-GL-ZZ6" secondAttribute="bottom" constant="5.5" id="jEr-q2-pc6"/>
+                            <constraint firstAttribute="bottom" secondItem="OQm-0I-4NW" secondAttribute="bottom" constant="21" id="kPV-ud-ZCe"/>
+                            <constraint firstItem="OQm-0I-4NW" firstAttribute="top" secondItem="hD9-v4-jq0" secondAttribute="bottom" constant="8.5" id="n1D-N4-P8P"/>
+                            <constraint firstAttribute="trailing" secondItem="JnL-dS-KiC" secondAttribute="trailing" constant="8" id="ooQ-jL-QqM"/>
+                            <constraint firstItem="hD9-v4-jq0" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="34" id="pgE-ZL-S5X"/>
+                            <constraint firstAttribute="trailing" secondItem="hD9-v4-jq0" secondAttribute="trailing" constant="28" id="rYI-eM-oyh"/>
+                            <constraint firstItem="Kdq-7f-lIo" firstAttribute="top" secondItem="9HW-Kb-AqC" secondAttribute="top" constant="10" id="urp-55-GU6"/>
+                            <constraint firstItem="JnL-dS-KiC" firstAttribute="leading" secondItem="9HW-Kb-AqC" secondAttribute="leading" constant="14" id="x8X-DI-B0n"/>
+                            <constraint firstItem="Yqt-WE-6oO" firstAttribute="top" secondItem="JnL-dS-KiC" secondAttribute="bottom" constant="13" id="xJM-T2-dVS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="9HW-Kb-AqC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="-1" id="2Qe-IT-tWW"/>
+                    <constraint firstAttribute="trailing" secondItem="9HW-Kb-AqC" secondAttribute="trailing" id="A6C-vE-ZOB"/>
+                    <constraint firstAttribute="bottom" secondItem="9HW-Kb-AqC" secondAttribute="bottom" constant="0.5" id="HsM-NU-YET"/>
+                    <constraint firstItem="9HW-Kb-AqC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mdE-hQ-Yj8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnFollowing" destination="yoI-Ai-c17" id="6zc-jS-YtC"/>
+                <outlet property="btnHomeMosque" destination="mmb-aM-uaS" id="KY7-MH-n5M"/>
+                <outlet property="btnMap" destination="eTb-li-XtK" id="9rT-PT-vuc"/>
+                <outlet property="btnPrayer" destination="qZY-3b-BuW" id="C1M-tB-BRB"/>
+                <outlet property="imgmosque" destination="Kdq-7f-lIo" id="caQ-29-XNZ"/>
+                <outlet property="lblMosquename" destination="lWM-G7-jzO" id="coB-lN-X4M"/>
+                <outlet property="lblmosqueaddress" destination="UId-GL-ZZ6" id="jai-wf-nnV"/>
+                <outlet property="lblmosquedescription" destination="Yqt-WE-6oO" id="bgf-zS-FqP"/>
+                <outlet property="lblmosqueemail" destination="wQ0-wx-pXh" id="4M3-mY-Cgc"/>
+                <outlet property="lblmosquephone" destination="aGb-SP-MyC" id="lQk-QD-kfB"/>
+                <outlet property="lblmosquewebsite" destination="JnL-dS-KiC" id="UFn-BA-rd0"/>
+            </connections>
+            <point key="canvasLocation" x="36.799999999999997" y="141.67916041979012"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Mosque view" width="275" height="275"/>
+    </resources>
+</document>

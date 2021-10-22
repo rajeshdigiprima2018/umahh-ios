@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Bold.ttf">
+            <string>SFUIText-Bold</string>
+        </array>
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuggestionVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="txtsuggestion" destination="eFH-HC-7XG" id="fL9-i7-x6a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5j-tQ-Bpu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mosque BG" translatesAutoresizingMaskIntoConstraints="NO" id="TDz-e7-gzZ">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaG-Zh-mZi">
+                            <rect key="frame" x="23" y="30" width="21" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="21" id="N0S-B6-wnI"/>
+                                <constraint firstAttribute="height" constant="22" id="ueZ-sS-Lqf"/>
+                            </constraints>
+                            <state key="normal" image="back_key"/>
+                            <connections>
+                                <action selector="BackBtnClicked:" destination="-1" eventType="touchUpInside" id="IWR-Do-ble"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0by-48-AWa">
+                            <rect key="frame" x="104" y="30" width="119.5" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="6dN-P4-6Fm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8i1-8G-Tx7">
+                            <rect key="frame" x="280" y="30" width="21" height="22"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="21" id="gXL-ht-2Ip"/>
+                                <constraint firstAttribute="height" constant="22" id="wyK-7N-qsE"/>
+                            </constraints>
+                            <state key="normal" image="send"/>
+                            <connections>
+                                <action selector="postSuggestion:" destination="-1" eventType="touchUpInside" id="q3K-pO-Hr8"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36g-AS-tCb">
+                            <rect key="frame" x="20" y="85" width="280" height="194"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write Message" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eFH-HC-7XG">
+                                    <rect key="frame" x="8" y="8" width="264" height="178"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="0xe-Jc-Hgl"/>
+                                    </connections>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.82745098039215681" green="0.65098039215686276" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="eFH-HC-7XG" firstAttribute="leading" secondItem="36g-AS-tCb" secondAttribute="leading" constant="8" id="5gf-Ri-7NI"/>
+                                <constraint firstAttribute="bottom" secondItem="eFH-HC-7XG" secondAttribute="bottom" constant="8" id="PSr-IO-2pn"/>
+                                <constraint firstAttribute="trailing" secondItem="eFH-HC-7XG" secondAttribute="trailing" constant="8" id="cfI-6X-gon"/>
+                                <constraint firstItem="eFH-HC-7XG" firstAttribute="top" secondItem="36g-AS-tCb" secondAttribute="top" constant="8" id="qlB-Ce-Zpr"/>
+                                <constraint firstAttribute="height" constant="194" id="y0f-5u-RIN"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="TDz-e7-gzZ" firstAttribute="top" secondItem="m5j-tQ-Bpu" secondAttribute="top" id="82K-xd-C5h"/>
+                        <constraint firstItem="36g-AS-tCb" firstAttribute="top" secondItem="0by-48-AWa" secondAttribute="bottom" constant="27" id="CVN-hv-e3E"/>
+                        <constraint firstItem="CaG-Zh-mZi" firstAttribute="leading" secondItem="m5j-tQ-Bpu" secondAttribute="leading" constant="23" id="Kxb-sU-4xM"/>
+                        <constraint firstAttribute="bottom" secondItem="TDz-e7-gzZ" secondAttribute="bottom" constant="-40" id="PIw-Sg-FoD"/>
+                        <constraint firstItem="CaG-Zh-mZi" firstAttribute="top" secondItem="m5j-tQ-Bpu" secondAttribute="top" constant="30" id="VZJ-lW-1xh"/>
+                        <constraint firstItem="0by-48-AWa" firstAttribute="top" secondItem="m5j-tQ-Bpu" secondAttribute="top" constant="30" id="Xt5-iN-iv7"/>
+                        <constraint firstItem="0by-48-AWa" firstAttribute="leading" secondItem="CaG-Zh-mZi" secondAttribute="trailing" constant="60" id="cf8-6U-MYS"/>
+                        <constraint firstItem="TDz-e7-gzZ" firstAttribute="leading" secondItem="m5j-tQ-Bpu" secondAttribute="leading" id="eDr-Xz-4DA"/>
+                        <constraint firstAttribute="trailing" secondItem="36g-AS-tCb" secondAttribute="trailing" constant="20" id="lvC-ii-JeU"/>
+                        <constraint firstAttribute="trailing" secondItem="8i1-8G-Tx7" secondAttribute="trailing" constant="19" id="nvB-ph-ycb"/>
+                        <constraint firstItem="8i1-8G-Tx7" firstAttribute="top" secondItem="m5j-tQ-Bpu" secondAttribute="top" constant="30" id="oCH-ut-M32"/>
+                        <constraint firstItem="36g-AS-tCb" firstAttribute="leading" secondItem="m5j-tQ-Bpu" secondAttribute="leading" constant="20" id="uB4-ET-3Ny"/>
+                        <constraint firstAttribute="trailing" secondItem="TDz-e7-gzZ" secondAttribute="trailing" id="yLm-GY-so9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="m5j-tQ-Bpu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="K6S-bx-AXV"/>
+                <constraint firstItem="m5j-tQ-Bpu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ksX-TF-jEe"/>
+                <constraint firstItem="m5j-tQ-Bpu" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="nGz-sd-akv"/>
+                <constraint firstItem="m5j-tQ-Bpu" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vmd-IO-vbY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mosque BG" width="376" height="1083.5"/>
+        <image name="back_key" width="21.5" height="16.5"/>
+        <image name="send" width="21" height="19"/>
+    </resources>
+</document>

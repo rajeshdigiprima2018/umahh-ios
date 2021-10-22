@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuranListVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="btnJuz" destination="JkA-72-b69" id="Unl-AP-f88"/>
+                <outlet property="btnSura" destination="Qc4-oY-pVK" id="MWS-6J-Ccj"/>
+                <outlet property="tblQuran" destination="dqd-QG-NBg" id="u9r-fS-waL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewJuz" destination="Qdi-pt-C8l" id="2Tg-Sd-RQS"/>
+                <outlet property="viewSura" destination="Kvk-14-xbj" id="FKu-i8-P4K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Az2-RG-iKM">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="vqR-99-pUD">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="55" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dqd-QG-NBg">
+                            <rect key="frame" x="20" y="150" width="280" height="398"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="2lN-Fj-Es0"/>
+                                <outlet property="delegate" destination="-1" id="naQ-7x-Xsp"/>
+                            </connections>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auT-NV-t3V">
+                            <rect key="frame" x="0.0" y="90" width="320" height="48"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vIs-Qn-0XM">
+                                    <rect key="frame" x="0.0" y="0.0" width="160" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qc4-oY-pVK">
+                                            <rect key="frame" x="26" y="8" width="107" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI  Text" pointSize="17"/>
+                                            <state key="normal" title="Sura"/>
+                                            <connections>
+                                                <action selector="SuraClicked:" destination="-1" eventType="touchUpInside" id="xAs-pd-g2v"/>
+                                            </connections>
+                                        </button>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kvk-14-xbj">
+                                            <rect key="frame" x="0.0" y="46" width="160" height="2"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <color key="backgroundColor" red="0.32549019610000002" green="0.83529411760000005" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u8k-E8-Cfj">
+                                    <rect key="frame" x="159" y="0.0" width="160" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkA-72-b69">
+                                            <rect key="frame" x="26" y="8" width="107" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI  Text" pointSize="17"/>
+                                            <state key="normal" title="Juz"/>
+                                            <connections>
+                                                <action selector="juzClicked:" destination="-1" eventType="touchUpInside" id="lzy-7A-QV3"/>
+                                            </connections>
+                                        </button>
+                                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qdi-pt-C8l">
+                                            <rect key="frame" x="0.0" y="46" width="160" height="2"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <color key="backgroundColor" red="0.32549019610000002" green="0.83529411760000005" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="tq9-jV-uam"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="auT-NV-t3V" firstAttribute="leading" secondItem="Az2-RG-iKM" secondAttribute="leading" id="1ET-29-BFf"/>
+                        <constraint firstAttribute="bottom" secondItem="vqR-99-pUD" secondAttribute="bottom" constant="-40" id="ADa-ZH-Ils"/>
+                        <constraint firstItem="dqd-QG-NBg" firstAttribute="leading" secondItem="Az2-RG-iKM" secondAttribute="leading" constant="20" id="IeQ-h5-mKI"/>
+                        <constraint firstAttribute="trailing" secondItem="vqR-99-pUD" secondAttribute="trailing" id="NY5-dU-nC4"/>
+                        <constraint firstAttribute="trailing" secondItem="dqd-QG-NBg" secondAttribute="trailing" constant="20" id="OHg-8Q-BF7"/>
+                        <constraint firstAttribute="trailing" secondItem="auT-NV-t3V" secondAttribute="trailing" id="XSV-Nj-Xwt"/>
+                        <constraint firstItem="vqR-99-pUD" firstAttribute="top" secondItem="Az2-RG-iKM" secondAttribute="top" id="YJJ-Ib-ZNB"/>
+                        <constraint firstItem="vqR-99-pUD" firstAttribute="leading" secondItem="Az2-RG-iKM" secondAttribute="leading" id="dmp-XK-fdB"/>
+                        <constraint firstItem="dqd-QG-NBg" firstAttribute="top" secondItem="auT-NV-t3V" secondAttribute="bottom" constant="12" id="kEp-DN-rHs"/>
+                        <constraint firstItem="auT-NV-t3V" firstAttribute="top" secondItem="Az2-RG-iKM" secondAttribute="top" constant="90" id="n5F-2P-fMP"/>
+                        <constraint firstAttribute="bottom" secondItem="dqd-QG-NBg" secondAttribute="bottom" constant="20" id="qkG-36-ItW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Az2-RG-iKM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="A8h-QL-6bF"/>
+                <constraint firstItem="Az2-RG-iKM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NsC-Hx-2nA"/>
+                <constraint firstItem="Az2-RG-iKM" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="UG9-gc-V0K"/>
+                <constraint firstItem="Az2-RG-iKM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oBb-7V-BFO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133" y="142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+    </resources>
+</document>

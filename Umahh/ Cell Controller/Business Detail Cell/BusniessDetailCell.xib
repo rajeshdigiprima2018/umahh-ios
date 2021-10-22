@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="BusniessDetailCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="87.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mlp-ph-k5z">
+                        <rect key="frame" x="0.0" y="5" width="320" height="75"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hajj" translatesAutoresizingMaskIntoConstraints="NO" id="3RK-7B-gnd">
+                                <rect key="frame" x="6" y="9" width="80" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="8kd-pb-wR9"/>
+                                    <constraint firstAttribute="height" constant="60" id="y8E-3y-Wor"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al- Fathia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gft-3E-4BI">
+                                <rect key="frame" x="92" y="11" width="174" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gUN-en-dch"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI  Text" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The opening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3F-37-6oG">
+                                <rect key="frame" x="110" y="37" width="165" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xYv-qV-z2Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI  Text" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Location-1" translatesAutoresizingMaskIntoConstraints="NO" id="H6f-5g-Leg">
+                                <rect key="frame" x="92" y="39" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="GDs-8E-cJX"/>
+                                    <constraint firstAttribute="height" constant="15" id="Yhw-Az-SUF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVR-Kb-U6W">
+                                <rect key="frame" x="283" y="25" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Pk9-VA-3Ru"/>
+                                    <constraint firstAttribute="height" constant="30" id="YG8-s7-YPQ"/>
+                                </constraints>
+                                <state key="normal" image="call"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H6f-5g-Leg" firstAttribute="leading" secondItem="3RK-7B-gnd" secondAttribute="trailing" constant="6" id="1io-24-FGp"/>
+                            <constraint firstItem="e3F-37-6oG" firstAttribute="top" secondItem="gft-3E-4BI" secondAttribute="bottom" constant="5" id="5Df-Hf-G1n"/>
+                            <constraint firstItem="3RK-7B-gnd" firstAttribute="leading" secondItem="Mlp-ph-k5z" secondAttribute="leading" constant="6" id="7BT-gZ-OSU"/>
+                            <constraint firstItem="H6f-5g-Leg" firstAttribute="top" secondItem="gft-3E-4BI" secondAttribute="bottom" constant="7" id="8oC-6U-tu1"/>
+                            <constraint firstItem="IVR-Kb-U6W" firstAttribute="leading" secondItem="e3F-37-6oG" secondAttribute="trailing" constant="8" id="A7b-68-ZlJ"/>
+                            <constraint firstItem="gft-3E-4BI" firstAttribute="leading" secondItem="3RK-7B-gnd" secondAttribute="trailing" constant="6" id="HgM-9o-c0R"/>
+                            <constraint firstItem="3RK-7B-gnd" firstAttribute="top" secondItem="Mlp-ph-k5z" secondAttribute="top" constant="9" id="IRp-qG-btE"/>
+                            <constraint firstItem="gft-3E-4BI" firstAttribute="top" secondItem="Mlp-ph-k5z" secondAttribute="top" constant="11" id="Jin-ce-hPM"/>
+                            <constraint firstAttribute="trailing" secondItem="IVR-Kb-U6W" secondAttribute="trailing" constant="7" id="Ybf-Ed-s7h"/>
+                            <constraint firstItem="e3F-37-6oG" firstAttribute="leading" secondItem="H6f-5g-Leg" secondAttribute="trailing" constant="3" id="fzT-yy-hY9"/>
+                            <constraint firstItem="IVR-Kb-U6W" firstAttribute="top" secondItem="Mlp-ph-k5z" secondAttribute="top" constant="25" id="puZ-p1-rub"/>
+                            <constraint firstItem="IVR-Kb-U6W" firstAttribute="leading" secondItem="gft-3E-4BI" secondAttribute="trailing" constant="17" id="v5M-jH-1GV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Mlp-ph-k5z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Bk3-gr-c0M"/>
+                    <constraint firstAttribute="trailing" secondItem="Mlp-ph-k5z" secondAttribute="trailing" id="JXk-eI-Wth"/>
+                    <constraint firstAttribute="bottom" secondItem="Mlp-ph-k5z" secondAttribute="bottom" constant="7.5" id="SB2-Ai-mTM"/>
+                    <constraint firstItem="Mlp-ph-k5z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jOE-cr-Cic"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgProfile" destination="3RK-7B-gnd" id="Ya3-zV-56z"/>
+                <outlet property="lblname" destination="gft-3E-4BI" id="ZPb-fO-Vhm"/>
+                <outlet property="lbltext" destination="e3F-37-6oG" id="gZ5-Ku-Z2b"/>
+                <outlet property="viewMain" destination="Mlp-ph-k5z" id="pwO-1Y-IdL"/>
+            </connections>
+            <point key="canvasLocation" x="18" y="50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Hajj" width="322" height="171"/>
+        <image name="Location-1" width="12" height="17"/>
+        <image name="call" width="30" height="30"/>
+    </resources>
+</document>

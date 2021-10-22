@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaordVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="tblBoard" destination="sRi-mu-fV8" id="ZKU-el-czm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NgI-Kh-aN4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mosque BG" translatesAutoresizingMaskIntoConstraints="NO" id="lu3-5h-pS8">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sRi-mu-fV8">
+                            <rect key="frame" x="20" y="70" width="280" height="478"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="M97-vS-ubD"/>
+                                <outlet property="delegate" destination="-1" id="VZP-oS-Uqu"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="lu3-5h-pS8" firstAttribute="leading" secondItem="NgI-Kh-aN4" secondAttribute="leading" id="08u-5b-S0G"/>
+                        <constraint firstAttribute="bottom" secondItem="lu3-5h-pS8" secondAttribute="bottom" constant="-40" id="Lm9-G9-ET1"/>
+                        <constraint firstAttribute="trailing" secondItem="lu3-5h-pS8" secondAttribute="trailing" id="Nqb-SI-eWL"/>
+                        <constraint firstAttribute="trailing" secondItem="sRi-mu-fV8" secondAttribute="trailing" constant="20" id="ON9-iD-tw2"/>
+                        <constraint firstItem="lu3-5h-pS8" firstAttribute="top" secondItem="NgI-Kh-aN4" secondAttribute="top" id="bw9-NY-FIw"/>
+                        <constraint firstItem="sRi-mu-fV8" firstAttribute="top" secondItem="NgI-Kh-aN4" secondAttribute="top" constant="70" id="l5a-j4-S0X"/>
+                        <constraint firstItem="sRi-mu-fV8" firstAttribute="leading" secondItem="NgI-Kh-aN4" secondAttribute="leading" constant="20" id="mt7-Cf-eat"/>
+                        <constraint firstAttribute="bottom" secondItem="sRi-mu-fV8" secondAttribute="bottom" constant="20" id="uNQ-9D-2aY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NgI-Kh-aN4" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="F8k-cA-MvM"/>
+                <constraint firstItem="NgI-Kh-aN4" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="jvp-RW-SgV"/>
+                <constraint firstItem="NgI-Kh-aN4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="q59-e1-n0t"/>
+                <constraint firstItem="NgI-Kh-aN4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yFQ-mU-3nm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mosque BG" width="376" height="1083.5"/>
+    </resources>
+</document>

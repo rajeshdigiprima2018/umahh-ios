@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-light.otf">
+            <string>SFUIDisplay-Light</string>
+        </array>
+        <array key="sf-ui-display-thin.otf">
+            <string>SFUIDisplay-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MyCommunityCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5a-o9-ZDj">
+                        <rect key="frame" x="5" y="3" width="310" height="140"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4Y-Xu-4Cq">
+                                <rect key="frame" x="15" y="7" width="285" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="lfg-EN-YIW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yh1-nK-h6X">
+                                <rect key="frame" x="0.0" y="66" width="310" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjZ-6K-u0L">
+                                        <rect key="frame" x="15" y="8" width="126" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="13"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="15k Make Dua" image="heart like">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFs-SF-oke">
+                                        <rect key="frame" x="198" y="7" width="104" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Mohd. Islam" image="Community fill">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ru5-Ja-35c"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0H-z3-7BW">
+                                <rect key="frame" x="0.0" y="101" width="310" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="BHU-xk-vEk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMh-XL-EXZ">
+                                <rect key="frame" x="1" y="103" width="310" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-eb-RoT">
+                                        <rect key="frame" x="7" y="4" width="96" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Make Dua" image="dislike"/>
+                                        <state key="selected" image="heart like"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PII-H4-TSn">
+                                        <rect key="frame" x="203" y="5" width="96" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Delete" image="delete_icon"/>
+                                        <state key="selected" image="heart like"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2Nu-0g-e7w"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y0H-z3-7BW" firstAttribute="leading" secondItem="l5a-o9-ZDj" secondAttribute="leading" id="KrA-QD-pDc"/>
+                            <constraint firstItem="UMh-XL-EXZ" firstAttribute="leading" secondItem="l5a-o9-ZDj" secondAttribute="leading" constant="1" id="Lxh-DA-esD"/>
+                            <constraint firstAttribute="trailing" secondItem="UMh-XL-EXZ" secondAttribute="trailing" constant="-1" id="O4N-bZ-ChP"/>
+                            <constraint firstAttribute="trailing" secondItem="Yh1-nK-h6X" secondAttribute="trailing" id="S13-Uq-pn7"/>
+                            <constraint firstAttribute="trailing" secondItem="Y0H-z3-7BW" secondAttribute="trailing" id="S5W-fs-D4a"/>
+                            <constraint firstItem="I4Y-Xu-4Cq" firstAttribute="top" secondItem="l5a-o9-ZDj" secondAttribute="top" constant="7" id="T9d-T3-abU"/>
+                            <constraint firstItem="Yh1-nK-h6X" firstAttribute="top" secondItem="I4Y-Xu-4Cq" secondAttribute="bottom" constant="3" id="eVH-li-1Lm"/>
+                            <constraint firstItem="UMh-XL-EXZ" firstAttribute="top" secondItem="Y0H-z3-7BW" secondAttribute="bottom" constant="1.5" id="fAu-sD-yhg"/>
+                            <constraint firstItem="Yh1-nK-h6X" firstAttribute="leading" secondItem="l5a-o9-ZDj" secondAttribute="leading" id="fgm-ob-geQ"/>
+                            <constraint firstItem="Y0H-z3-7BW" firstAttribute="top" secondItem="Yh1-nK-h6X" secondAttribute="bottom" id="ngi-vb-LMU"/>
+                            <constraint firstItem="I4Y-Xu-4Cq" firstAttribute="leading" secondItem="l5a-o9-ZDj" secondAttribute="leading" constant="15" id="u7q-7P-uIf"/>
+                            <constraint firstAttribute="trailing" secondItem="I4Y-Xu-4Cq" secondAttribute="trailing" constant="10" id="z2N-eT-gFA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="l5a-o9-ZDj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="CGz-DU-sUQ"/>
+                    <constraint firstAttribute="bottom" secondItem="l5a-o9-ZDj" secondAttribute="bottom" constant="4.5" id="PIK-Fk-1Lb"/>
+                    <constraint firstAttribute="trailing" secondItem="l5a-o9-ZDj" secondAttribute="trailing" constant="5" id="bve-Cf-d9u"/>
+                    <constraint firstItem="l5a-o9-ZDj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="cuP-0w-k3H"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDelete" destination="PII-H4-TSn" id="2CS-xp-0xX"/>
+                <outlet property="btnLike" destination="B7B-eb-RoT" id="A9i-oR-QV8"/>
+                <outlet property="btnname" destination="tFs-SF-oke" id="zXv-jY-6VI"/>
+                <outlet property="btnnoLike" destination="KjZ-6K-u0L" id="lz2-fE-mPZ"/>
+                <outlet property="lbltext" destination="I4Y-Xu-4Cq" id="quX-jb-D8s"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Community fill" width="25" height="19"/>
+        <image name="delete_icon" width="25" height="25"/>
+        <image name="dislike" width="17" height="15"/>
+        <image name="heart like" width="17" height="15"/>
+    </resources>
+</document>

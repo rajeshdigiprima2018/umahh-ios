@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Light.ttf">
+            <string>SFUIText-Light</string>
+        </array>
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetail" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="imgdetail" destination="r6t-No-WlK" id="KgT-Gn-ogf"/>
+                <outlet property="lblDate" destination="S7J-Ew-PXq" id="ozK-hC-Hg0"/>
+                <outlet property="lblTitle" destination="7gy-PL-aj6" id="8D1-me-0JE"/>
+                <outlet property="txtdetail" destination="eeY-Kv-RJ6" id="hOM-qw-AEB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewbg" destination="Xkl-1z-Xv4" id="0cO-gf-dX2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xkl-1z-Xv4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mosque BG" translatesAutoresizingMaskIntoConstraints="NO" id="Tx6-eb-oy4">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r6t-No-WlK">
+                            <rect key="frame" x="20" y="77" width="280" height="187"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="187" id="dYK-Ib-DbF"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June 17" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gy-PL-aj6">
+                            <rect key="frame" x="23" y="277" width="269" height="16"/>
+                            <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="dVk-hG-Goq">
+                            <rect key="frame" x="23" y="307" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="1Bd-oX-3e7"/>
+                                <constraint firstAttribute="width" constant="15" id="Aet-pJ-2nc"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June 17" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7J-Ew-PXq">
+                            <rect key="frame" x="44" y="306" width="248" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="w4l-Zw-7RC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeY-Kv-RJ6">
+                            <rect key="frame" x="18" y="338" width="279" height="208"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="7gy-PL-aj6" firstAttribute="leading" secondItem="Xkl-1z-Xv4" secondAttribute="leading" constant="23" id="JNV-cD-qIT"/>
+                        <constraint firstAttribute="bottom" secondItem="Tx6-eb-oy4" secondAttribute="bottom" constant="-40" id="JrB-HT-s5S"/>
+                        <constraint firstAttribute="trailing" secondItem="eeY-Kv-RJ6" secondAttribute="trailing" constant="23" id="PLS-pS-8Zc"/>
+                        <constraint firstItem="r6t-No-WlK" firstAttribute="leading" secondItem="Xkl-1z-Xv4" secondAttribute="leading" constant="20" id="YA9-N9-7u7"/>
+                        <constraint firstAttribute="bottom" secondItem="eeY-Kv-RJ6" secondAttribute="bottom" constant="22" id="Yle-SZ-LoA"/>
+                        <constraint firstAttribute="trailing" secondItem="Tx6-eb-oy4" secondAttribute="trailing" id="ZQT-yg-QJa"/>
+                        <constraint firstItem="Tx6-eb-oy4" firstAttribute="leading" secondItem="Xkl-1z-Xv4" secondAttribute="leading" id="Zrd-3d-8Qh"/>
+                        <constraint firstItem="eeY-Kv-RJ6" firstAttribute="top" secondItem="dVk-hG-Goq" secondAttribute="bottom" constant="16" id="ch0-7N-gZx"/>
+                        <constraint firstItem="Tx6-eb-oy4" firstAttribute="top" secondItem="Xkl-1z-Xv4" secondAttribute="top" id="cxz-Wk-qKc"/>
+                        <constraint firstItem="7gy-PL-aj6" firstAttribute="top" secondItem="r6t-No-WlK" secondAttribute="bottom" constant="13" id="d7Q-AX-4Pv"/>
+                        <constraint firstAttribute="trailing" secondItem="r6t-No-WlK" secondAttribute="trailing" constant="20" id="dkA-ap-lch"/>
+                        <constraint firstItem="dVk-hG-Goq" firstAttribute="top" secondItem="7gy-PL-aj6" secondAttribute="bottom" constant="14" id="dw0-gP-pFc"/>
+                        <constraint firstAttribute="trailing" secondItem="7gy-PL-aj6" secondAttribute="trailing" constant="28" id="e8W-Po-nIL"/>
+                        <constraint firstItem="S7J-Ew-PXq" firstAttribute="top" secondItem="7gy-PL-aj6" secondAttribute="bottom" constant="13" id="eHu-jY-awK"/>
+                        <constraint firstItem="eeY-Kv-RJ6" firstAttribute="leading" secondItem="Xkl-1z-Xv4" secondAttribute="leading" constant="18" id="eqS-xI-DSQ"/>
+                        <constraint firstAttribute="trailing" secondItem="S7J-Ew-PXq" secondAttribute="trailing" constant="28" id="nPu-mO-gYS"/>
+                        <constraint firstItem="S7J-Ew-PXq" firstAttribute="leading" secondItem="dVk-hG-Goq" secondAttribute="trailing" constant="6" id="pEA-7f-b4y"/>
+                        <constraint firstItem="dVk-hG-Goq" firstAttribute="leading" secondItem="Xkl-1z-Xv4" secondAttribute="leading" constant="23" id="tbY-ZJ-Bgr"/>
+                        <constraint firstItem="r6t-No-WlK" firstAttribute="top" secondItem="Xkl-1z-Xv4" secondAttribute="top" constant="77" id="wn6-gV-hMa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xkl-1z-Xv4" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="3t3-Rm-8hy"/>
+                <constraint firstItem="Xkl-1z-Xv4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LbK-Yi-kKF"/>
+                <constraint firstItem="Xkl-1z-Xv4" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="OvC-9D-c76"/>
+                <constraint firstItem="Xkl-1z-Xv4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mbf-gP-hZS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mosque BG" width="376" height="1083.5"/>
+        <image name="calendar" width="128" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+        <array key="sf-ui-display-semibold.otf">
+            <string>SFUIDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="73" id="KGk-i7-Jjw" customClass="EducationContentCell" customModule="Umahh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="72.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4Y-8T-LGl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heading " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erh-l2-neS">
+                                <rect key="frame" x="19" y="14" width="284" height="19.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSd-HA-zdR">
+                                <rect key="frame" x="19" y="41.5" width="293" height="18"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HSd-HA-zdR" secondAttribute="trailing" constant="8" id="7fd-cZ-laO"/>
+                            <constraint firstItem="HSd-HA-zdR" firstAttribute="leading" secondItem="c4Y-8T-LGl" secondAttribute="leading" constant="19" id="DkI-RM-Fdk"/>
+                            <constraint firstAttribute="trailing" secondItem="erh-l2-neS" secondAttribute="trailing" constant="17" id="GEL-FO-1Xw"/>
+                            <constraint firstItem="erh-l2-neS" firstAttribute="top" secondItem="c4Y-8T-LGl" secondAttribute="top" constant="14" id="YVm-hy-cxa"/>
+                            <constraint firstItem="HSd-HA-zdR" firstAttribute="top" secondItem="erh-l2-neS" secondAttribute="bottom" constant="8" id="b65-oX-D1S"/>
+                            <constraint firstAttribute="bottom" secondItem="HSd-HA-zdR" secondAttribute="bottom" constant="13.5" id="kpe-RZ-6MN"/>
+                            <constraint firstItem="erh-l2-neS" firstAttribute="leading" secondItem="c4Y-8T-LGl" secondAttribute="leading" constant="19" id="lyR-ew-zhx"/>
+                            <constraint firstItem="HSd-HA-zdR" firstAttribute="top" secondItem="erh-l2-neS" secondAttribute="bottom" constant="8" id="n1W-DP-DIj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="c4Y-8T-LGl" secondAttribute="trailing" id="Ex8-7m-U48"/>
+                    <constraint firstAttribute="bottom" secondItem="c4Y-8T-LGl" secondAttribute="bottom" id="iQt-zK-npX"/>
+                    <constraint firstItem="c4Y-8T-LGl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yat-j5-7wK"/>
+                    <constraint firstItem="c4Y-8T-LGl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zi1-DQ-wqS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblContent" destination="HSd-HA-zdR" id="gAq-an-E8q"/>
+                <outlet property="lblTitle" destination="erh-l2-neS" id="LZS-fy-rnn"/>
+            </connections>
+            <point key="canvasLocation" x="43" y="110.5"/>
+        </tableViewCell>
+    </objects>
+</document>

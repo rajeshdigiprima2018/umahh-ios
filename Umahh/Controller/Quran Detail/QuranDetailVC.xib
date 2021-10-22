@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuranDetailVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="tblQuranDetail" destination="O4K-Ct-9Hh" id="X6W-Eh-Wix"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fAx-43-vb4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="eZe-2y-3wd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="55" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="O4K-Ct-9Hh">
+                            <rect key="frame" x="20" y="74" width="280" height="412"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="ymO-yq-YPy"/>
+                                <outlet property="delegate" destination="-1" id="atD-kV-D72"/>
+                            </connections>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NBC-Av-RDm">
+                            <rect key="frame" x="0.0" y="486" width="320" height="82"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kz-tF-hpp">
+                                    <rect key="frame" x="135" y="8" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="play"/>
+                                    <state key="selected" image="pause (1)"/>
+                                    <connections>
+                                        <action selector="playpauseClicked:" destination="-1" eventType="touchUpInside" id="2yE-mw-yuK"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mh4-EL-tGd">
+                                    <rect key="frame" x="260" y="18" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="next"/>
+                                    <connections>
+                                        <action selector="nextClicked:" destination="-1" eventType="touchUpInside" id="ZDR-fu-lDe"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7V-F1-wvC">
+                                    <rect key="frame" x="22" y="18" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="prev"/>
+                                    <connections>
+                                        <action selector="backClicked:" destination="-1" eventType="touchUpInside" id="iyD-qF-l92"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="82" id="oQc-Lc-Pvb"/>
+                            </constraints>
+                        </view>
+                        <slider hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="935-m0-NhF">
+                            <rect key="frame" x="0.0" y="536" width="319" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <gestureRecognizers/>
+                            <color key="thumbTintColor" red="0.71372549019999998" green="0.72156862749999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </slider>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="O4K-Ct-9Hh" secondAttribute="trailing" constant="20" id="8Do-tw-vvQ"/>
+                        <constraint firstAttribute="bottom" secondItem="eZe-2y-3wd" secondAttribute="bottom" constant="-40" id="Dsy-oT-WvV"/>
+                        <constraint firstAttribute="bottom" secondItem="O4K-Ct-9Hh" secondAttribute="bottom" constant="82" id="ER0-RC-NYm"/>
+                        <constraint firstItem="NBC-Av-RDm" firstAttribute="leading" secondItem="fAx-43-vb4" secondAttribute="leading" id="H8g-lQ-79T"/>
+                        <constraint firstItem="O4K-Ct-9Hh" firstAttribute="top" secondItem="fAx-43-vb4" secondAttribute="top" constant="74" id="LbD-rW-0fR"/>
+                        <constraint firstAttribute="bottom" secondItem="NBC-Av-RDm" secondAttribute="bottom" id="MtQ-YB-AES"/>
+                        <constraint firstItem="eZe-2y-3wd" firstAttribute="top" secondItem="fAx-43-vb4" secondAttribute="top" id="bxp-f2-Vca"/>
+                        <constraint firstAttribute="trailing" secondItem="NBC-Av-RDm" secondAttribute="trailing" id="cTf-R2-G4q"/>
+                        <constraint firstAttribute="trailing" secondItem="eZe-2y-3wd" secondAttribute="trailing" id="ezg-Df-0CT"/>
+                        <constraint firstItem="O4K-Ct-9Hh" firstAttribute="leading" secondItem="fAx-43-vb4" secondAttribute="leading" constant="20" id="i5p-Hx-TMx"/>
+                        <constraint firstItem="eZe-2y-3wd" firstAttribute="leading" secondItem="fAx-43-vb4" secondAttribute="leading" id="xA4-6L-TBI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fAx-43-vb4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0MP-n0-77f"/>
+                <constraint firstItem="fAx-43-vb4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7tJ-1w-rkJ"/>
+                <constraint firstItem="fAx-43-vb4" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="QR8-qS-jc9"/>
+                <constraint firstItem="fAx-43-vb4" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="rps-BS-H6q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+        <image name="next" width="200" height="200"/>
+        <image name="pause (1)" width="64" height="64"/>
+        <image name="play" width="288" height="288"/>
+        <image name="prev" width="200" height="200"/>
+    </resources>
+</document>

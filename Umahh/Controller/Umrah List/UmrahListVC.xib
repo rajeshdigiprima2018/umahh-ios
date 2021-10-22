@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UmrahListVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBookmark" destination="1Gt-EO-nfa" id="mMb-Cq-lSX"/>
+                <outlet property="lblArabic" destination="soc-eu-maj" id="VPE-wO-Fyp"/>
+                <outlet property="lblEnglish" destination="ti1-ap-rgI" id="YyY-vd-Okr"/>
+                <outlet property="lblTitle" destination="9rv-lO-9LB" id="o6D-mn-oQH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeU-y1-9md">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="lr4-aT-qTM">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tND-Xz-j96">
+                            <rect key="frame" x="16" y="74" width="289" height="99"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rv-lO-9LB">
+                                    <rect key="frame" x="8" y="8" width="265" height="20.5"/>
+                                    <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="17"/>
+                                    <color key="textColor" red="0.78431372549019607" green="0.56470588235294117" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soc-eu-maj">
+                                    <rect key="frame" x="8" y="38.5" width="265" height="20.5"/>
+                                    <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ti1-ap-rgI">
+                                    <rect key="frame" x="8" y="67.5" width="265" height="20.5"/>
+                                    <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gt-EO-nfa">
+                                    <rect key="frame" x="263" y="-1" width="16" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="Bookmark"/>
+                                    <state key="selected" image="Bookmark fill"/>
+                                    <connections>
+                                        <action selector="bookmarkClicked:" destination="-1" eventType="touchUpInside" id="zwY-yu-U2o"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="9rv-lO-9LB" firstAttribute="leading" secondItem="tND-Xz-j96" secondAttribute="leading" constant="8" id="66c-jx-NkY"/>
+                                <constraint firstItem="soc-eu-maj" firstAttribute="top" secondItem="9rv-lO-9LB" secondAttribute="bottom" constant="10" id="7NF-Sw-r2H"/>
+                                <constraint firstAttribute="trailing" secondItem="9rv-lO-9LB" secondAttribute="trailing" constant="16" id="8DB-HB-rsK"/>
+                                <constraint firstItem="ti1-ap-rgI" firstAttribute="top" secondItem="soc-eu-maj" secondAttribute="bottom" constant="8.5" id="SJZ-Sq-GWH"/>
+                                <constraint firstItem="soc-eu-maj" firstAttribute="leading" secondItem="tND-Xz-j96" secondAttribute="leading" constant="8" id="Wcm-qQ-Zoh"/>
+                                <constraint firstItem="ti1-ap-rgI" firstAttribute="leading" secondItem="tND-Xz-j96" secondAttribute="leading" constant="8" id="azG-yZ-lAm"/>
+                                <constraint firstAttribute="bottom" secondItem="ti1-ap-rgI" secondAttribute="bottom" constant="11" id="c8n-og-xNn"/>
+                                <constraint firstItem="9rv-lO-9LB" firstAttribute="top" secondItem="tND-Xz-j96" secondAttribute="top" constant="8" id="i9k-iW-B3H"/>
+                                <constraint firstAttribute="trailing" secondItem="ti1-ap-rgI" secondAttribute="trailing" constant="16" id="klc-1P-yFH"/>
+                                <constraint firstAttribute="trailing" secondItem="soc-eu-maj" secondAttribute="trailing" constant="16" id="oNN-iX-D8j"/>
+                                <constraint firstItem="ti1-ap-rgI" firstAttribute="top" secondItem="soc-eu-maj" secondAttribute="bottom" constant="8.5" id="rYU-ys-tL8"/>
+                                <constraint firstItem="soc-eu-maj" firstAttribute="top" secondItem="9rv-lO-9LB" secondAttribute="bottom" constant="10" id="xyT-GU-rTy"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="tND-Xz-j96" secondAttribute="trailing" constant="15" id="0RE-Tl-xu0"/>
+                        <constraint firstItem="lr4-aT-qTM" firstAttribute="leading" secondItem="JeU-y1-9md" secondAttribute="leading" id="ahQ-e6-2NB"/>
+                        <constraint firstItem="lr4-aT-qTM" firstAttribute="top" secondItem="JeU-y1-9md" secondAttribute="top" id="bze-XS-GQe"/>
+                        <constraint firstItem="tND-Xz-j96" firstAttribute="leading" secondItem="JeU-y1-9md" secondAttribute="leading" constant="16" id="kdn-b7-okV"/>
+                        <constraint firstItem="tND-Xz-j96" firstAttribute="top" secondItem="JeU-y1-9md" secondAttribute="top" constant="74" id="mYR-Mw-xUz"/>
+                        <constraint firstAttribute="trailing" secondItem="lr4-aT-qTM" secondAttribute="trailing" id="tkb-eK-sup"/>
+                        <constraint firstAttribute="bottom" secondItem="lr4-aT-qTM" secondAttribute="bottom" constant="-40" id="vrb-LS-SOV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JeU-y1-9md" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="6BD-hd-DjB"/>
+                <constraint firstItem="JeU-y1-9md" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="DlD-i4-ool"/>
+                <constraint firstItem="JeU-y1-9md" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bfr-nj-huP"/>
+                <constraint firstItem="JeU-y1-9md" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tpi-ud-02d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+        <image name="Bookmark" width="16" height="20.5"/>
+        <image name="Bookmark fill" width="14.5" height="19"/>
+    </resources>
+</document>

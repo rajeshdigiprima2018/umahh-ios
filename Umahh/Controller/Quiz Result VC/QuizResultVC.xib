@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuizResultVC" customModule="Umahh" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCorrect" destination="s3U-46-bwT" id="oEC-U9-10B"/>
+                <outlet property="btnReply" destination="H6r-gV-1Sl" id="PEg-gm-KlO"/>
+                <outlet property="btnWrong" destination="613-fh-8J4" id="eIM-g3-8eO"/>
+                <outlet property="lblCorrect" destination="zCI-RD-Eqc" id="xy8-xI-RtS"/>
+                <outlet property="lblWrong" destination="2J3-62-PGO" id="cDG-Ti-Jrc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9nI-WR-Jp3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="0h1-t5-5xv">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJ4-Ic-Mev">
+                            <rect key="frame" x="20" y="216" width="280" height="135"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-46-bwT">
+                                    <rect key="frame" x="15" y="30" width="165" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Correct Answere" image="yes"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="613-fh-8J4">
+                                    <rect key="frame" x="15" y="80" width="165" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Wrong Answere" image="close"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCI-RD-Eqc">
+                                    <rect key="frame" x="225" y="30" width="44" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J3-62-PGO">
+                                    <rect key="frame" x="225" y="80" width="44" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="135" id="KOv-Xb-4ha"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6r-gV-1Sl">
+                            <rect key="frame" x="10" y="501" width="300" height="40"/>
+                            <color key="backgroundColor" red="0.30588235289999999" green="0.81960784310000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="neG-v4-wG7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                            <state key="normal" title="Replay"/>
+                            <connections>
+                                <action selector="playClicked:" destination="-1" eventType="touchUpInside" id="14F-JJ-FAM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="H6r-gV-1Sl" secondAttribute="bottom" constant="27" id="7F0-QE-Sn4"/>
+                        <constraint firstItem="kJ4-Ic-Mev" firstAttribute="top" secondItem="9nI-WR-Jp3" secondAttribute="top" constant="216" id="8wx-VM-KbN"/>
+                        <constraint firstAttribute="trailing" secondItem="H6r-gV-1Sl" secondAttribute="trailing" constant="10" id="92J-bg-JK0"/>
+                        <constraint firstItem="0h1-t5-5xv" firstAttribute="leading" secondItem="9nI-WR-Jp3" secondAttribute="leading" id="E0F-6f-Gcl"/>
+                        <constraint firstAttribute="trailing" secondItem="kJ4-Ic-Mev" secondAttribute="trailing" constant="20" id="NB7-rh-vB8"/>
+                        <constraint firstAttribute="trailing" secondItem="0h1-t5-5xv" secondAttribute="trailing" id="VRw-Uq-kjb"/>
+                        <constraint firstAttribute="bottom" secondItem="0h1-t5-5xv" secondAttribute="bottom" id="gxs-C0-nUT"/>
+                        <constraint firstItem="kJ4-Ic-Mev" firstAttribute="leading" secondItem="9nI-WR-Jp3" secondAttribute="leading" constant="20" id="kIM-qC-Jgf"/>
+                        <constraint firstItem="0h1-t5-5xv" firstAttribute="top" secondItem="9nI-WR-Jp3" secondAttribute="top" id="o9U-wn-f7g"/>
+                        <constraint firstItem="H6r-gV-1Sl" firstAttribute="leading" secondItem="9nI-WR-Jp3" secondAttribute="leading" constant="10" id="wp7-QW-Iam"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9nI-WR-Jp3" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="2dB-XP-62J"/>
+                <constraint firstItem="9nI-WR-Jp3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2fR-Y3-xa4"/>
+                <constraint firstAttribute="bottom" secondItem="9nI-WR-Jp3" secondAttribute="bottom" id="3qM-BC-nqh"/>
+                <constraint firstItem="9nI-WR-Jp3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="W4m-o8-N1L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="34.782608695652179" y="34.821428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG" width="375" height="813"/>
+        <image name="close" width="20" height="20"/>
+        <image name="yes" width="20" height="20"/>
+    </resources>
+</document>
